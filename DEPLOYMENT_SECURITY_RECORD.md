@@ -49,8 +49,4 @@ The website may show full sanitized daily command-center tables for sharing with
 
 ## Local Engine Boundary
 
-The local engine remains in the main workspace and continues to run from:
-
-`work/mlb_osint/run_daily_mlb_osint.ps1`
-
-The public site is not part of the training, prediction, simulation, or integrity workflow.
+The local engine remains in the private workspace. The public site is not part of the training, prediction, simulation, receipt, or integrity workflow.
