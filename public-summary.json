@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T12:33:16.918Z",
+  "generatedAt": "2026-06-25T13:08:24.752Z",
   "date": "2026-06-25",
   "stamp": "Public preview built for 2026-06-25",
   "revealPolicy": {
@@ -63,8 +63,8 @@
     "mlbPitchers": 18,
     "soccerMatches": 6,
     "soccerPlayers": 312,
-    "simulationsPerGame": 95000,
-    "shadowAgreement": "88.9%",
+    "simulationsPerGame": 140000,
+    "shadowAgreement": "77.8%",
     "soccerBacktest": "53.7%"
   },
   "boards": {
