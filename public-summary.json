@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:07:43.700Z",
+  "generatedAt": "2026-06-26T00:27:30.305Z",
   "date": "2026-06-25",
   "stamp": "Public preview built for 2026-06-25",
   "revealPolicy": {
@@ -82,7 +82,8 @@
         "homeStarter": "Ian Seymour",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -96,7 +97,8 @@
         "homeStarter": "Bubba Chandler",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -110,7 +112,8 @@
         "homeStarter": "Landen Roupp",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "WIN_LEAN"
+        "recommendation": "WIN_LEAN",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -124,7 +127,8 @@
         "homeStarter": "Troy Melton",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -138,7 +142,8 @@
         "homeStarter": "Cade Cavalli",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -152,7 +157,8 @@
         "homeStarter": "Kevin Gausman",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -166,7 +172,8 @@
         "homeStarter": "Connelly Early",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "WIN_LEAN"
+        "recommendation": "WIN_LEAN",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -180,7 +187,8 @@
         "homeStarter": "Freddy Peralta",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       },
       {
         "gameDate": "2026-06-25",
@@ -194,7 +202,8 @@
         "homeStarter": "Michael McGreevy",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY"
+        "recommendation": "TRACK_ONLY",
+        "history": "View H2H"
       }
     ],
     "hitterBoard": [
@@ -1331,16 +1340,6 @@
       {
         "timeET": "12:10 PM",
         "matchup": "Kansas City Royals @ Tampa Bay Rays",
-        "priorDate": "2026-06-25",
-        "priorMatchup": "Kansas City Royals @ Tampa Bay Rays",
-        "score": "2-13",
-        "awaySP": "Seth Lugo",
-        "homeSP": "Casey Legumina",
-        "venue": "Tropicana Field"
-      },
-      {
-        "timeET": "12:10 PM",
-        "matchup": "Kansas City Royals @ Tampa Bay Rays",
         "priorDate": "2026-06-24",
         "priorMatchup": "Kansas City Royals @ Tampa Bay Rays",
         "score": "3-5",
@@ -1367,16 +1366,6 @@
         "awaySP": "Michael Wacha",
         "homeSP": "Drew Rasmussen",
         "venue": "Tropicana Field"
-      },
-      {
-        "timeET": "12:35 PM",
-        "matchup": "Seattle Mariners @ Pittsburgh Pirates",
-        "priorDate": "2026-06-25",
-        "priorMatchup": "Seattle Mariners @ Pittsburgh Pirates",
-        "score": "1-5",
-        "awaySP": "Bryce Miller",
-        "homeSP": "Bubba Chandler",
-        "venue": "PNC Park"
       },
       {
         "timeET": "12:35 PM",
@@ -1626,6 +1615,26 @@
         "score": "4-2",
         "awaySP": "Cam Schlittler",
         "homeSP": "Payton Tolle",
+        "venue": "Fenway Park"
+      },
+      {
+        "timeET": "7:10 PM",
+        "matchup": "New York Yankees @ Boston Red Sox",
+        "priorDate": "2026-04-22",
+        "priorMatchup": "New York Yankees @ Boston Red Sox",
+        "score": "4-1",
+        "awaySP": "Max Fried",
+        "homeSP": "Ranger Suarez",
+        "venue": "Fenway Park"
+      },
+      {
+        "timeET": "7:10 PM",
+        "matchup": "New York Yankees @ Boston Red Sox",
+        "priorDate": "2026-04-21",
+        "priorMatchup": "New York Yankees @ Boston Red Sox",
+        "score": "4-0",
+        "awaySP": "Luis Gil",
+        "homeSP": "Connelly Early",
         "venue": "Fenway Park"
       }
     ],
