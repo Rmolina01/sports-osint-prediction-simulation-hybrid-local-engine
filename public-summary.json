@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T13:34:40.485Z",
+  "generatedAt": "2026-06-27T20:02:40.765Z",
   "date": "2026-06-27",
   "stamp": "Public preview built for 2026-06-27",
   "revealPolicy": {
@@ -65,7 +65,7 @@
     "soccerPlayers": 310,
     "historicalRows": 114,
     "simulationsPerGame": 235000,
-    "shadowAgreement": "80%",
+    "shadowAgreement": "73.3%",
     "secondEngineTier": 30,
     "secondEngineDecision": "second_engine_display_influence_enabled",
     "soccerBacktest": "53%"
@@ -89,9 +89,9 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.5799151592883094,
         "secondEngineLean": "New York Yankees",
-        "secondEnginePct": "59.3%",
+        "secondEnginePct": "55%",
         "hybridLean": "New York Yankees",
-        "hybridPct": "53.8%",
+        "hybridPct": "51.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Gerrit Cole",
         "homeStarter": "Jake Bennett",
@@ -119,7 +119,7 @@
         "secondEngineLean": "Detroit Tigers",
         "secondEnginePct": "53.6%",
         "hybridLean": "Detroit Tigers",
-        "hybridPct": "50.9%",
+        "hybridPct": "51%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Kai-Wei Teng",
         "homeStarter": "Framber Valdez",
@@ -145,9 +145,9 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.7848501761309179,
         "secondEngineLean": "Toronto Blue Jays",
-        "secondEnginePct": "60.1%",
+        "secondEnginePct": "57.1%",
         "hybridLean": "Toronto Blue Jays",
-        "hybridPct": "54.2%",
+        "hybridPct": "52.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Cal Quantrill",
         "homeStarter": "Dylan Cease",
@@ -172,10 +172,10 @@
         "probability": "55.6%",
         "calibratedProbability": "48.4%",
         "rawProbability": 0.5559277408241181,
-        "secondEngineLean": "Cincinnati Reds",
-        "secondEnginePct": "50.1%",
+        "secondEngineLean": "Pittsburgh Pirates",
+        "secondEnginePct": "52.5%",
         "hybridLean": "Pittsburgh Pirates",
-        "hybridPct": "50.8%",
+        "hybridPct": "52.1%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Chase Burns",
         "homeStarter": "Jared Jones",
@@ -200,10 +200,10 @@
         "probability": "61.1%",
         "calibratedProbability": "67.9%",
         "rawProbability": 0.6108181300386176,
-        "secondEngineLean": "Chicago White Sox",
-        "secondEnginePct": "50.4%",
+        "secondEngineLean": "Kansas City Royals",
+        "secondEnginePct": "52.2%",
         "hybridLean": "Chicago White Sox",
-        "hybridPct": "59.2%",
+        "hybridPct": "57.9%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Michael Wacha",
         "homeStarter": "Davis Martin",
@@ -228,12 +228,12 @@
         "probability": "57.1%",
         "calibratedProbability": "48.4%",
         "rawProbability": 0.570820578676868,
-        "secondEngineLean": "Philadelphia Phillies",
-        "secondEnginePct": "51.6%",
-        "hybridLean": "Philadelphia Phillies",
-        "hybridPct": "51.6%",
+        "secondEngineLean": "New York Mets",
+        "secondEnginePct": "53.5%",
+        "hybridLean": "New York Mets",
+        "hybridPct": "50.9%",
         "engineRead": "Second-engine display tier",
-        "awayStarter": "Alan Rangel",
+        "awayStarter": "Tim Mayza",
         "homeStarter": "Christian Scott",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
@@ -257,9 +257,9 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.5824510723535032,
         "secondEngineLean": "Tampa Bay Rays",
-        "secondEnginePct": "52.9%",
-        "hybridLean": "Tampa Bay Rays",
-        "hybridPct": "50.6%",
+        "secondEnginePct": "50.3%",
+        "hybridLean": "Arizona Diamondbacks",
+        "hybridPct": "50.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Jose Cabrera",
         "homeStarter": "Cole Sulser",
@@ -285,9 +285,9 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.5002163722114957,
         "secondEngineLean": "Washington Nationals",
-        "secondEnginePct": "57.1%",
+        "secondEnginePct": "59.2%",
         "hybridLean": "Washington Nationals",
-        "hybridPct": "54.4%",
+        "hybridPct": "55.4%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Foster Griffin",
         "homeStarter": "Brandon Young",
@@ -313,9 +313,9 @@
         "calibratedProbability": "73.9%",
         "rawProbability": 0.7214506111415057,
         "secondEngineLean": "Colorado Rockies",
-        "secondEnginePct": "63.7%",
+        "secondEnginePct": "60.1%",
         "hybridLean": "Colorado Rockies",
-        "hybridPct": "68.8%",
+        "hybridPct": "67%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Michael Lorenzen",
         "homeStarter": "Mike Paredes",
@@ -341,9 +341,9 @@
         "calibratedProbability": "67.9%",
         "rawProbability": 0.6474591618711363,
         "secondEngineLean": "Milwaukee Brewers",
-        "secondEnginePct": "61.8%",
+        "secondEnginePct": "62%",
         "hybridLean": "Milwaukee Brewers",
-        "hybridPct": "64.9%",
+        "hybridPct": "65%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "David Peterson",
         "homeStarter": "Kyle Harrison",
@@ -369,9 +369,9 @@
         "calibratedProbability": "67.9%",
         "rawProbability": 0.6431084156432634,
         "secondEngineLean": "Seattle Mariners",
-        "secondEnginePct": "56.2%",
+        "secondEnginePct": "63.7%",
         "hybridLean": "Seattle Mariners",
-        "hybridPct": "62.1%",
+        "hybridPct": "65.8%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Logan Gilbert",
         "homeStarter": "Slade Cecconi",
@@ -397,7 +397,7 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.560822279560718,
         "secondEngineLean": "St. Louis Cardinals",
-        "secondEnginePct": "57.2%",
+        "secondEnginePct": "57.1%",
         "hybridLean": "St. Louis Cardinals",
         "hybridPct": "54.4%",
         "engineRead": "Second-engine display tier",
@@ -481,7 +481,7 @@
         "calibratedProbability": "48.4%",
         "rawProbability": 0.5572634435519682,
         "secondEngineLean": "Los Angeles Angels",
-        "secondEnginePct": "50.6%",
+        "secondEnginePct": "50.7%",
         "hybridLean": "Athletics",
         "hybridPct": "50.5%",
         "engineRead": "Second-engine display tier",
@@ -6595,11 +6595,11 @@
         "team": "New York Yankees",
         "opponent": "Boston Red Sox",
         "last5": "2-3",
-        "last5RunsFor": "3.0",
-        "last5RunsAgainst": "4.4",
-        "last10": "4-6",
-        "last10RunsFor": "3.4",
-        "last10RunsAgainst": "4.6"
+        "last5RunsFor": "2.6",
+        "last5RunsAgainst": "4.2",
+        "last10": "3-7",
+        "last10RunsFor": "2.5",
+        "last10RunsAgainst": "4.5"
       },
       {
         "timeET": "1:10 PM",
@@ -6607,12 +6607,12 @@
         "side": "Home",
         "team": "Boston Red Sox",
         "opponent": "New York Yankees",
-        "last5": "3-2",
-        "last5RunsFor": "5.0",
-        "last5RunsAgainst": "3.4",
-        "last10": "5-5",
-        "last10RunsFor": "4.0",
-        "last10RunsAgainst": "3.0"
+        "last5": "4-1",
+        "last5RunsFor": "5.4",
+        "last5RunsAgainst": "3.0",
+        "last10": "6-4",
+        "last10RunsFor": "4.4",
+        "last10RunsAgainst": "2.8"
       },
       {
         "timeET": "3:07 PM",
@@ -7200,9 +7200,9 @@
         "opposingSP": "Kai-Wei Teng",
         "pitchHand": "R",
         "hitProbability": "71.3%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.5",
-        "last10HitGames": 8
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "1.3",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:10 PM",
@@ -7226,8 +7226,8 @@
         "opposingSP": "Kai-Wei Teng",
         "pitchHand": "R",
         "hitProbability": "57.4%",
-        "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "1.0",
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.1",
         "last10HitGames": 8
       },
       {
@@ -7240,7 +7240,7 @@
         "pitchHand": "R",
         "hitProbability": "56.9%",
         "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.1",
+        "last10HitsPerGame": "1.0",
         "last10HitGames": 9
       },
       {
@@ -7253,7 +7253,7 @@
         "pitchHand": "R",
         "hitProbability": "47.2%",
         "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "0.8",
+        "last10HitsPerGame": "0.9",
         "last10HitGames": 5
       },
       {
@@ -7265,7 +7265,7 @@
         "opposingSP": "Framber Valdez",
         "pitchHand": "L",
         "hitProbability": "47.7%",
-        "last5HitsPerGame": "0.2",
+        "last5HitsPerGame": "0.4",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 6
       },
@@ -7278,8 +7278,8 @@
         "opposingSP": "Framber Valdez",
         "pitchHand": "L",
         "hitProbability": "51.9%",
-        "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "1.2",
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "1.3",
         "last10HitGames": 9
       },
       {
@@ -7291,8 +7291,8 @@
         "opposingSP": "Framber Valdez",
         "pitchHand": "L",
         "hitProbability": "67.8%",
-        "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "1.4",
+        "last5HitsPerGame": "1.6",
+        "last10HitsPerGame": "1.6",
         "last10HitGames": 9
       },
       {
@@ -7305,8 +7305,8 @@
         "pitchHand": "L",
         "hitProbability": "47.6%",
         "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "0.8",
-        "last10HitGames": 5
+        "last10HitsPerGame": "0.9",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:10 PM",
@@ -7317,8 +7317,8 @@
         "opposingSP": "Framber Valdez",
         "pitchHand": "L",
         "hitProbability": "64.0%",
-        "last5HitsPerGame": "0.6",
-        "last10HitsPerGame": "0.8",
+        "last5HitsPerGame": "0.8",
+        "last10HitsPerGame": "0.9",
         "last10HitGames": 7
       },
       {
@@ -7343,9 +7343,9 @@
         "opposingSP": "Gerrit Cole",
         "pitchHand": "R",
         "hitProbability": "56.9%",
-        "last5HitsPerGame": "1.4",
+        "last5HitsPerGame": "1.6",
         "last10HitsPerGame": "1.0",
-        "last10HitGames": 6
+        "last10HitGames": 7
       },
       {
         "timeET": "1:10 PM",
@@ -7356,9 +7356,9 @@
         "opposingSP": "Gerrit Cole",
         "pitchHand": "R",
         "hitProbability": "58.7%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.5",
-        "last10HitGames": 8
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.6",
+        "last10HitGames": 9
       },
       {
         "timeET": "1:10 PM",
@@ -7369,7 +7369,7 @@
         "opposingSP": "Gerrit Cole",
         "pitchHand": "R",
         "hitProbability": "53.2%",
-        "last5HitsPerGame": "1.0",
+        "last5HitsPerGame": "1.4",
         "last10HitsPerGame": "1.1",
         "last10HitGames": 8
       },
@@ -7395,8 +7395,8 @@
         "opposingSP": "Gerrit Cole",
         "pitchHand": "R",
         "hitProbability": "54.3%",
-        "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.0",
+        "last5HitsPerGame": "0.5",
+        "last10HitsPerGame": "0.5",
         "last10HitGames": 1
       },
       {
@@ -7408,7 +7408,7 @@
         "opposingSP": "Gerrit Cole",
         "pitchHand": "R",
         "hitProbability": "52.3%",
-        "last5HitsPerGame": "0.8",
+        "last5HitsPerGame": "0.6",
         "last10HitsPerGame": "0.8",
         "last10HitGames": 6
       },
@@ -7422,8 +7422,8 @@
         "pitchHand": "L",
         "hitProbability": "47.8%",
         "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.3",
-        "last10HitGames": 8
+        "last10HitsPerGame": "1.0",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:10 PM",
@@ -7435,8 +7435,8 @@
         "pitchHand": "L",
         "hitProbability": "49.6%",
         "last5HitsPerGame": "0.6",
-        "last10HitsPerGame": "0.9",
-        "last10HitGames": 7
+        "last10HitsPerGame": "0.8",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:10 PM",
@@ -7447,9 +7447,9 @@
         "opposingSP": "Jake Bennett",
         "pitchHand": "L",
         "hitProbability": "56.5%",
-        "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "0.9",
-        "last10HitGames": 7
+        "last5HitsPerGame": "0.6",
+        "last10HitsPerGame": "0.8",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:10 PM",
@@ -7460,9 +7460,9 @@
         "opposingSP": "Jake Bennett",
         "pitchHand": "L",
         "hitProbability": "62.4%",
-        "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "1.0",
-        "last10HitGames": 7
+        "last5HitsPerGame": "0.8",
+        "last10HitsPerGame": "0.8",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:10 PM",
@@ -7512,9 +7512,9 @@
         "opposingSP": "Cal Quantrill",
         "pitchHand": "R",
         "hitProbability": "63.5%",
-        "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "1.0",
-        "last10HitGames": 7
+        "last5HitsPerGame": "0.6",
+        "last10HitsPerGame": "0.9",
+        "last10HitGames": 6
       },
       {
         "timeET": "3:07 PM",
@@ -7525,7 +7525,7 @@
         "opposingSP": "Cal Quantrill",
         "pitchHand": "R",
         "hitProbability": "65.4%",
-        "last5HitsPerGame": "1.0",
+        "last5HitsPerGame": "1.2",
         "last10HitsPerGame": "0.8",
         "last10HitGames": 6
       },
@@ -7551,9 +7551,9 @@
         "opposingSP": "Cal Quantrill",
         "pitchHand": "R",
         "hitProbability": "62.6%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.0",
-        "last10HitGames": 6
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "0.8",
+        "last10HitGames": 5
       },
       {
         "timeET": "3:07 PM",
