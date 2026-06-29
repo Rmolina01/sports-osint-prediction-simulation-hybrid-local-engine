@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T13:21:32.357Z",
+  "generatedAt": "2026-06-29T14:05:28.493Z",
   "date": "2026-06-29",
   "stamp": "Public preview built for 2026-06-29",
   "revealPolicy": {
@@ -148,9 +148,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5121322563897219,
         "secondEngineLean": "Detroit Tigers",
-        "secondEnginePct": "51.2%",
+        "secondEnginePct": "51.4%",
         "hybridLean": "Detroit Tigers",
-        "hybridPct": "51.2%",
+        "hybridPct": "51.4%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Casey Mize",
         "homeStarter": "Ryan Weathers",
