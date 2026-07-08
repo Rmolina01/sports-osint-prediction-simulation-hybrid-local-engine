@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T20:58:23.077Z",
+  "generatedAt": "2026-07-08T21:12:46.400Z",
   "date": "2026-07-08",
   "stamp": "Public preview built for 2026-07-08",
   "revealPolicy": {
@@ -115,10 +115,10 @@
         "homeRecord": "42-50",
         "homeHome": "24-24",
         "homeLast10": "4-6",
-        "lean": "No Edge",
-        "probability": "52.1%",
+        "lean": "Track Only",
+        "probability": "56.6%",
         "calibratedProbability": "50.1%",
-        "rawProbability": 0.5205196929987986,
+        "rawProbability": 0.5660821929987986,
         "secondEngineLean": "Chicago Cubs",
         "secondEnginePct": "51.8%",
         "hybridLean": "Chicago Cubs",
@@ -128,7 +128,7 @@
         "homeStarter": "Dean Kremer",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "NO_EDGE",
+        "recommendation": "TRACK_ONLY",
         "history": "View H2H"
       },
       {
@@ -395,10 +395,10 @@
         "homeRecord": "47-42",
         "homeHome": "23-24",
         "homeLast10": "5-5",
-        "lean": "Track Only",
-        "probability": "59.5%",
+        "lean": "No Edge",
+        "probability": "53.2%",
         "calibratedProbability": "50.1%",
-        "rawProbability": 0.5951649602048162,
+        "rawProbability": 0.5321649602048163,
         "secondEngineLean": "Milwaukee Brewers",
         "secondEnginePct": "58.2%",
         "hybridLean": "Milwaukee Brewers",
@@ -408,7 +408,7 @@
         "homeStarter": "Michael McGreevy",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "TRACK_ONLY",
+        "recommendation": "NO_EDGE",
         "history": "View H2H"
       },
       {
