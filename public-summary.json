@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T19:13:41.096Z",
+  "generatedAt": "2026-07-08T20:58:23.077Z",
   "date": "2026-07-08",
   "stamp": "Public preview built for 2026-07-08",
   "revealPolicy": {
@@ -68,7 +68,7 @@
     "wnbaPlayers": 60,
     "historicalRows": 114,
     "simulationsPerGame": 235000,
-    "shadowAgreement": "73.3%",
+    "shadowAgreement": "66.7%",
     "secondEngineTier": 100,
     "secondEngineDecision": "eligible_to_prepare_component_weight_update",
     "soccerBacktest": "56.3%"
@@ -87,20 +87,20 @@
         "homeRecord": "39-53",
         "homeHome": "19-23",
         "homeLast10": "5-5",
-        "lean": "No Edge",
-        "probability": "51%",
+        "lean": "Track Only",
+        "probability": "55.7%",
         "calibratedProbability": "50.1%",
-        "rawProbability": 0.5101270118486635,
+        "rawProbability": 0.5573729881513365,
         "secondEngineLean": "San Francisco Giants",
         "secondEnginePct": "55.3%",
         "hybridLean": "San Francisco Giants",
-        "hybridPct": "52.7%",
+        "hybridPct": "52.6%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Dylan Cease",
         "homeStarter": "Logan Webb",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
-        "recommendation": "NO_EDGE",
+        "recommendation": "TRACK_ONLY",
         "history": "View H2H"
       },
       {
