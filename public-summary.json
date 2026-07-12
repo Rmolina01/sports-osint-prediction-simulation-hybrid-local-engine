@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T13:40:52.416Z",
+  "generatedAt": "2026-07-12T20:00:19.488Z",
   "date": "2026-07-12",
   "stamp": "Public preview built for 2026-07-12",
   "revealPolicy": {
@@ -87,7 +87,7 @@
     "nhlPlayers": 160,
     "historicalRows": 114,
     "simulationsPerGame": 388000,
-    "shadowAgreement": "66.7%",
+    "shadowAgreement": "53.3%",
     "secondEngineTier": 100,
     "secondEngineDecision": "accumulating_second_engine_evidence",
     "soccerBacktest": "58%"
@@ -112,9 +112,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5601306058595881,
         "secondEngineLean": "Pittsburgh Pirates",
-        "secondEnginePct": "55.9%",
+        "secondEnginePct": "50.8%",
         "hybridLean": "Pittsburgh Pirates",
-        "hybridPct": "52.9%",
+        "hybridPct": "50.8%",
         "engineRead": "Active receipt only",
         "awayStarter": "Robert Gasser",
         "homeStarter": "Paul Skenes",
@@ -141,9 +141,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5688804192543908,
         "secondEngineLean": "Washington Nationals",
-        "secondEnginePct": "60.3%",
+        "secondEnginePct": "59%",
         "hybridLean": "Washington Nationals",
-        "hybridPct": "55.2%",
+        "hybridPct": "54.5%",
         "engineRead": "Active receipt only",
         "awayStarter": "Will Warren",
         "homeStarter": "Cade Cavalli",
@@ -170,9 +170,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5121701388888888,
         "secondEngineLean": "Baltimore Orioles",
-        "secondEnginePct": "59%",
+        "secondEnginePct": "56%",
         "hybridLean": "Baltimore Orioles",
-        "hybridPct": "54.5%",
+        "hybridPct": "53.1%",
         "engineRead": "Active receipt only",
         "awayStarter": "Seth Lugo",
         "homeStarter": "Shane Baz",
@@ -198,10 +198,10 @@
         "probability": "67.7%",
         "calibratedProbability": "50.1%",
         "rawProbability": 0.676856355996629,
-        "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "54.5%",
-        "hybridLean": "Boston Red Sox",
-        "hybridPct": "52.3%",
+        "secondEngineLean": "New York Mets",
+        "secondEnginePct": "50.1%",
+        "hybridLean": "New York Mets",
+        "hybridPct": "50.1%",
         "engineRead": "Active receipt only",
         "awayStarter": "Payton Tolle",
         "homeStarter": "Zach Thornton",
@@ -227,10 +227,10 @@
         "probability": "61%",
         "calibratedProbability": "50.1%",
         "rawProbability": 0.6098908101382163,
-        "secondEngineLean": "Detroit Tigers",
-        "secondEnginePct": "50.1%",
-        "hybridLean": "Detroit Tigers",
-        "hybridPct": "50.1%",
+        "secondEngineLean": "Philadelphia Phillies",
+        "secondEnginePct": "52.3%",
+        "hybridLean": "Philadelphia Phillies",
+        "hybridPct": "51.1%",
         "engineRead": "Active receipt only",
         "awayStarter": "Zack Wheeler",
         "homeStarter": "Tarik Skubal",
@@ -257,9 +257,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5328680283191677,
         "secondEngineLean": "Miami Marlins",
-        "secondEnginePct": "54%",
+        "secondEnginePct": "57.7%",
         "hybridLean": "Miami Marlins",
-        "hybridPct": "51.9%",
+        "hybridPct": "53.8%",
         "engineRead": "Active receipt only",
         "awayStarter": "Joey Cantillo",
         "homeStarter": "Tyler Phillips",
@@ -286,9 +286,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5291455421681498,
         "secondEngineLean": "Cincinnati Reds",
-        "secondEnginePct": "53.2%",
+        "secondEnginePct": "50.2%",
         "hybridLean": "Cincinnati Reds",
-        "hybridPct": "51.6%",
+        "hybridPct": "50.1%",
         "engineRead": "Active receipt only",
         "awayStarter": "Matthew Boyd",
         "homeStarter": "Andrew Abbott",
@@ -315,9 +315,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5136497535842294,
         "secondEngineLean": "Tampa Bay Rays",
-        "secondEnginePct": "53%",
+        "secondEnginePct": "60.4%",
         "hybridLean": "Tampa Bay Rays",
-        "hybridPct": "51.5%",
+        "hybridPct": "55.3%",
         "engineRead": "Active receipt only",
         "awayStarter": "Emerson Hancock",
         "homeStarter": "Ian Seymour",
@@ -344,9 +344,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.6046788179620285,
         "secondEngineLean": "Minnesota Twins",
-        "secondEnginePct": "53.5%",
+        "secondEnginePct": "56%",
         "hybridLean": "Minnesota Twins",
-        "hybridPct": "51.8%",
+        "hybridPct": "53.1%",
         "engineRead": "Active receipt only",
         "awayStarter": "José Soriano",
         "homeStarter": "Taj Bradley",
@@ -373,9 +373,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5131490294886152,
         "secondEngineLean": "Chicago White Sox",
-        "secondEnginePct": "56.7%",
+        "secondEnginePct": "63.1%",
         "hybridLean": "Chicago White Sox",
-        "hybridPct": "53.4%",
+        "hybridPct": "56.6%",
         "engineRead": "Active receipt only",
         "awayStarter": "J.T. Ginn",
         "homeStarter": "Noah Schultz",
@@ -402,11 +402,11 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5046400049422716,
         "secondEngineLean": "Atlanta Braves",
-        "secondEnginePct": "52.4%",
+        "secondEnginePct": "55.4%",
         "hybridLean": "Atlanta Braves",
-        "hybridPct": "51.1%",
+        "hybridPct": "52.7%",
         "engineRead": "Active receipt only",
-        "awayStarter": "JR Ritchie",
+        "awayStarter": "Danny Young",
         "homeStarter": "Dustin May",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
@@ -431,9 +431,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5370925539403185,
         "secondEngineLean": "Texas Rangers",
-        "secondEnginePct": "55.5%",
+        "secondEnginePct": "54.7%",
         "hybridLean": "Texas Rangers",
-        "hybridPct": "52.8%",
+        "hybridPct": "52.4%",
         "engineRead": "Active receipt only",
         "awayStarter": "Cristian Javier",
         "homeStarter": "MacKenzie Gore",
@@ -460,9 +460,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.512102154341536,
         "secondEngineLean": "San Francisco Giants",
-        "secondEnginePct": "51.5%",
+        "secondEnginePct": "51.3%",
         "hybridLean": "San Francisco Giants",
-        "hybridPct": "51.5%",
+        "hybridPct": "51.3%",
         "engineRead": "Active receipt only",
         "awayStarter": "Michael Lorenzen",
         "homeStarter": "Trevor McDonald",
@@ -489,9 +489,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5892010761811353,
         "secondEngineLean": "Los Angeles Dodgers",
-        "secondEnginePct": "65.8%",
+        "secondEnginePct": "61.4%",
         "hybridLean": "Los Angeles Dodgers",
-        "hybridPct": "57.9%",
+        "hybridPct": "55.8%",
         "engineRead": "Active receipt only",
         "awayStarter": "Mitch Bratt",
         "homeStarter": "Emmet Sheehan",
@@ -518,9 +518,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5768525755068732,
         "secondEngineLean": "San Diego Padres",
-        "secondEnginePct": "53.4%",
+        "secondEnginePct": "51.3%",
         "hybridLean": "San Diego Padres",
-        "hybridPct": "51.6%",
+        "hybridPct": "51.3%",
         "engineRead": "Active receipt only",
         "awayStarter": "Kevin Gausman",
         "homeStarter": "Germán Márquez",
@@ -725,7 +725,7 @@
         "xba": ".000",
         "hand": "L vs R",
         "recent15": "12",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "11.4%",
         "risk": "pending_confirmed_lineup"
       },
@@ -747,7 +747,7 @@
         "xba": ".000",
         "hand": "R vs R",
         "recent15": "10",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "10.3%",
         "risk": "IL|Activated"
       },
@@ -791,7 +791,7 @@
         "xba": ".000",
         "hand": "R vs R",
         "recent15": "8",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "10.2%",
         "risk": "pending_confirmed_lineup"
       },
@@ -1077,7 +1077,7 @@
         "xba": ".000",
         "hand": "R vs R",
         "recent15": "10",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "15.6%",
         "risk": "pending_confirmed_lineup"
       },
@@ -1099,7 +1099,7 @@
         "xba": ".000",
         "hand": "L vs R",
         "recent15": "11",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "8.6%",
         "risk": "IL|Activated"
       },
@@ -1297,7 +1297,7 @@
         "xba": ".000",
         "hand": "R vs R",
         "recent15": "8",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "12.2%",
         "risk": "IL|Activated"
       },
@@ -1781,7 +1781,7 @@
         "xba": ".000",
         "hand": "R vs L",
         "recent15": "11",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "8.9%",
         "risk": "pending_confirmed_lineup"
       },
@@ -1869,7 +1869,7 @@
         "xba": ".000",
         "hand": "L vs L",
         "recent15": "10",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "16.1%",
         "risk": "pending_confirmed_lineup"
       },
@@ -2023,7 +2023,7 @@
         "xba": ".000",
         "hand": "R vs L",
         "recent15": "10",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "13.6%",
         "risk": "pending_confirmed_lineup"
       },
@@ -2111,7 +2111,7 @@
         "xba": ".000",
         "hand": "R vs L",
         "recent15": "10",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "7.8%",
         "risk": "pending_confirmed_lineup"
       },
@@ -2133,7 +2133,7 @@
         "xba": ".000",
         "hand": "L vs L",
         "recent15": "12",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "5.9%",
         "risk": "Trade|Recalled"
       },
@@ -2441,7 +2441,7 @@
         "xba": ".000",
         "hand": "L vs L",
         "recent15": "9",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "15.8%",
         "risk": "Recalled"
       },
@@ -2529,7 +2529,7 @@
         "xba": ".000",
         "hand": "L vs R",
         "recent15": "8",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "15.5%",
         "risk": "pending_confirmed_lineup"
       },
@@ -2551,7 +2551,7 @@
         "xba": ".000",
         "hand": "R vs L",
         "recent15": "8",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "17.5%",
         "risk": "pending_confirmed_lineup"
       },
@@ -3145,7 +3145,7 @@
         "xba": ".000",
         "hand": "R vs L",
         "recent15": "9",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "12.2%",
         "risk": "Trade"
       },
@@ -3541,7 +3541,7 @@
         "xba": ".000",
         "hand": "R vs R",
         "recent15": "9",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "8%",
         "risk": "pending_confirmed_lineup"
       },
@@ -3563,7 +3563,7 @@
         "xba": ".000",
         "hand": "L vs R",
         "recent15": "12",
-        "hitStreak": "-",
+        "hitStreak": "1",
         "hr": "5.9%",
         "risk": "Trade|Recalled"
       },
@@ -5719,7 +5719,7 @@
         "xba": ".000",
         "consistency": "61.5",
         "recent15": "12",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs R"
       },
       {
@@ -5782,7 +5782,7 @@
         "xba": ".000",
         "consistency": "47.2",
         "recent15": "10",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs R"
       },
       {
@@ -5803,7 +5803,7 @@
         "xba": ".000",
         "consistency": "46.8",
         "recent15": "8",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs R"
       },
       {
@@ -5992,7 +5992,7 @@
         "xba": ".000",
         "consistency": "57.8",
         "recent15": "11",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs R"
       },
       {
@@ -6118,7 +6118,7 @@
         "xba": ".000",
         "consistency": "50.7",
         "recent15": "10",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs R"
       },
       {
@@ -6328,7 +6328,7 @@
         "xba": ".000",
         "consistency": "39.8",
         "recent15": "8",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs R"
       },
       {
@@ -6811,7 +6811,7 @@
         "xba": ".000",
         "consistency": "61.3",
         "recent15": "11",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs L"
       },
       {
@@ -6916,7 +6916,7 @@
         "xba": ".000",
         "consistency": "57.7",
         "recent15": "10",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs L"
       },
       {
@@ -6937,7 +6937,7 @@
         "xba": ".000",
         "consistency": "57.7",
         "recent15": "10",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs L"
       },
       {
@@ -7084,7 +7084,7 @@
         "xba": ".000",
         "consistency": "54.5",
         "recent15": "12",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs L"
       },
       {
@@ -7168,7 +7168,7 @@
         "xba": ".000",
         "consistency": "54",
         "recent15": "9",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs L"
       },
       {
@@ -7336,7 +7336,7 @@
         "xba": ".000",
         "consistency": "50.3",
         "recent15": "8",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs R"
       },
       {
@@ -7462,7 +7462,7 @@
         "xba": ".000",
         "consistency": "47.2",
         "recent15": "10",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs L"
       },
       {
@@ -7588,7 +7588,7 @@
         "xba": ".000",
         "consistency": "43.3",
         "recent15": "8",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs L"
       },
       {
@@ -8071,7 +8071,7 @@
         "xba": ".000",
         "consistency": "40",
         "recent15": "9",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs L"
       },
       {
@@ -8512,7 +8512,7 @@
         "xba": ".000",
         "consistency": "54.5",
         "recent15": "12",
-        "streak": "-",
+        "streak": "1",
         "hand": "L vs R"
       },
       {
@@ -8533,7 +8533,7 @@
         "xba": ".000",
         "consistency": "50.5",
         "recent15": "9",
-        "streak": "-",
+        "streak": "1",
         "hand": "R vs R"
       },
       {
@@ -9875,12 +9875,12 @@
         "side": "Away",
         "team": "Milwaukee Brewers",
         "opponent": "Pittsburgh Pirates",
-        "last5": "2-3",
-        "last5RunsFor": "5.4",
-        "last5RunsAgainst": "4.2",
-        "last10": "6-4",
-        "last10RunsFor": "4.8",
-        "last10RunsAgainst": "3.7"
+        "last5": "1-4",
+        "last5RunsFor": "4.4",
+        "last5RunsAgainst": "6.6",
+        "last10": "5-5",
+        "last10RunsFor": "4.6",
+        "last10RunsAgainst": "4.7"
       },
       {
         "timeET": "12:15 PM",
@@ -9889,11 +9889,11 @@
         "team": "Pittsburgh Pirates",
         "opponent": "Milwaukee Brewers",
         "last5": "3-2",
-        "last5RunsFor": "5.4",
-        "last5RunsAgainst": "5.0",
-        "last10": "6-4",
-        "last10RunsFor": "6.2",
-        "last10RunsAgainst": "5.1"
+        "last5RunsFor": "5.8",
+        "last5RunsAgainst": "5.2",
+        "last10": "7-3",
+        "last10RunsFor": "7.0",
+        "last10RunsAgainst": "4.6"
       },
       {
         "timeET": "1:35 PM",
@@ -10494,9 +10494,9 @@
         "opposingSP": "Seth Lugo",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.2",
-        "last10HitGames": 7
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.4",
+        "last10HitGames": 8
       },
       {
         "timeET": "1:35 PM",
@@ -10507,7 +10507,7 @@
         "opposingSP": "Seth Lugo",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "0.8",
+        "last5HitsPerGame": "0.6",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 5
       },
@@ -10520,7 +10520,7 @@
         "opposingSP": "Seth Lugo",
         "pitchHand": "R",
         "hitProbability": "46.4%",
-        "last5HitsPerGame": "0.6",
+        "last5HitsPerGame": "0.8",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 6
       },
@@ -10546,9 +10546,9 @@
         "opposingSP": "Seth Lugo",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "0.6",
-        "last10HitsPerGame": "0.8",
-        "last10HitGames": 7
+        "last5HitsPerGame": "0.4",
+        "last10HitsPerGame": "0.7",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:35 PM",
@@ -10599,7 +10599,7 @@
         "pitchHand": "R",
         "hitProbability": "66.3%",
         "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "1.1",
+        "last10HitsPerGame": "1.0",
         "last10HitGames": 8
       },
       {
@@ -10611,7 +10611,7 @@
         "opposingSP": "Shane Baz",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "1.2",
+        "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "0.8",
         "last10HitGames": 7
       },
@@ -10638,8 +10638,8 @@
         "pitchHand": "R",
         "hitProbability": "58.9%",
         "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "1.0",
-        "last10HitGames": 8
+        "last10HitsPerGame": "1.1",
+        "last10HitGames": 9
       },
       {
         "timeET": "1:35 PM",
@@ -10663,9 +10663,9 @@
         "opposingSP": "Cade Cavalli",
         "pitchHand": "R",
         "hitProbability": "66.3%",
-        "last5HitsPerGame": "1.8",
-        "last10HitsPerGame": "1.3",
-        "last10HitGames": 9
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.2",
+        "last10HitGames": 8
       },
       {
         "timeET": "1:35 PM",
@@ -10677,8 +10677,8 @@
         "pitchHand": "R",
         "hitProbability": "46.4%",
         "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "0.8",
-        "last10HitGames": 6
+        "last10HitsPerGame": "0.9",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:35 PM",
@@ -10689,7 +10689,7 @@
         "opposingSP": "Cade Cavalli",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "1.6",
+        "last5HitsPerGame": "1.4",
         "last10HitsPerGame": "1.1",
         "last10HitGames": 7
       },
@@ -10702,9 +10702,9 @@
         "opposingSP": "Cade Cavalli",
         "pitchHand": "R",
         "hitProbability": "46.4%",
-        "last5HitsPerGame": "0.8",
-        "last10HitsPerGame": "0.8",
-        "last10HitGames": 6
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "0.9",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:35 PM",
@@ -10715,9 +10715,9 @@
         "opposingSP": "Cade Cavalli",
         "pitchHand": "R",
         "hitProbability": "66.3%",
-        "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "1.0",
-        "last10HitGames": 7
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "0.9",
+        "last10HitGames": 6
       },
       {
         "timeET": "1:35 PM",
@@ -10728,7 +10728,7 @@
         "opposingSP": "Will Warren",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "1.4",
+        "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "1.1",
         "last10HitGames": 9
       },
@@ -10741,8 +10741,8 @@
         "opposingSP": "Will Warren",
         "pitchHand": "R",
         "hitProbability": "66.3%",
-        "last5HitsPerGame": "1.6",
-        "last10HitsPerGame": "1.5",
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.4",
         "last10HitGames": 8
       },
       {
@@ -10755,7 +10755,7 @@
         "pitchHand": "R",
         "hitProbability": "66.3%",
         "last5HitsPerGame": "1.8",
-        "last10HitsPerGame": "1.7",
+        "last10HitsPerGame": "1.5",
         "last10HitGames": 8
       },
       {
@@ -10780,9 +10780,9 @@
         "opposingSP": "Will Warren",
         "pitchHand": "R",
         "hitProbability": "66.3%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.3",
-        "last10HitGames": 8
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.2",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:35 PM",
@@ -10819,9 +10819,9 @@
         "opposingSP": "Matthew Boyd",
         "pitchHand": "L",
         "hitProbability": "71.8%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.4",
-        "last10HitGames": 9
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "1.2",
+        "last10HitGames": 8
       },
       {
         "timeET": "1:40 PM",
@@ -10845,8 +10845,8 @@
         "opposingSP": "Tyler Phillips",
         "pitchHand": "R",
         "hitProbability": "71.8%",
-        "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.1",
+        "last5HitsPerGame": "1.4",
+        "last10HitsPerGame": "1.2",
         "last10HitGames": 9
       },
       {
@@ -10858,9 +10858,9 @@
         "opposingSP": "Tyler Phillips",
         "pitchHand": "R",
         "hitProbability": "71.8%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.4",
-        "last10HitGames": 8
+        "last5HitsPerGame": "1.0",
+        "last10HitsPerGame": "1.1",
+        "last10HitGames": 7
       },
       {
         "timeET": "1:40 PM",
@@ -10872,8 +10872,8 @@
         "pitchHand": "R",
         "hitProbability": "71.8%",
         "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.5",
-        "last10HitGames": 9
+        "last10HitsPerGame": "1.4",
+        "last10HitGames": 8
       }
     ],
     "historyPitchers": [
@@ -11336,7 +11336,7 @@
         "Date": "2026-07-12",
         "Time_ET": "3:00 PM",
         "Game": "New York Liberty @ Toronto Tempo",
-        "Status": "Scheduled",
+        "Status": "In Progress",
         "Venue": "Bell Centre",
         "Away": "New York Liberty",
         "Home": "Toronto Tempo"
@@ -11346,7 +11346,7 @@
         "Date": "2026-07-12",
         "Time_ET": "3:00 PM",
         "Game": "Seattle Storm @ Washington Mystics",
-        "Status": "Scheduled",
+        "Status": "Halftime",
         "Venue": "CareFirst Arena",
         "Away": "Seattle Storm",
         "Home": "Washington Mystics"
@@ -11693,7 +11693,7 @@
         "College": "Notre Dame",
         "CollegeEvidence": "espn_roster_college",
         "Status": "Active",
-        "InjuryCount": 1
+        "InjuryCount": 0
       },
       {
         "type": "Player",
@@ -13466,6 +13466,14 @@
       },
       {
         "type": "News",
+        "Published": "2026-07-12T19:29:01Z",
+        "Type": "HeadlineNews",
+        "Headline": "Pebley out as Sparks GM, assistants to share interim role",
+        "Description": "Raegan Pebley is out after two and a half years as the Sparks' general manager, the team announced Sunday.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49344493/pebley-sparks-gm-assistants-share-interim-role"
+      },
+      {
+        "type": "News",
         "Published": "2026-07-12T12:31:35Z",
         "Type": "HeadlineNews",
         "Headline": "Mercury lose by 48 in third-biggest blowout in WNBA history",
@@ -13615,14 +13623,6 @@
         "Headline": "Toronto Tempo vs. Dallas Wings - Game Highlights",
         "Description": "Watch the Game Highlights from Toronto Tempo vs. Dallas Wings, 07/10/2026",
         "Link": "https://www.espn.com/video/clip/_/id/49329860/toronto-tempo-vs-dallas-wings-game-highlights"
-      },
-      {
-        "type": "News",
-        "Published": "2026-07-11T01:38:08Z",
-        "Type": "Media",
-        "Headline": "Connecticut Sun vs. Golden State Valkyries - Game Highlights",
-        "Description": "Watch the Game Highlights from Connecticut Sun vs. Golden State Valkyries, 07/10/2026",
-        "Link": "https://www.espn.com/video/clip/_/id/49329849/connecticut-sun-vs-golden-state-valkyries-game-highlights"
       }
     ],
     "wnbaProps": [
@@ -13783,6 +13783,28 @@
       {
         "type": "Prop",
         "Date": "2026-07-12",
+        "Time_ET": "3:00 PM",
+        "Game": "Seattle Storm @ Washington Mystics",
+        "Team": "Washington Mystics",
+        "Opponent": "Seattle Storm",
+        "Player": "Sonia Citron",
+        "Pos": "G",
+        "Market": "points",
+        "Expected": "19.7 pts",
+        "Best_Threshold": "10+",
+        "Model_Probability": "99.9%",
+        "Sim_Probability": "99.4%",
+        "Opportunity": "99.0%",
+        "MIN_G": 31.9,
+        "MIN_L5": 37.2,
+        "StarterRate": "98.5%",
+        "Risk": "clear",
+        "Simulations": 35000,
+        "Evidence": "ESPN boxscore history + roster status + team context"
+      },
+      {
+        "type": "Prop",
+        "Date": "2026-07-12",
         "Time_ET": "9:00 PM",
         "Game": "Indiana Fever @ Las Vegas Aces",
         "Team": "Indiana Fever",
@@ -13842,28 +13864,6 @@
         "MIN_G": 29.8,
         "MIN_L5": 31.2,
         "StarterRate": "96.7%",
-        "Risk": "availability_risk",
-        "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + roster status + team context"
-      },
-      {
-        "type": "Prop",
-        "Date": "2026-07-12",
-        "Time_ET": "3:00 PM",
-        "Game": "Seattle Storm @ Washington Mystics",
-        "Team": "Washington Mystics",
-        "Opponent": "Seattle Storm",
-        "Player": "Sonia Citron",
-        "Pos": "G",
-        "Market": "points",
-        "Expected": "19.5 pts",
-        "Best_Threshold": "10+",
-        "Model_Probability": "99.8%",
-        "Sim_Probability": "99.3%",
-        "Opportunity": "96.9%",
-        "MIN_G": 31.9,
-        "MIN_L5": 37.2,
-        "StarterRate": "98.5%",
         "Risk": "availability_risk",
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + roster status + team context"
