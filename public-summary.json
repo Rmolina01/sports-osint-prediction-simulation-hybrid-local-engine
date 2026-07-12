@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T13:22:46.477Z",
+  "generatedAt": "2026-07-12T13:40:52.416Z",
   "date": "2026-07-12",
   "stamp": "Public preview built for 2026-07-12",
   "revealPolicy": {
@@ -22,9 +22,9 @@
     },
     {
       "sport": "Football",
-      "status": "Watch",
+      "status": "Active",
       "boards": 1,
-      "rows": 0
+      "rows": 942
     },
     {
       "sport": "Basketball",
@@ -33,10 +33,22 @@
       "rows": 244
     },
     {
-      "sport": "Hockey",
-      "status": "Watch",
+      "sport": "NBA",
+      "status": "Active",
       "boards": 1,
-      "rows": 0
+      "rows": 3460
+    },
+    {
+      "sport": "NBA Summer",
+      "status": "Active",
+      "boards": 1,
+      "rows": 3460
+    },
+    {
+      "sport": "Hockey",
+      "status": "Active",
+      "boards": 1,
+      "rows": 2974
     },
     {
       "sport": "Tennis",
@@ -66,6 +78,13 @@
     "wnbaRows": 158,
     "wnbaPropRows": 86,
     "wnbaPlayers": 60,
+    "nbaGames": 2833,
+    "nbaPlayers": 577,
+    "nbaSummerGames": 2833,
+    "nflGames": 700,
+    "nflPlayers": 192,
+    "nhlGames": 2764,
+    "nhlPlayers": 160,
     "historicalRows": 114,
     "simulationsPerGame": 388000,
     "shadowAgreement": "66.7%",
@@ -238,7 +257,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5328680283191677,
         "secondEngineLean": "Miami Marlins",
-        "secondEnginePct": "53.9%",
+        "secondEnginePct": "54%",
         "hybridLean": "Miami Marlins",
         "hybridPct": "51.9%",
         "engineRead": "Active receipt only",
@@ -267,9 +286,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5291455421681498,
         "secondEngineLean": "Cincinnati Reds",
-        "secondEnginePct": "53.3%",
+        "secondEnginePct": "53.2%",
         "hybridLean": "Cincinnati Reds",
-        "hybridPct": "51.7%",
+        "hybridPct": "51.6%",
         "engineRead": "Active receipt only",
         "awayStarter": "Matthew Boyd",
         "homeStarter": "Andrew Abbott",
@@ -412,9 +431,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5370925539403185,
         "secondEngineLean": "Texas Rangers",
-        "secondEnginePct": "55.6%",
+        "secondEnginePct": "55.5%",
         "hybridLean": "Texas Rangers",
-        "hybridPct": "52.9%",
+        "hybridPct": "52.8%",
         "engineRead": "Active receipt only",
         "awayStarter": "Cristian Javier",
         "homeStarter": "MacKenzie Gore",
@@ -499,7 +518,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5768525755068732,
         "secondEngineLean": "San Diego Padres",
-        "secondEnginePct": "53.3%",
+        "secondEnginePct": "53.4%",
         "hybridLean": "San Diego Padres",
         "hybridPct": "51.6%",
         "engineRead": "Active receipt only",
