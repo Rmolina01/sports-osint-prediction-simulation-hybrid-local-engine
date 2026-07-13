@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T04:21:47.166Z",
+  "generatedAt": "2026-07-13T05:16:08.556Z",
   "date": "2026-07-13",
   "stamp": "Public preview built for 2026-07-13",
   "revealPolicy": {
@@ -2220,6 +2220,14 @@
       },
       {
         "type": "News",
+        "Published": "2026-07-13T04:46:14Z",
+        "Type": "HeadlineNews",
+        "Headline": "Fever beat Aces again as Caitlin Clark scores 12 in 24 minutes",
+        "Description": "The Fever beat the defending champion Aces in Las Vegas for the second time in eight days. Caitlin Clark, who has been dealing with back issues, played 24 minutes and finished with 12 points, 7 rebounds and 6 assists.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49347972/fever-beat-aces-las-vegas-again-caitlin-clark-scores-12-points-24-minutes"
+      },
+      {
+        "type": "News",
         "Published": "2026-07-13T03:19:33Z",
         "Type": "Recap",
         "Headline": "Kelsey Mitchell, Caitlin Clark lead Fever to 109-75 win over A'ja Wilson and the Aces",
@@ -2369,14 +2377,6 @@
         "Headline": "Atlanta Dream vs. Fire - Game Highlights",
         "Description": "Watch the Game Highlights from Atlanta Dream vs. Fire, 07/11/2026",
         "Link": "https://www.espn.com/video/clip/_/id/49337557/atlanta-dream-vs-fire-game-highlights"
-      },
-      {
-        "type": "News",
-        "Published": "2026-07-11T19:44:30Z",
-        "Type": "Recap",
-        "Headline": "McBride scores 25, Miles 23 to lead Lynx to 90-85 win over Liberty",
-        "Description": "— Kayla McBride scored 14 of her 25 points in the fourth quarter, Olivia Miles added 23 points after missing two games and the Minnesota Lynx edged the New York Liberty 90-85 on Saturday.",
-        "Link": "http://www.espn.com/wnba/recap?gameId=401857057"
       }
     ],
     "wnbaProps": [
