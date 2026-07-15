@@ -1,7 +1,159 @@
 {
-  "generatedAt": "2026-07-15T14:07:53.816Z",
+  "generatedAt": "2026-07-15T15:10:04.819Z",
   "date": "2026-07-15",
   "stamp": "Public preview built for 2026-07-15",
+  "eventRouter": {
+    "generatedAt": "2026-07-15T15:09:16.375Z",
+    "date": "2026-07-15",
+    "schema": "site_event_router.v1",
+    "sports": [
+      {
+        "key": "baseball",
+        "sport": "Baseball",
+        "status": "Temporary Event",
+        "primaryBoard": "allStar",
+        "publishBoard": true,
+        "rowCount": 21,
+        "tab": "Baseball",
+        "reason": "Temporary MLB event detected"
+      },
+      {
+        "key": "soccer",
+        "sport": "Soccer",
+        "status": "Watch",
+        "primaryBoard": "soccer",
+        "publishBoard": false,
+        "rowCount": 0,
+        "tab": "Soccer",
+        "reason": "No public soccer rows detected"
+      },
+      {
+        "key": "wnba",
+        "sport": "WNBA",
+        "status": "Active",
+        "primaryBoard": "wnbaProps",
+        "publishBoard": true,
+        "rowCount": 90,
+        "tab": "WNBA",
+        "reason": "WNBA prop rows detected"
+      },
+      {
+        "key": "nba",
+        "sport": "NBA",
+        "status": "Active",
+        "primaryBoard": "sports",
+        "publishBoard": true,
+        "rowCount": 3427,
+        "tab": "NBA",
+        "reason": "Manifest public-safe rows detected"
+      },
+      {
+        "key": "nba_summer",
+        "sport": "NBA Summer",
+        "status": "Active",
+        "primaryBoard": "nbaSummer",
+        "publishBoard": true,
+        "rowCount": 811,
+        "tab": "NBA Summer",
+        "reason": "Manifest public-safe rows detected"
+      },
+      {
+        "key": "nfl",
+        "sport": "NFL",
+        "status": "Active",
+        "primaryBoard": "sports",
+        "publishBoard": true,
+        "rowCount": 942,
+        "tab": "NFL",
+        "reason": "Manifest public-safe rows detected"
+      },
+      {
+        "key": "nhl",
+        "sport": "NHL",
+        "status": "Active",
+        "primaryBoard": "sports",
+        "publishBoard": true,
+        "rowCount": 2974,
+        "tab": "NHL",
+        "reason": "Manifest public-safe rows detected"
+      }
+    ],
+    "temporaryEvents": [
+      {
+        "sport": "Baseball",
+        "board": "allStar",
+        "label": "MLB All-Star temporary event",
+        "rowCount": 21,
+        "expiresAfter": "2026-07-15"
+      }
+    ],
+    "sourceGaps": [
+      {
+        "sport": "Baseball",
+        "board": "allStar",
+        "reason": "All-Star event has participant_source_gap rows",
+        "action": "show source-gap state; do not invent rows"
+      }
+    ],
+    "siteActions": [
+      {
+        "sport": "Baseball",
+        "tab": "Baseball",
+        "board": "allStar",
+        "action": "publish_board",
+        "status": "Temporary Event",
+        "rowCount": 21
+      },
+      {
+        "sport": "Soccer",
+        "tab": "Soccer",
+        "board": "soccer",
+        "action": "show_watch_or_source_gap",
+        "status": "Watch",
+        "rowCount": 0
+      },
+      {
+        "sport": "WNBA",
+        "tab": "WNBA",
+        "board": "wnbaProps",
+        "action": "publish_board",
+        "status": "Active",
+        "rowCount": 90
+      },
+      {
+        "sport": "NBA",
+        "tab": "NBA",
+        "board": "sports",
+        "action": "publish_board",
+        "status": "Active",
+        "rowCount": 3427
+      },
+      {
+        "sport": "NBA Summer",
+        "tab": "NBA Summer",
+        "board": "nbaSummer",
+        "action": "publish_board",
+        "status": "Active",
+        "rowCount": 811
+      },
+      {
+        "sport": "NFL",
+        "tab": "NFL",
+        "board": "sports",
+        "action": "publish_board",
+        "status": "Active",
+        "rowCount": 942
+      },
+      {
+        "sport": "NHL",
+        "tab": "NHL",
+        "board": "sports",
+        "action": "publish_board",
+        "status": "Active",
+        "rowCount": 2974
+      }
+    ]
+  },
   "revealPolicy": {
     "label": "Full sanitized public daily slate",
     "ratio": 1,
@@ -12,13 +164,17 @@
       "sport": "Baseball",
       "status": "Temporary Event",
       "boards": 8,
-      "rows": 21
+      "rows": 21,
+      "route": "allStar",
+      "publicState": "Temporary MLB event detected"
     },
     {
       "sport": "Soccer",
       "status": "Watch",
       "boards": 2,
-      "rows": 0
+      "rows": 0,
+      "route": "soccer",
+      "publicState": "No public soccer rows detected"
     },
     {
       "sport": "Football",
@@ -36,13 +192,17 @@
       "sport": "NBA",
       "status": "Active",
       "boards": 1,
-      "rows": 3427
+      "rows": 3427,
+      "route": "sports",
+      "publicState": "Manifest public-safe rows detected"
     },
     {
       "sport": "NBA Summer",
       "status": "Active",
       "boards": 1,
-      "rows": 159
+      "rows": 811,
+      "route": "nbaSummer",
+      "publicState": "Manifest public-safe rows detected"
     },
     {
       "sport": "Hockey",
