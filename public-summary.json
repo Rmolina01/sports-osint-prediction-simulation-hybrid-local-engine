@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:08:03.378Z",
+  "generatedAt": "2026-07-15T14:07:53.816Z",
   "date": "2026-07-15",
   "stamp": "Public preview built for 2026-07-15",
   "revealPolicy": {
@@ -2234,6 +2234,30 @@
       },
       {
         "type": "News",
+        "Article_Type": "Story",
+        "Published": "2026-07-15T12:53:33Z",
+        "Headline": "How the expansion Portland Fire are bringing CLA training to the WNBA",
+        "Description": "The Constraints-Led Approach has been around for decades, but coach Alex Sarama has brought it to the WNBA for the first time.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49364025/wnba-2026-portland-fire-cla-constraints-led-approach-alex-sarama-expansion"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-15T06:10:32Z",
+        "Headline": "Bueckers leads Dallas against New York after 22-point showing",
+        "Description": "New York Liberty (13-11, 8-2 Eastern Conference) at Dallas Wings (16-8, 6-6 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857072"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-15T06:10:29Z",
+        "Headline": "Portland visits Washington after Iriafen's 25-point outing",
+        "Description": "Portland Fire (10-14, 3-6 Western Conference) at Washington Mystics (12-10, 8-5 Eastern Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857071"
+      },
+      {
+        "type": "News",
         "Article_Type": "Recap",
         "Published": "2026-07-15T01:41:30Z",
         "Headline": "Mystics power past short-handed Tempo 79-62 behind double-doubles by Iriafen and Austin",
@@ -2251,8 +2275,8 @@
       {
         "type": "News",
         "Article_Type": "HeadlineNews",
-        "Published": "2026-07-15T01:33:23Z",
-        "Headline": "Fan fired after alleged racist message to Aces' Chelsea Gray",
+        "Published": "2026-07-15T04:29:07Z",
+        "Headline": "Man fired after alleged racist message to Aces' Chelsea Gray",
         "Description": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
         "Link": "https://www.espn.com/wnba/story/_/id/49362546/fan-fired-alleged-racist-message-aces-chelsea-gray"
       },
@@ -2367,30 +2391,6 @@
         "Headline": "2026 WNBA championship odds: Valkyries now fourth-shortest on futures market",
         "Description": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
         "Link": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Story",
-        "Published": "2026-07-13T15:25:21Z",
-        "Headline": "Fantasy women's hoops: Gustafson, Lacan and more players to add this week",
-        "Description": "With one full week left before the All-Star break, here are four players to help you win your weekly matchup.",
-        "Link": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-13T06:10:35Z",
-        "Headline": "Connecticut faces Portland on 3-game home skid",
-        "Description": "Portland Fire (10-13, 3-6 Western Conference) at Connecticut Sun (5-18, 2-8 Eastern Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857066"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-13T06:10:30Z",
-        "Headline": "Washington visits Toronto after Mabrey's 30-point game",
-        "Description": "Washington Mystics (11-10, 7-5 Eastern Conference) at Toronto Tempo (10-13, 5-6 Eastern Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857067"
       }
     ],
     "wnbaProps": [
@@ -4757,7 +4757,7 @@
         "Player": "",
         "Team": "LA Clippers",
         "Position": "",
-        "Status": "8-4; home 3-3; away 5-1; L10 6-4",
+        "Status": "8-5; home 3-3; away 5-2; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -4771,7 +4771,7 @@
         "Player": "",
         "Team": "Los Angeles Lakers",
         "Position": "",
-        "Status": "10-11; home 3-6; away 7-5; L10 5-5",
+        "Status": "11-11; home 4-6; away 7-5; L10 6-4",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
