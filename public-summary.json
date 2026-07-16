@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-16T04:08:41.300Z",
+  "generatedAt": "2026-07-16T16:38:42.070Z",
   "date": "2026-07-16",
   "stamp": "Public preview built for 2026-07-16",
   "eventRouter": {
-    "generatedAt": "2026-07-16T04:06:42.874Z",
+    "generatedAt": "2026-07-16T16:37:20.791Z",
     "date": "2026-07-16",
     "schema": "site_event_router.v1",
     "sports": [
@@ -261,9 +261,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5146692439862544,
         "secondEngineLean": "Philadelphia Phillies",
-        "secondEnginePct": "52%",
+        "secondEnginePct": "51.7%",
         "hybridLean": "Philadelphia Phillies",
-        "hybridPct": "51.1%",
+        "hybridPct": "50.9%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Christian Scott",
         "homeStarter": "Aaron Nola",
@@ -3301,6 +3301,54 @@
       },
       {
         "type": "News",
+        "Article_Type": "HeadlineNews",
+        "Published": "2026-07-16T13:51:39Z",
+        "Headline": "Igor Kokoskov joins Project B as head of player development",
+        "Description": "Longtime NBA assistant Igor Kokoskov has joined the startup men's and women's basketball league Project B as its head of player development, the organization announced Thursday.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49376105/igor-kokoskov-joins-project-b-head-player-development"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Story",
+        "Published": "2026-07-16T11:58:41Z",
+        "Headline": "Ranking the WNBA's top 10 rim protectors of all time",
+        "Description": "A'ja Wilson, Brittney Griner and Breanna Stewart already rank among the best shot blockers, rebounders and post presences.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49372575/wnba-2026-shot-blockers-rebounders-rim-protectors-history-30th-season-aja-wilson-brittney-griner"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-16T06:10:44Z",
+        "Headline": "Seattle visits Indiana following Johnson's 25-point performance",
+        "Description": "Seattle Storm (6-20, 1-12 Western Conference) at Indiana Fever (14-10, 5-4 Eastern Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857073"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-16T06:10:40Z",
+        "Headline": "Connecticut visits Phoenix after Edwards' 21-point game",
+        "Description": "Connecticut Sun (6-18, 2-8 Eastern Conference) at Phoenix Mercury (8-17, 5-10 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857076"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-16T06:10:37Z",
+        "Headline": "Chicago hosts Los Angeles after Burrell's 24-point outing",
+        "Description": "Los Angeles Sparks (10-13, 5-7 Western Conference) at Chicago Sky (8-16, 1-7 Eastern Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857075"
+      },
+      {
+        "type": "News",
+        "Article_Type": "HeadlineNews",
+        "Published": "2026-07-16T13:09:10Z",
+        "Headline": "Fever's Caitlin Clark sounds off on non-call in loss to Valkyries",
+        "Description": "Caitlin Clark was frustrated by a non-call midway through the second quarter Wednesday night and sounded off after the Fever's 88-75 loss to the Valkyries.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49373763/fever-star-caitlin-clark-sounds-missed-call-loss-valkyries"
+      },
+      {
+        "type": "News",
         "Article_Type": "Recap",
         "Published": "2026-07-16T02:36:41Z",
         "Headline": "Valkyries beat the Fever 88-75 for 8th straight victory",
@@ -3318,9 +3366,9 @@
       {
         "type": "News",
         "Article_Type": "Story",
-        "Published": "2026-07-16T03:38:11Z",
-        "Headline": "Full list of every ESPYS 2026 Award winner",
-        "Description": "The 2026 ESPYS are underway. From Jalen Brunson to A'ja Wilson, find out which athletes won.",
+        "Published": "2026-07-16T04:04:25Z",
+        "Headline": "Full list of every ESPYS 2026 award winner",
+        "Description": "From Jalen Brunson to A'ja Wilson, see which athletes won at the 2026 ESPYS.",
         "Link": "https://www.espn.com/espys/story/_/id/49359664/espys-2026-award-winners-jalen-brunson-aja-wilson-fernando-mendoza"
       },
       {
@@ -3374,7 +3422,7 @@
       {
         "type": "News",
         "Article_Type": "Story",
-        "Published": "2026-07-15T12:53:33Z",
+        "Published": "2026-07-16T04:49:19Z",
         "Headline": "How the expansion Portland Fire are bringing CLA training to the WNBA",
         "Description": "The Constraints-Led Approach has been around for decades, but coach Alex Sarama has brought it to the WNBA for the first time.",
         "Link": "https://www.espn.com/wnba/story/_/id/49364025/wnba-2026-portland-fire-cla-constraints-led-approach-alex-sarama-expansion"
@@ -3410,54 +3458,6 @@
         "Headline": "Toronto Tempo vs. Washington Mystics - Game Highlights",
         "Description": "Watch the Game Highlights from Toronto Tempo vs. Washington Mystics, 07/14/2026",
         "Link": "https://www.espn.com/video/clip/_/id/49363516/toronto-tempo-vs-washington-mystics-game-highlights"
-      },
-      {
-        "type": "News",
-        "Article_Type": "HeadlineNews",
-        "Published": "2026-07-15T20:57:03Z",
-        "Headline": "Man fired after alleged racist message to Aces' Chelsea Gray",
-        "Description": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49362546/fan-fired-alleged-racist-message-aces-chelsea-gray"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Recap",
-        "Published": "2026-07-14T17:28:32Z",
-        "Headline": "Aaliyah Edwards and Brittney Griner each score 20-plus to lead the Sun past the Fire 90-87",
-        "Description": "— Aaliyah Edwards scored 21 points off the bench, Brittney Griner added 20, and the Connecticut Sun beat the Portland Fire 90-87 on Tuesday.",
-        "Link": "http://www.espn.com/wnba/recap?gameId=401857066"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Media",
-        "Published": "2026-07-14T17:18:59Z",
-        "Headline": "Connecticut Sun vs. Fire - Game Highlights",
-        "Description": "Watch the Game Highlights from Connecticut Sun vs. Fire, 07/14/2026",
-        "Link": "https://www.espn.com/video/clip/_/id/49359996/connecticut-sun-vs-fire-game-highlights"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Story",
-        "Published": "2026-07-14T18:08:55Z",
-        "Headline": "Updated fantasy women's basketball rankings: Marina Mabrey moves into top 10",
-        "Description": "As we approach the WNBA All-Star break, here are the updated Fantasy Women's Basketball rankings.",
-        "Link": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48444824/espn-wnba-fantasy-women-basketball-rankings-2026"
-      },
-      {
-        "type": "News",
-        "Article_Type": "HeadlineNews",
-        "Published": "2026-07-14T15:21:35Z",
-        "Headline": "Paige Bueckers bemoans WNBA's lack of Black women head coaches",
-        "Description": "Wings star Paige Bueckers called out the lack of Black women head coaches in the WNBA, saying Black women deserve \"the same equal opportunity\" to coach in the league.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49358494/paige-bueckers-bemoans-wnba-lack-black-women-head-coaches"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Story",
-        "Published": "2026-07-14T13:13:30Z",
-        "Headline": "WNBA Power Rankings: The Indiana Fever are running hot",
-        "Description": "With Kelsey Mitchell posting her sixth straight game with 25 points or more, Indiana moves up to No. 4. Golden State holds on to the top spot.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49349716/wnba-power-rankings-2026-fever-valkyries"
       }
     ],
     "wnbaProps": [
@@ -5561,7 +5561,7 @@
         "Player": "",
         "Team": "LA Clippers",
         "Position": "",
-        "Status": "8-5; home 3-3; away 5-2; L10 5-5",
+        "Status": "9-5; home 4-3; away 5-2; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -5813,7 +5813,7 @@
         "Player": "",
         "Team": "Washington Wizards",
         "Position": "",
-        "Status": "7-6; home 5-2; away 2-4; L10 6-4",
+        "Status": "7-7; home 5-2; away 2-5; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
