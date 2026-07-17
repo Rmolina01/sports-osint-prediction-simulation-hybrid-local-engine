@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-17T13:44:29.074Z",
+  "generatedAt": "2026-07-17T14:12:24.996Z",
   "date": "2026-07-17",
   "stamp": "Public preview built for 2026-07-17",
   "eventRouter": {
-    "generatedAt": "2026-07-17T13:43:35.843Z",
+    "generatedAt": "2026-07-17T14:11:37.619Z",
     "date": "2026-07-17",
     "schema": "site_event_router.v1",
     "sports": [
@@ -261,9 +261,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5160262196432409,
         "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "54.4%",
+        "secondEnginePct": "52.7%",
         "hybridLean": "Boston Red Sox",
-        "hybridPct": "52.2%",
+        "hybridPct": "51.3%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Griffin Jax",
         "homeStarter": "Jake Bennett",
@@ -319,9 +319,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5257506755408468,
         "secondEngineLean": "Pittsburgh Pirates",
-        "secondEnginePct": "58.3%",
+        "secondEnginePct": "58.1%",
         "hybridLean": "Pittsburgh Pirates",
-        "hybridPct": "54.1%",
+        "hybridPct": "54%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Jared Jones",
         "homeStarter": "Gavin Williams",
@@ -348,9 +348,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5102216568181379,
         "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "52.3%",
+        "secondEnginePct": "52.4%",
         "hybridLean": "Boston Red Sox",
-        "hybridPct": "51.1%",
+        "hybridPct": "51.2%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "TBD",
         "homeStarter": "TBD",
@@ -377,7 +377,7 @@
         "calibratedProbability": "58%",
         "rawProbability": 0.6529411849263397,
         "secondEngineLean": "Atlanta Braves",
-        "secondEnginePct": "52.4%",
+        "secondEnginePct": "52.5%",
         "hybridLean": "Atlanta Braves",
         "hybridPct": "55.2%",
         "engineRead": "Second-engine display tier",
@@ -435,7 +435,7 @@
         "calibratedProbability": "55.7%",
         "rawProbability": 0.5698443301546197,
         "secondEngineLean": "Milwaukee Brewers",
-        "secondEnginePct": "56%",
+        "secondEnginePct": "55.9%",
         "hybridLean": "Milwaukee Brewers",
         "hybridPct": "55.8%",
         "engineRead": "Second-engine display tier",
@@ -464,9 +464,9 @@
         "calibratedProbability": "55.5%",
         "rawProbability": 0.5667899419069362,
         "secondEngineLean": "Minnesota Twins",
-        "secondEnginePct": "52.5%",
+        "secondEnginePct": "52.3%",
         "hybridLean": "Minnesota Twins",
-        "hybridPct": "54%",
+        "hybridPct": "53.9%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Bailey Ober",
         "homeStarter": "Colin Rea",
@@ -493,9 +493,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5797937239417333,
         "secondEngineLean": "San Diego Padres",
-        "secondEnginePct": "50.9%",
+        "secondEnginePct": "51%",
         "hybridLean": "San Diego Padres",
-        "hybridPct": "50.5%",
+        "hybridPct": "50.6%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Michael King",
         "homeStarter": "Seth Lugo",
@@ -580,9 +580,9 @@
         "calibratedProbability": "58.9%",
         "rawProbability": 0.6102461009555527,
         "secondEngineLean": "Detroit Tigers",
-        "secondEnginePct": "53%",
+        "secondEnginePct": "52.8%",
         "hybridLean": "Detroit Tigers",
-        "hybridPct": "56%",
+        "hybridPct": "55.9%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Troy Melton",
         "homeStarter": "Reid Detmers",
@@ -638,9 +638,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5918553524870654,
         "secondEngineLean": "St. Louis Cardinals",
-        "secondEnginePct": "56.5%",
+        "secondEnginePct": "56.4%",
         "hybridLean": "St. Louis Cardinals",
-        "hybridPct": "53.2%",
+        "hybridPct": "53.1%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "TBD",
         "homeStarter": "Merrill Kelly",
@@ -669,7 +669,7 @@
         "secondEngineLean": "San Francisco Giants",
         "secondEnginePct": "51.2%",
         "hybridLean": "Seattle Mariners",
-        "hybridPct": "58.3%",
+        "hybridPct": "58.4%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Landen Roupp",
         "homeStarter": "Bryce Miller",
@@ -13764,10 +13764,6 @@
         "Market": "points",
         "Expected": "19.5 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.8%",
-        "Sim_Probability": "99.3%",
-        "Distribution_Probability": "87.0%",
         "Three_Season_Avg": 17,
         "Current_Season_Avg": 17.2,
         "Last10_Avg": 17.5,
@@ -13778,7 +13774,9 @@
         "StarterRate": "97.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13792,10 +13790,6 @@
         "Market": "assists",
         "Expected": "9.4 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.8%",
-        "Sim_Probability": "99.5%",
-        "Distribution_Probability": "86.8%",
         "Three_Season_Avg": 6.2,
         "Current_Season_Avg": 7,
         "Last10_Avg": 8.3,
@@ -13806,7 +13800,9 @@
         "StarterRate": "95.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13820,10 +13816,6 @@
         "Market": "points",
         "Expected": "21.3 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "99.8%",
-        "Distribution_Probability": "87.9%",
         "Three_Season_Avg": 16.8,
         "Current_Season_Avg": 17.6,
         "Last10_Avg": 17.8,
@@ -13834,7 +13826,9 @@
         "StarterRate": "99.2%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13848,10 +13842,6 @@
         "Market": "points",
         "Expected": "19.5 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.8%",
-        "Sim_Probability": "99.4%",
-        "Distribution_Probability": "91.5%",
         "Three_Season_Avg": 14.1,
         "Current_Season_Avg": 14.8,
         "Last10_Avg": 16.3,
@@ -13862,7 +13852,9 @@
         "StarterRate": "97.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13876,10 +13868,6 @@
         "Market": "rebounds",
         "Expected": "13.8 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "100.0%",
-        "Distribution_Probability": "99.0%",
         "Three_Season_Avg": 12.1,
         "Current_Season_Avg": 11.3,
         "Last10_Avg": 11.1,
@@ -13890,7 +13878,9 @@
         "StarterRate": "97.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13904,10 +13894,6 @@
         "Market": "points",
         "Expected": "22.9 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "99.9%",
-        "Distribution_Probability": "91.6%",
         "Three_Season_Avg": 19,
         "Current_Season_Avg": 23,
         "Last10_Avg": 23.5,
@@ -13918,7 +13904,9 @@
         "StarterRate": "98.1%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13932,10 +13920,6 @@
         "Market": "points",
         "Expected": "18 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.5%",
-        "Sim_Probability": "98.3%",
-        "Distribution_Probability": "85.4%",
         "Three_Season_Avg": 16.8,
         "Current_Season_Avg": 14,
         "Last10_Avg": 14.3,
@@ -13946,7 +13930,9 @@
         "StarterRate": "99.1%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13960,10 +13946,6 @@
         "Market": "points",
         "Expected": "21.7 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "99.8%",
-        "Distribution_Probability": "92.7%",
         "Three_Season_Avg": 17.2,
         "Current_Season_Avg": 17.3,
         "Last10_Avg": 18.6,
@@ -13974,7 +13956,9 @@
         "StarterRate": "100.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -13988,10 +13972,6 @@
         "Market": "rebounds",
         "Expected": "9.7 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.3%",
-        "Sim_Probability": "98.7%",
-        "Distribution_Probability": "93.6%",
         "Three_Season_Avg": 7.5,
         "Current_Season_Avg": 8.6,
         "Last10_Avg": 8.3,
@@ -14002,7 +13982,9 @@
         "StarterRate": "100.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14016,10 +13998,6 @@
         "Market": "rebounds",
         "Expected": "9.3 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.0%",
-        "Sim_Probability": "98.4%",
-        "Distribution_Probability": "96.9%",
         "Three_Season_Avg": 8.2,
         "Current_Season_Avg": 8.2,
         "Last10_Avg": 8.6,
@@ -14030,7 +14008,9 @@
         "StarterRate": "95.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14044,10 +14024,6 @@
         "Market": "points",
         "Expected": "26.7 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "100.0%",
-        "Distribution_Probability": "97.7%",
         "Three_Season_Avg": 20.1,
         "Current_Season_Avg": 21.8,
         "Last10_Avg": 25.2,
@@ -14058,7 +14034,9 @@
         "StarterRate": "97.6%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14072,10 +14050,6 @@
         "Market": "rebounds",
         "Expected": "9.3 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.0%",
-        "Sim_Probability": "98.3%",
-        "Distribution_Probability": "96.0%",
         "Three_Season_Avg": 8.6,
         "Current_Season_Avg": 8.3,
         "Last10_Avg": 9,
@@ -14086,7 +14060,9 @@
         "StarterRate": "99.2%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14100,10 +14076,6 @@
         "Market": "points",
         "Expected": "23 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "100.0%",
-        "Distribution_Probability": "88.4%",
         "Three_Season_Avg": 18.6,
         "Current_Season_Avg": 20.3,
         "Last10_Avg": 23,
@@ -14114,7 +14086,9 @@
         "StarterRate": "99.1%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14128,10 +14102,6 @@
         "Market": "assists",
         "Expected": "7.7 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "99.0%",
-        "Original_Model_Probability": "99.0%",
-        "Sim_Probability": "98.2%",
-        "Distribution_Probability": "95.5%",
         "Three_Season_Avg": 8.4,
         "Current_Season_Avg": 8.1,
         "Last10_Avg": 8.3,
@@ -14142,7 +14112,9 @@
         "StarterRate": "98.4%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "99.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14156,10 +14128,6 @@
         "Market": "threes",
         "Expected": "3.79 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "98.7%",
-        "Original_Model_Probability": "98.7%",
-        "Sim_Probability": "97.8%",
-        "Distribution_Probability": "94.3%",
         "Three_Season_Avg": 2.89,
         "Current_Season_Avg": 3.16,
         "Last10_Avg": 3.3,
@@ -14170,7 +14138,9 @@
         "StarterRate": "97.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "98.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14184,10 +14154,6 @@
         "Market": "threes",
         "Expected": "3.6 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "98.4%",
-        "Original_Model_Probability": "98.4%",
-        "Sim_Probability": "97.2%",
-        "Distribution_Probability": "93.6%",
         "Three_Season_Avg": 2.57,
         "Current_Season_Avg": 2.56,
         "Last10_Avg": 3.6,
@@ -14198,7 +14164,9 @@
         "StarterRate": "97.6%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "98.4%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14212,10 +14180,6 @@
         "Market": "rebounds",
         "Expected": "8.6 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "98.2%",
-        "Original_Model_Probability": "98.2%",
-        "Sim_Probability": "97.2%",
-        "Distribution_Probability": "96.2%",
         "Three_Season_Avg": 8.2,
         "Current_Season_Avg": 7.2,
         "Last10_Avg": 7.3,
@@ -14226,7 +14190,9 @@
         "StarterRate": "99.1%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "98.2%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14240,10 +14206,6 @@
         "Market": "threes",
         "Expected": "3.43 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "98.1%",
-        "Original_Model_Probability": "98.1%",
-        "Sim_Probability": "96.8%",
-        "Distribution_Probability": "90.3%",
         "Three_Season_Avg": 2.51,
         "Current_Season_Avg": 3.39,
         "Last10_Avg": 3.9,
@@ -14254,7 +14216,9 @@
         "StarterRate": "84.3%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "98.1%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14268,10 +14232,6 @@
         "Market": "points",
         "Expected": "15.4 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "97.7%",
-        "Original_Model_Probability": "97.7%",
-        "Sim_Probability": "94.3%",
-        "Distribution_Probability": "88.1%",
         "Three_Season_Avg": 18.3,
         "Current_Season_Avg": 18.9,
         "Last10_Avg": 20.7,
@@ -14282,7 +14242,9 @@
         "StarterRate": "100.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "97.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14296,10 +14258,6 @@
         "Market": "assists",
         "Expected": "6.1 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "96.2%",
-        "Original_Model_Probability": "96.2%",
-        "Sim_Probability": "94.2%",
-        "Distribution_Probability": "86.9%",
         "Three_Season_Avg": 5.5,
         "Current_Season_Avg": 4.3,
         "Last10_Avg": 4.5,
@@ -14310,7 +14268,9 @@
         "StarterRate": "88.3%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "96.2%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14324,10 +14284,6 @@
         "Market": "assists",
         "Expected": "6 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "96.2%",
-        "Original_Model_Probability": "96.2%",
-        "Sim_Probability": "94.1%",
-        "Distribution_Probability": "98.8%",
         "Three_Season_Avg": 8,
         "Current_Season_Avg": 7.2,
         "Last10_Avg": 7.5,
@@ -14338,7 +14294,9 @@
         "StarterRate": "100.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "96.2%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14352,10 +14310,6 @@
         "Market": "steals",
         "Expected": "2.67 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "95.5%",
-        "Original_Model_Probability": "95.5%",
-        "Sim_Probability": "92.9%",
-        "Distribution_Probability": "94.0%",
         "Three_Season_Avg": 2.2,
         "Current_Season_Avg": 2.2,
         "Last10_Avg": 2.7,
@@ -14366,7 +14320,9 @@
         "StarterRate": "75.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "95.5%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14380,10 +14336,6 @@
         "Market": "rebounds",
         "Expected": "7.2 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "95.0%",
-        "Original_Model_Probability": "95.0%",
-        "Sim_Probability": "92.7%",
-        "Distribution_Probability": "88.5%",
         "Three_Season_Avg": 8.1,
         "Current_Season_Avg": 6.7,
         "Last10_Avg": 6.4,
@@ -14394,7 +14346,9 @@
         "StarterRate": "98.4%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "95.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14408,10 +14362,6 @@
         "Market": "steals",
         "Expected": "2.57 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "94.9%",
-        "Original_Model_Probability": "94.9%",
-        "Sim_Probability": "92.1%",
-        "Distribution_Probability": "86.8%",
         "Three_Season_Avg": 1.86,
         "Current_Season_Avg": 2.44,
         "Last10_Avg": 2,
@@ -14422,7 +14372,9 @@
         "StarterRate": "97.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "94.9%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14436,10 +14388,6 @@
         "Market": "threes",
         "Expected": "2.55 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "94.7%",
-        "Original_Model_Probability": "94.7%",
-        "Sim_Probability": "92.2%",
-        "Distribution_Probability": "95.4%",
         "Three_Season_Avg": 2.5,
         "Current_Season_Avg": 2.64,
         "Last10_Avg": 2.6,
@@ -14450,7 +14398,9 @@
         "StarterRate": "98.1%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "94.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14464,10 +14414,6 @@
         "Market": "steals",
         "Expected": "2.34 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "93.4%",
-        "Original_Model_Probability": "93.4%",
-        "Sim_Probability": "90.2%",
-        "Distribution_Probability": "82.2%",
         "Three_Season_Avg": 1.68,
         "Current_Season_Avg": 1.92,
         "Last10_Avg": 2,
@@ -14478,7 +14424,9 @@
         "StarterRate": "95.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "93.4%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14492,10 +14440,6 @@
         "Market": "threes",
         "Expected": "2.3 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "92.9%",
-        "Original_Model_Probability": "92.9%",
-        "Sim_Probability": "90.0%",
-        "Distribution_Probability": "90.5%",
         "Three_Season_Avg": 1.88,
         "Current_Season_Avg": 1.92,
         "Last10_Avg": 2,
@@ -14506,7 +14450,9 @@
         "StarterRate": "99.1%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "92.9%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14520,10 +14466,6 @@
         "Market": "points",
         "Expected": "17.8 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "92.4%",
-        "Original_Model_Probability": "99.5%",
-        "Sim_Probability": "98.3%",
-        "Distribution_Probability": "82.5%",
         "Three_Season_Avg": 14.5,
         "Current_Season_Avg": 16.7,
         "Last10_Avg": 17.5,
@@ -14534,7 +14476,9 @@
         "StarterRate": "99.2%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "92.4%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14548,10 +14492,6 @@
         "Market": "assists",
         "Expected": "7 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "91.9%",
-        "Original_Model_Probability": "98.2%",
-        "Sim_Probability": "97.0%",
-        "Distribution_Probability": "83.1%",
         "Three_Season_Avg": 4.9,
         "Current_Season_Avg": 5.9,
         "Last10_Avg": 7.1,
@@ -14562,7 +14502,9 @@
         "StarterRate": "98.1%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "91.9%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14576,10 +14518,6 @@
         "Market": "assists",
         "Expected": "5.1 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "91.7%",
-        "Original_Model_Probability": "91.7%",
-        "Sim_Probability": "88.3%",
-        "Distribution_Probability": "93.1%",
         "Three_Season_Avg": 6,
         "Current_Season_Avg": 4.8,
         "Last10_Avg": 4.9,
@@ -14590,7 +14528,9 @@
         "StarterRate": "99.1%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "91.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14604,10 +14544,6 @@
         "Market": "rebounds",
         "Expected": "8.5 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "91.4%",
-        "Original_Model_Probability": "98.2%",
-        "Sim_Probability": "97.0%",
-        "Distribution_Probability": "82.0%",
         "Three_Season_Avg": 7.5,
         "Current_Season_Avg": 6.8,
         "Last10_Avg": 7.8,
@@ -14618,7 +14554,9 @@
         "StarterRate": "97.6%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "91.4%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14632,10 +14570,6 @@
         "Market": "assists",
         "Expected": "8 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "91.0%",
-        "Original_Model_Probability": "99.3%",
-        "Sim_Probability": "98.5%",
-        "Distribution_Probability": "79.6%",
         "Three_Season_Avg": 5.1,
         "Current_Season_Avg": 5.3,
         "Last10_Avg": 7,
@@ -14646,7 +14580,9 @@
         "StarterRate": "83.0%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "91.0%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14660,10 +14596,6 @@
         "Market": "points",
         "Expected": "12.8 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "90.7%",
-        "Original_Model_Probability": "90.7%",
-        "Sim_Probability": "82.6%",
-        "Distribution_Probability": "76.4%",
         "Three_Season_Avg": 11.8,
         "Current_Season_Avg": 11.8,
         "Last10_Avg": 12.7,
@@ -14674,7 +14606,9 @@
         "StarterRate": "66.7%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "90.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14688,10 +14622,6 @@
         "Market": "points",
         "Expected": "18.8 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "90.6%",
-        "Original_Model_Probability": "99.7%",
-        "Sim_Probability": "99.0%",
-        "Distribution_Probability": "78.0%",
         "Three_Season_Avg": 14.2,
         "Current_Season_Avg": 19.3,
         "Last10_Avg": 17.3,
@@ -14702,7 +14632,9 @@
         "StarterRate": "97.5%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "90.6%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14716,10 +14648,6 @@
         "Market": "points",
         "Expected": "22.5 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "90.4%",
-        "Original_Model_Probability": "100.0%",
-        "Sim_Probability": "99.9%",
-        "Distribution_Probability": "77.1%",
         "Three_Season_Avg": 15.9,
         "Current_Season_Avg": 21,
         "Last10_Avg": 24.2,
@@ -14730,7 +14658,9 @@
         "StarterRate": "84.3%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "90.4%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14744,10 +14674,6 @@
         "Market": "rebounds",
         "Expected": "7.8 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "89.7%",
-        "Original_Model_Probability": "96.8%",
-        "Sim_Probability": "95.2%",
-        "Distribution_Probability": "80.0%",
         "Three_Season_Avg": 5.9,
         "Current_Season_Avg": 8.2,
         "Last10_Avg": 9.2,
@@ -14758,7 +14684,9 @@
         "StarterRate": "29.2%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "89.7%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14772,10 +14700,6 @@
         "Market": "steals",
         "Expected": "1.93 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "89.3%",
-        "Original_Model_Probability": "89.3%",
-        "Sim_Probability": "85.4%",
-        "Distribution_Probability": "83.7%",
         "Three_Season_Avg": 1.54,
         "Current_Season_Avg": 1.7,
         "Last10_Avg": 1.4,
@@ -14786,7 +14710,9 @@
         "StarterRate": "100.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "89.3%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14800,10 +14726,6 @@
         "Market": "blocks",
         "Expected": "1.89 blk",
         "Best_Threshold": "1+",
-        "Model_Probability": "89.2%",
-        "Original_Model_Probability": "89.2%",
-        "Sim_Probability": "84.8%",
-        "Distribution_Probability": "84.6%",
         "Three_Season_Avg": 1.35,
         "Current_Season_Avg": 1.63,
         "Last10_Avg": 2.2,
@@ -14814,7 +14736,9 @@
         "StarterRate": "80.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "89.2%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14828,10 +14752,6 @@
         "Market": "threes",
         "Expected": "1.93 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "89.1%",
-        "Original_Model_Probability": "89.1%",
-        "Sim_Probability": "85.3%",
-        "Distribution_Probability": "79.5%",
         "Three_Season_Avg": 1.28,
         "Current_Season_Avg": 1.52,
         "Last10_Avg": 1.5,
@@ -14842,7 +14762,9 @@
         "StarterRate": "100.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "89.1%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14856,10 +14778,6 @@
         "Market": "rebounds",
         "Expected": "6 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "89.0%",
-        "Original_Model_Probability": "89.0%",
-        "Sim_Probability": "85.1%",
-        "Distribution_Probability": "76.2%",
         "Three_Season_Avg": 5.6,
         "Current_Season_Avg": 5.5,
         "Last10_Avg": 6,
@@ -14870,7 +14788,9 @@
         "StarterRate": "80.9%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "89.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14884,10 +14804,6 @@
         "Market": "points",
         "Expected": "16.9 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "88.9%",
-        "Original_Model_Probability": "99.1%",
-        "Sim_Probability": "97.3%",
-        "Distribution_Probability": "74.8%",
         "Three_Season_Avg": 12.2,
         "Current_Season_Avg": 13.6,
         "Last10_Avg": 17.1,
@@ -14898,7 +14814,9 @@
         "StarterRate": "95.0%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.9%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -14912,10 +14830,6 @@
         "Market": "threes",
         "Expected": "1.91 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "88.8%",
-        "Original_Model_Probability": "88.8%",
-        "Sim_Probability": "85.3%",
-        "Distribution_Probability": "83.6%",
         "Three_Season_Avg": 1.71,
         "Current_Season_Avg": 1.71,
         "Last10_Avg": 2.2,
@@ -14926,7 +14840,9 @@
         "StarterRate": "45.8%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.8%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14940,10 +14856,6 @@
         "Market": "steals",
         "Expected": "1.85 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "88.4%",
-        "Original_Model_Probability": "88.4%",
-        "Sim_Probability": "84.4%",
-        "Distribution_Probability": "78.2%",
         "Three_Season_Avg": 1.21,
         "Current_Season_Avg": 1.21,
         "Last10_Avg": 1.9,
@@ -14954,7 +14866,9 @@
         "StarterRate": "100.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.4%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14968,10 +14882,6 @@
         "Market": "threes",
         "Expected": "1.86 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "88.3%",
-        "Original_Model_Probability": "88.3%",
-        "Sim_Probability": "84.3%",
-        "Distribution_Probability": "81.5%",
         "Three_Season_Avg": 1.71,
         "Current_Season_Avg": 1.77,
         "Last10_Avg": 1.9,
@@ -14982,7 +14892,9 @@
         "StarterRate": "42.7%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.3%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -14996,10 +14908,6 @@
         "Market": "rebounds",
         "Expected": "7.2 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "88.3%",
-        "Original_Model_Probability": "95.0%",
-        "Sim_Probability": "92.7%",
-        "Distribution_Probability": "79.1%",
         "Three_Season_Avg": 5.7,
         "Current_Season_Avg": 8.2,
         "Last10_Avg": 8.4,
@@ -15010,7 +14918,9 @@
         "StarterRate": "61.3%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.3%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15024,10 +14934,6 @@
         "Market": "threes",
         "Expected": "1.85 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "88.0%",
-        "Original_Model_Probability": "88.0%",
-        "Sim_Probability": "84.3%",
-        "Distribution_Probability": "81.5%",
         "Three_Season_Avg": 1.63,
         "Current_Season_Avg": 1.63,
         "Last10_Avg": 2.1,
@@ -15038,7 +14944,9 @@
         "StarterRate": "41.7%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "88.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15052,10 +14960,6 @@
         "Market": "steals",
         "Expected": "1.82 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "87.9%",
-        "Original_Model_Probability": "87.9%",
-        "Sim_Probability": "83.9%",
-        "Distribution_Probability": "78.7%",
         "Three_Season_Avg": 1.17,
         "Current_Season_Avg": 1.5,
         "Last10_Avg": 1.9,
@@ -15066,7 +14970,9 @@
         "StarterRate": "99.2%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "87.9%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15080,10 +14986,6 @@
         "Market": "assists",
         "Expected": "4.6 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "87.7%",
-        "Original_Model_Probability": "87.7%",
-        "Sim_Probability": "83.2%",
-        "Distribution_Probability": "80.5%",
         "Three_Season_Avg": 4,
         "Current_Season_Avg": 4.5,
         "Last10_Avg": 4.4,
@@ -15094,7 +14996,9 @@
         "StarterRate": "75.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "87.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15108,10 +15012,6 @@
         "Market": "steals",
         "Expected": "2.49 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "87.5%",
-        "Original_Model_Probability": "94.4%",
-        "Sim_Probability": "91.7%",
-        "Distribution_Probability": "77.9%",
         "Three_Season_Avg": 1.6,
         "Current_Season_Avg": 1.56,
         "Last10_Avg": 2.1,
@@ -15122,7 +15022,9 @@
         "StarterRate": "99.1%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "87.5%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15136,10 +15038,6 @@
         "Market": "rebounds",
         "Expected": "5.8 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "87.0%",
-        "Original_Model_Probability": "87.0%",
-        "Sim_Probability": "82.7%",
-        "Distribution_Probability": "80.0%",
         "Three_Season_Avg": 5.3,
         "Current_Season_Avg": 5.3,
         "Last10_Avg": 5.8,
@@ -15150,7 +15048,9 @@
         "StarterRate": "80.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "87.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15164,10 +15064,6 @@
         "Market": "threes",
         "Expected": "1.77 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "86.9%",
-        "Original_Model_Probability": "86.9%",
-        "Sim_Probability": "83.0%",
-        "Distribution_Probability": "95.8%",
         "Three_Season_Avg": 2.67,
         "Current_Season_Avg": 2.26,
         "Last10_Avg": 2.1,
@@ -15178,7 +15074,9 @@
         "StarterRate": "100.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "86.9%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15192,10 +15090,6 @@
         "Market": "rebounds",
         "Expected": "5.8 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "86.8%",
-        "Original_Model_Probability": "86.8%",
-        "Sim_Probability": "82.0%",
-        "Distribution_Probability": "72.1%",
         "Three_Season_Avg": 3.7,
         "Current_Season_Avg": 6.3,
         "Last10_Avg": 7,
@@ -15206,7 +15100,9 @@
         "StarterRate": "20.5%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "86.8%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15220,10 +15116,6 @@
         "Market": "threes",
         "Expected": "1.75 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "86.7%",
-        "Original_Model_Probability": "86.7%",
-        "Sim_Probability": "82.9%",
-        "Distribution_Probability": "74.7%",
         "Three_Season_Avg": 1.46,
         "Current_Season_Avg": 1.05,
         "Last10_Avg": 1.7,
@@ -15234,7 +15126,9 @@
         "StarterRate": "97.6%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "86.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15248,10 +15142,6 @@
         "Market": "points",
         "Expected": "12 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "86.3%",
-        "Original_Model_Probability": "86.3%",
-        "Sim_Probability": "76.1%",
-        "Distribution_Probability": "77.4%",
         "Three_Season_Avg": 14.9,
         "Current_Season_Avg": 13.8,
         "Last10_Avg": 13.2,
@@ -15262,7 +15152,9 @@
         "StarterRate": "99.1%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "86.3%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15276,10 +15168,6 @@
         "Market": "blocks",
         "Expected": "1.66 blk",
         "Best_Threshold": "1+",
-        "Model_Probability": "85.9%",
-        "Original_Model_Probability": "85.9%",
-        "Sim_Probability": "81.3%",
-        "Distribution_Probability": "74.8%",
         "Three_Season_Avg": 1.4,
         "Current_Season_Avg": 1.64,
         "Last10_Avg": 1.5,
@@ -15290,7 +15178,9 @@
         "StarterRate": "95.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.9%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15304,10 +15194,6 @@
         "Market": "points",
         "Expected": "15.8 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "85.8%",
-        "Original_Model_Probability": "98.1%",
-        "Sim_Probability": "95.0%",
-        "Distribution_Probability": "68.7%",
         "Three_Season_Avg": 14,
         "Current_Season_Avg": 16,
         "Last10_Avg": 14.6,
@@ -15318,7 +15204,9 @@
         "StarterRate": "90.8%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.8%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15332,10 +15220,6 @@
         "Market": "points",
         "Expected": "14.4 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "85.8%",
-        "Original_Model_Probability": "96.0%",
-        "Sim_Probability": "90.9%",
-        "Distribution_Probability": "71.7%",
         "Three_Season_Avg": 12.9,
         "Current_Season_Avg": 13.6,
         "Last10_Avg": 14.1,
@@ -15346,7 +15230,9 @@
         "StarterRate": "80.9%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.8%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15360,10 +15246,6 @@
         "Market": "points",
         "Expected": "14.7 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "85.6%",
-        "Original_Model_Probability": "96.6%",
-        "Sim_Probability": "92.2%",
-        "Distribution_Probability": "70.5%",
         "Three_Season_Avg": 13.3,
         "Current_Season_Avg": 13.3,
         "Last10_Avg": 15.9,
@@ -15374,7 +15256,9 @@
         "StarterRate": "100.0%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.6%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15388,10 +15272,6 @@
         "Market": "steals",
         "Expected": "2.34 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "85.4%",
-        "Original_Model_Probability": "93.4%",
-        "Sim_Probability": "90.2%",
-        "Distribution_Probability": "74.4%",
         "Three_Season_Avg": 1.46,
         "Current_Season_Avg": 1.72,
         "Last10_Avg": 2,
@@ -15402,7 +15282,9 @@
         "StarterRate": "97.9%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.4%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15416,10 +15298,6 @@
         "Market": "assists",
         "Expected": "5.8 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "85.4%",
-        "Original_Model_Probability": "95.4%",
-        "Sim_Probability": "93.2%",
-        "Distribution_Probability": "71.6%",
         "Three_Season_Avg": 3.1,
         "Current_Season_Avg": 5,
         "Last10_Avg": 5.5,
@@ -15430,7 +15308,9 @@
         "StarterRate": "43.5%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.4%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15444,10 +15324,6 @@
         "Market": "rebounds",
         "Expected": "5.6 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "85.1%",
-        "Original_Model_Probability": "85.1%",
-        "Sim_Probability": "81.0%",
-        "Distribution_Probability": "79.7%",
         "Three_Season_Avg": 7.6,
         "Current_Season_Avg": 9.2,
         "Last10_Avg": 9.5,
@@ -15458,7 +15334,9 @@
         "StarterRate": "50.0%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "85.1%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15472,10 +15350,6 @@
         "Market": "points",
         "Expected": "14.6 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "84.6%",
-        "Original_Model_Probability": "96.3%",
-        "Sim_Probability": "91.4%",
-        "Distribution_Probability": "68.4%",
         "Three_Season_Avg": 13.2,
         "Current_Season_Avg": 13.2,
         "Last10_Avg": 15.9,
@@ -15486,7 +15360,9 @@
         "StarterRate": "45.8%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "84.6%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15500,10 +15376,6 @@
         "Market": "points",
         "Expected": "13.3 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "83.8%",
-        "Original_Model_Probability": "92.8%",
-        "Sim_Probability": "85.6%",
-        "Distribution_Probability": "71.3%",
         "Three_Season_Avg": 11.2,
         "Current_Season_Avg": 12.5,
         "Last10_Avg": 13,
@@ -15514,7 +15386,9 @@
         "StarterRate": "75.0%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "83.8%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15528,10 +15402,6 @@
         "Market": "threes",
         "Expected": "1.58 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "83.7%",
-        "Original_Model_Probability": "83.7%",
-        "Sim_Probability": "79.4%",
-        "Distribution_Probability": "74.7%",
         "Three_Season_Avg": 1.4,
         "Current_Season_Avg": 1.4,
         "Last10_Avg": 1.9,
@@ -15542,7 +15412,9 @@
         "StarterRate": "80.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "83.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15556,10 +15428,6 @@
         "Market": "rebounds",
         "Expected": "6.5 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "83.7%",
-        "Original_Model_Probability": "92.0%",
-        "Sim_Probability": "88.9%",
-        "Distribution_Probability": "72.2%",
         "Three_Season_Avg": 5.4,
         "Current_Season_Avg": 5.2,
         "Last10_Avg": 6.4,
@@ -15570,7 +15438,9 @@
         "StarterRate": "57.7%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "83.7%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15584,10 +15454,6 @@
         "Market": "points",
         "Expected": "13.4 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "83.2%",
-        "Original_Model_Probability": "93.2%",
-        "Sim_Probability": "86.2%",
-        "Distribution_Probability": "69.4%",
         "Three_Season_Avg": 13.3,
         "Current_Season_Avg": 13.8,
         "Last10_Avg": 13.9,
@@ -15598,7 +15464,9 @@
         "StarterRate": "98.4%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "83.2%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15612,10 +15480,6 @@
         "Market": "threes",
         "Expected": "1.54 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "83.0%",
-        "Original_Model_Probability": "83.0%",
-        "Sim_Probability": "78.7%",
-        "Distribution_Probability": "83.5%",
         "Three_Season_Avg": 1.87,
         "Current_Season_Avg": 1.54,
         "Last10_Avg": 1.2,
@@ -15626,7 +15490,9 @@
         "StarterRate": "99.2%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "83.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15640,10 +15506,6 @@
         "Market": "threes",
         "Expected": "1.53 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "82.8%",
-        "Original_Model_Probability": "82.8%",
-        "Sim_Probability": "78.3%",
-        "Distribution_Probability": "69.0%",
         "Three_Season_Avg": 0.99,
         "Current_Season_Avg": 2.04,
         "Last10_Avg": 1.7,
@@ -15654,7 +15516,9 @@
         "StarterRate": "21.5%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "82.8%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15668,10 +15532,6 @@
         "Market": "points",
         "Expected": "14.2 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "82.7%",
-        "Original_Model_Probability": "95.5%",
-        "Sim_Probability": "89.9%",
-        "Distribution_Probability": "65.0%",
         "Three_Season_Avg": 11.6,
         "Current_Season_Avg": 11.4,
         "Last10_Avg": 13.4,
@@ -15682,7 +15542,9 @@
         "StarterRate": "97.6%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "82.7%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15696,10 +15558,6 @@
         "Market": "points",
         "Expected": "15.6 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "82.5%",
-        "Original_Model_Probability": "98.0%",
-        "Sim_Probability": "94.6%",
-        "Distribution_Probability": "61.1%",
         "Three_Season_Avg": 8.5,
         "Current_Season_Avg": 15.3,
         "Last10_Avg": 17.2,
@@ -15710,7 +15568,9 @@
         "StarterRate": "21.5%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "82.5%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15724,10 +15584,6 @@
         "Market": "points",
         "Expected": "17.1 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "81.7%",
-        "Original_Model_Probability": "99.2%",
-        "Sim_Probability": "97.5%",
-        "Distribution_Probability": "57.5%",
         "Three_Season_Avg": 8.1,
         "Current_Season_Avg": 12.7,
         "Last10_Avg": 16.5,
@@ -15738,7 +15594,9 @@
         "StarterRate": "27.2%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "81.7%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15752,10 +15610,6 @@
         "Market": "rebounds",
         "Expected": "5.8 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "81.0%",
-        "Original_Model_Probability": "87.5%",
-        "Sim_Probability": "83.7%",
-        "Distribution_Probability": "72.1%",
         "Three_Season_Avg": 6,
         "Current_Season_Avg": 0,
         "Last10_Avg": 6.5,
@@ -15766,7 +15620,9 @@
         "StarterRate": "98.0%",
         "Risk": "availability_risk|overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "81.0%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15780,10 +15636,6 @@
         "Market": "steals",
         "Expected": "1.43 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "81.0%",
-        "Original_Model_Probability": "81.0%",
-        "Sim_Probability": "76.0%",
-        "Distribution_Probability": "73.5%",
         "Three_Season_Avg": 1.38,
         "Current_Season_Avg": 1.47,
         "Last10_Avg": 1.3,
@@ -15794,7 +15646,9 @@
         "StarterRate": "83.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "81.0%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15808,10 +15662,6 @@
         "Market": "threes",
         "Expected": "1.42 3PM",
         "Best_Threshold": "1+",
-        "Model_Probability": "80.5%",
-        "Original_Model_Probability": "80.5%",
-        "Sim_Probability": "76.3%",
-        "Distribution_Probability": "69.1%",
         "Three_Season_Avg": 1.21,
         "Current_Season_Avg": 1.5,
         "Last10_Avg": 1.5,
@@ -15822,7 +15672,9 @@
         "StarterRate": "94.0%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "80.5%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15836,10 +15688,6 @@
         "Market": "assists",
         "Expected": "3.9 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "80.3%",
-        "Original_Model_Probability": "80.3%",
-        "Sim_Probability": "75.0%",
-        "Distribution_Probability": "71.4%",
         "Three_Season_Avg": 3.8,
         "Current_Season_Avg": 3.6,
         "Last10_Avg": 3.7,
@@ -15850,7 +15698,9 @@
         "StarterRate": "84.3%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "80.3%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15864,10 +15714,6 @@
         "Market": "assists",
         "Expected": "3.9 ast",
         "Best_Threshold": "3+",
-        "Model_Probability": "79.6%",
-        "Original_Model_Probability": "79.6%",
-        "Sim_Probability": "74.0%",
-        "Distribution_Probability": "78.9%",
         "Three_Season_Avg": 4.3,
         "Current_Season_Avg": 4.6,
         "Last10_Avg": 4.8,
@@ -15878,7 +15724,9 @@
         "StarterRate": "75.4%",
         "Risk": "availability_risk",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "79.6%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Prop",
@@ -15892,10 +15740,6 @@
         "Market": "points",
         "Expected": "13.4 pts",
         "Best_Threshold": "10+",
-        "Model_Probability": "79.2%",
-        "Original_Model_Probability": "93.0%",
-        "Sim_Probability": "85.9%",
-        "Distribution_Probability": "60.2%",
         "Three_Season_Avg": 10.5,
         "Current_Season_Avg": 10.8,
         "Last10_Avg": 11.9,
@@ -15906,7 +15750,9 @@
         "StarterRate": "95.0%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "79.2%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15920,10 +15766,6 @@
         "Market": "rebounds",
         "Expected": "6.4 reb",
         "Best_Threshold": "4+",
-        "Model_Probability": "79.2%",
-        "Original_Model_Probability": "91.4%",
-        "Sim_Probability": "88.0%",
-        "Distribution_Probability": "62.4%",
         "Three_Season_Avg": 4.1,
         "Current_Season_Avg": 5.5,
         "Last10_Avg": 6.9,
@@ -15934,7 +15776,9 @@
         "StarterRate": "31.1%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "79.2%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15948,10 +15792,6 @@
         "Market": "steals",
         "Expected": "1.81 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "78.9%",
-        "Original_Model_Probability": "87.8%",
-        "Sim_Probability": "83.4%",
-        "Distribution_Probability": "66.5%",
         "Three_Season_Avg": 1.29,
         "Current_Season_Avg": 1.09,
         "Last10_Avg": 1.2,
@@ -15962,7 +15802,9 @@
         "StarterRate": "88.3%",
         "Risk": "overweighted_distribution",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "78.9%",
+        "Calibration_Read": "recalibrated"
       },
       {
         "type": "Prop",
@@ -15976,10 +15818,6 @@
         "Market": "steals",
         "Expected": "1.33 stl",
         "Best_Threshold": "1+",
-        "Model_Probability": "78.7%",
-        "Original_Model_Probability": "78.7%",
-        "Sim_Probability": "73.1%",
-        "Distribution_Probability": "74.1%",
         "Three_Season_Avg": 1.5,
         "Current_Season_Avg": 1.52,
         "Last10_Avg": 1.1,
@@ -15990,7 +15828,9 @@
         "StarterRate": "98.4%",
         "Risk": "clear",
         "Simulations": 35000,
-        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + roster status + team context"
+        "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
+        "Model_Probability": "78.7%",
+        "Calibration_Read": "calibrated"
       },
       {
         "type": "Backtest",
