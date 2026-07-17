@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-17T14:19:03.741Z",
+  "generatedAt": "2026-07-17T14:47:14.487Z",
   "date": "2026-07-17",
   "stamp": "Public preview built for 2026-07-17",
   "eventRouter": {
-    "generatedAt": "2026-07-17T14:18:16.508Z",
+    "generatedAt": "2026-07-17T14:46:26.269Z",
     "date": "2026-07-17",
     "schema": "site_event_router.v1",
     "sports": [
@@ -236,7 +236,7 @@
     "nhlPlayers": 160,
     "historicalRows": 114,
     "simulationsPerGame": 388000,
-    "shadowAgreement": "53.3%",
+    "shadowAgreement": "60%",
     "secondEngineTier": 100,
     "secondEngineDecision": "eligible_to_prepare_component_weight_update",
     "soccerBacktest": "58%"
@@ -260,10 +260,10 @@
         "probability": "51.6%",
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5160262196432409,
-        "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "52.7%",
-        "hybridLean": "Boston Red Sox",
-        "hybridPct": "51.3%",
+        "secondEngineLean": "Tampa Bay Rays",
+        "secondEnginePct": "50.6%",
+        "hybridLean": "Tampa Bay Rays",
+        "hybridPct": "50.3%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Griffin Jax",
         "homeStarter": "Jake Bennett",
@@ -15893,7 +15893,6 @@
         "Brier": 0.189
       }
     ],
-    "allStar": [],
     "nbaSummer": [
       {
         "type": "Game",
@@ -18159,11 +18158,6 @@
         "shown": 86,
         "hidden": 0,
         "total": 86
-      },
-      "allStar": {
-        "shown": 0,
-        "hidden": 0,
-        "total": 0
       },
       "nbaSummer": {
         "shown": 157,
