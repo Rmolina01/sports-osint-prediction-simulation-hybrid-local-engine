@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-17T04:08:27.041Z",
+  "generatedAt": "2026-07-17T10:01:47.066Z",
   "date": "2026-07-17",
   "stamp": "Public preview built for 2026-07-17",
   "eventRouter": {
-    "generatedAt": "2026-07-17T04:07:38.792Z",
+    "generatedAt": "2026-07-17T10:00:34.208Z",
     "date": "2026-07-17",
     "schema": "site_event_router.v1",
     "sports": [
@@ -261,9 +261,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5160262196432409,
         "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "54.6%",
+        "secondEnginePct": "54.5%",
         "hybridLean": "Boston Red Sox",
-        "hybridPct": "52.3%",
+        "hybridPct": "52.2%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Griffin Jax",
         "homeStarter": "Jake Bennett",
@@ -290,7 +290,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5342382638233524,
         "secondEngineLean": "Los Angeles Dodgers",
-        "secondEnginePct": "58.1%",
+        "secondEnginePct": "58.2%",
         "hybridLean": "Los Angeles Dodgers",
         "hybridPct": "54.1%",
         "engineRead": "Second-engine display tier",
@@ -321,7 +321,7 @@
         "secondEngineLean": "Pittsburgh Pirates",
         "secondEnginePct": "58.4%",
         "hybridLean": "Pittsburgh Pirates",
-        "hybridPct": "54.1%",
+        "hybridPct": "54.2%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Jared Jones",
         "homeStarter": "Gavin Williams",
@@ -348,7 +348,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5102216568181379,
         "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "52.4%",
+        "secondEnginePct": "52.5%",
         "hybridLean": "Boston Red Sox",
         "hybridPct": "51.2%",
         "engineRead": "Second-engine display tier",
@@ -377,7 +377,7 @@
         "calibratedProbability": "58%",
         "rawProbability": 0.6529411849263397,
         "secondEngineLean": "Atlanta Braves",
-        "secondEnginePct": "53.3%",
+        "secondEnginePct": "53.5%",
         "hybridLean": "Atlanta Braves",
         "hybridPct": "55.7%",
         "engineRead": "Second-engine display tier",
@@ -406,7 +406,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5294515789998993,
         "secondEngineLean": "Chicago White Sox",
-        "secondEnginePct": "65.5%",
+        "secondEnginePct": "65.6%",
         "hybridLean": "Chicago White Sox",
         "hybridPct": "57.8%",
         "engineRead": "Second-engine display tier",
@@ -437,7 +437,7 @@
         "secondEngineLean": "Milwaukee Brewers",
         "secondEnginePct": "55.8%",
         "hybridLean": "Milwaukee Brewers",
-        "hybridPct": "55.8%",
+        "hybridPct": "55.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Sandy Alcantara",
         "homeStarter": "Logan Henderson",
@@ -522,7 +522,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5219993050329501,
         "secondEngineLean": "Houston Astros",
-        "secondEnginePct": "52.7%",
+        "secondEnginePct": "52.6%",
         "hybridLean": "Houston Astros",
         "hybridPct": "51.3%",
         "engineRead": "Second-engine display tier",
@@ -609,7 +609,7 @@
         "calibratedProbability": "59.3%",
         "rawProbability": 0.6147755945940648,
         "secondEngineLean": "Washington Nationals",
-        "secondEnginePct": "65.5%",
+        "secondEnginePct": "65.6%",
         "hybridLean": "Washington Nationals",
         "hybridPct": "62.4%",
         "engineRead": "Second-engine display tier",
@@ -638,9 +638,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5918553524870654,
         "secondEngineLean": "St. Louis Cardinals",
-        "secondEnginePct": "56.4%",
+        "secondEnginePct": "56.5%",
         "hybridLean": "St. Louis Cardinals",
-        "hybridPct": "53.1%",
+        "hybridPct": "53.2%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "TBD",
         "homeStarter": "Merrill Kelly",
@@ -669,7 +669,7 @@
         "secondEngineLean": "San Francisco Giants",
         "secondEnginePct": "51.2%",
         "hybridLean": "Seattle Mariners",
-        "hybridPct": "58.3%",
+        "hybridPct": "58.4%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Landen Roupp",
         "homeStarter": "Bryce Miller",
@@ -13589,6 +13589,22 @@
       },
       {
         "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-17T06:10:32Z",
+        "Headline": "Minnesota plays Portland following McBride's 24-point showing",
+        "Description": "Portland Fire (11-14, 3-6 Western Conference) at Minnesota Lynx (19-6, 12-1 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857078"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-17T06:10:29Z",
+        "Headline": "Valkyries face the Mystics on 8-game win streak",
+        "Description": "Washington Mystics (12-11, 8-5 Eastern Conference) at Golden State Valkyries (18-7, 7-5 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857079"
+      },
+      {
+        "type": "News",
         "Article_Type": "Recap",
         "Published": "2026-07-17T01:20:29Z",
         "Headline": "Fire hold the Mystics to 29% shooting in a 75-56 rout",
@@ -13606,7 +13622,7 @@
       {
         "type": "News",
         "Article_Type": "HeadlineNews",
-        "Published": "2026-07-17T01:35:05Z",
+        "Published": "2026-07-17T06:25:09Z",
         "Headline": "NBA's Silver says Fever's Clark has become 'political football'",
         "Description": "NBA commissioner Adam Silver said Fever star Caitlin Clark has become a \"political football\" amid debates about officiating and physical play in the WNBA.",
         "Link": "https://www.espn.com/wnba/story/_/id/49380710/nba-silver-says-fever-clark-become-political-football"
@@ -13730,22 +13746,6 @@
         "Headline": "Chicago Sky vs. Seattle Storm - Game Highlights",
         "Description": "Watch the Game Highlights from Chicago Sky vs. Seattle Storm, 07/15/2026",
         "Link": "https://www.espn.com/video/clip/_/id/49368477/chicago-sky-vs-seattle-storm-game-highlights"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Story",
-        "Published": "2026-07-16T04:49:19Z",
-        "Headline": "How the expansion Portland Fire are bringing CLA training to the WNBA",
-        "Description": "The Constraints-Led Approach has been around for decades, but coach Alex Sarama has brought it to the WNBA for the first time.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49364025/wnba-2026-portland-fire-cla-constraints-led-approach-alex-sarama-expansion"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-15T06:10:32Z",
-        "Headline": "Bueckers leads Dallas against New York after 22-point showing",
-        "Description": "New York Liberty (13-11, 8-2 Eastern Conference) at Dallas Wings (16-8, 6-6 Western Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857072"
       }
     ],
     "wnbaProps": [
@@ -15667,7 +15667,7 @@
         "Player": "",
         "Team": "Atlanta Hawks",
         "Position": "",
-        "Status": "9-7; home 2-3; away 7-4; L10 8-2",
+        "Status": "9-8; home 2-4; away 7-4; L10 7-3",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -15765,7 +15765,7 @@
         "Player": "",
         "Team": "Denver Nuggets",
         "Position": "",
-        "Status": "6-7; home 2-4; away 4-3; L10 6-4",
+        "Status": "6-8; home 2-5; away 4-3; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -15863,7 +15863,7 @@
         "Player": "",
         "Team": "Memphis Grizzlies",
         "Position": "",
-        "Status": "12-11; home 4-4; away 8-7; L10 5-5",
+        "Status": "13-11; home 4-4; away 9-7; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -15877,7 +15877,7 @@
         "Player": "",
         "Team": "Miami Heat",
         "Position": "",
-        "Status": "15-8; home 7-3; away 8-5; L10 5-5",
+        "Status": "15-9; home 7-4; away 8-5; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -16003,7 +16003,7 @@
         "Player": "",
         "Team": "Portland Trail Blazers",
         "Position": "",
-        "Status": "7-6; home 4-3; away 3-3; L10 5-5",
+        "Status": "8-6; home 4-3; away 4-3; L10 6-4",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -16059,7 +16059,7 @@
         "Player": "",
         "Team": "Toronto Raptors",
         "Position": "",
-        "Status": "8-5; home 5-2; away 3-3; L10 6-4",
+        "Status": "9-5; home 5-2; away 4-3; L10 7-3",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
