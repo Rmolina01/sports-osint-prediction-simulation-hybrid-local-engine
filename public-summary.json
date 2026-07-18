@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-18T12:24:51.216Z",
+  "generatedAt": "2026-07-18T14:09:07.821Z",
   "date": "2026-07-18",
   "stamp": "Public preview built for 2026-07-18",
   "eventRouter": {
-    "generatedAt": "2026-07-18T12:23:18.674Z",
+    "generatedAt": "2026-07-18T14:08:10.483Z",
     "date": "2026-07-18",
     "schema": "site_event_router.v1",
     "sports": [
