@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-18T04:08:34.444Z",
+  "generatedAt": "2026-07-18T10:22:34.960Z",
   "date": "2026-07-18",
   "stamp": "Public preview built for 2026-07-18",
   "eventRouter": {
-    "generatedAt": "2026-07-18T04:07:23.018Z",
+    "generatedAt": "2026-07-18T10:21:22.977Z",
     "date": "2026-07-18",
     "schema": "site_event_router.v1",
     "sports": [
@@ -60,10 +60,10 @@
       {
         "key": "nfl",
         "sport": "NFL",
-        "status": "Source Gap",
+        "status": "Active",
         "primaryBoard": "sports",
         "publishBoard": true,
-        "rowCount": 607,
+        "rowCount": 942,
         "tab": "NFL",
         "reason": "Manifest public-safe rows detected"
       },
@@ -79,14 +79,7 @@
       }
     ],
     "temporaryEvents": [],
-    "sourceGaps": [
-      {
-        "sport": "NFL",
-        "board": "sports",
-        "reason": "NFL source did not produce trustworthy public rows",
-        "action": "show source-gap state; do not invent rows"
-      }
-    ],
+    "sourceGaps": [],
     "siteActions": [
       {
         "sport": "Baseball",
@@ -133,8 +126,8 @@
         "tab": "NFL",
         "board": "sports",
         "action": "publish_board",
-        "status": "Source Gap",
-        "rowCount": 607
+        "status": "Active",
+        "rowCount": 942
       },
       {
         "sport": "NHL",
@@ -170,9 +163,9 @@
     },
     {
       "sport": "Football",
-      "status": "Watch",
+      "status": "Active",
       "boards": 1,
-      "rows": 607
+      "rows": 942
     },
     {
       "sport": "Basketball",
@@ -224,7 +217,7 @@
   "metrics": {
     "mlbGames": 16,
     "baseballEvents": 16,
-    "activeSportCount": 5,
+    "activeSportCount": 6,
     "mlbHitters": 192,
     "mlbPitchers": 32,
     "soccerMatches": 0,
@@ -237,7 +230,7 @@
     "nbaSummerGames": 273,
     "nbaSummerRows": 158,
     "allStarRows": 0,
-    "nflGames": 365,
+    "nflGames": 700,
     "nflPlayers": 192,
     "nhlGames": 2764,
     "nhlPlayers": 160,
@@ -297,7 +290,7 @@
         "calibratedProbability": "58.5%",
         "rawProbability": 0.6034337272409966,
         "secondEngineLean": "Minnesota Twins",
-        "secondEnginePct": "55.2%",
+        "secondEnginePct": "55.3%",
         "hybridLean": "Minnesota Twins",
         "hybridPct": "56.9%",
         "engineRead": "Second-engine display tier",
@@ -355,9 +348,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5306531038301139,
         "secondEngineLean": "Colorado Rockies",
-        "secondEnginePct": "52.2%",
+        "secondEnginePct": "51.9%",
         "hybridLean": "Colorado Rockies",
-        "hybridPct": "51%",
+        "hybridPct": "51.9%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Rhett Lowder",
         "homeStarter": "Tomoyuki Sugano",
@@ -384,9 +377,9 @@
         "calibratedProbability": "58%",
         "rawProbability": 0.6489861086050861,
         "secondEngineLean": "Philadelphia Phillies",
-        "secondEnginePct": "55.2%",
+        "secondEnginePct": "55.3%",
         "hybridLean": "Philadelphia Phillies",
-        "hybridPct": "56.6%",
+        "hybridPct": "56.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Sean Manaea",
         "homeStarter": "Jesús Luzardo",
@@ -401,21 +394,21 @@
         "timeET": "4:10 PM",
         "game": "St. Louis Cardinals @ Arizona Diamondbacks",
         "awayTeam": "St. Louis Cardinals",
-        "awayRecord": "50-44",
-        "awayRoad": "24-18",
+        "awayRecord": "51-44",
+        "awayRoad": "25-18",
         "awayLast10": "4-6",
         "homeTeam": "Arizona Diamondbacks",
-        "homeRecord": "49-47",
-        "homeHome": "27-20",
+        "homeRecord": "49-48",
+        "homeHome": "27-21",
         "homeLast10": "6-4",
         "lean": "Track Only",
         "probability": "58.6%",
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5864028172760638,
         "secondEngineLean": "Arizona Diamondbacks",
-        "secondEnginePct": "52.5%",
+        "secondEnginePct": "51.3%",
         "hybridLean": "Arizona Diamondbacks",
-        "hybridPct": "51.3%",
+        "hybridPct": "50.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Dustin May",
         "homeStarter": "Brandon Pfaadt",
@@ -442,12 +435,12 @@
         "calibratedProbability": "55.9%",
         "rawProbability": 0.5791380219868896,
         "secondEngineLean": "Kansas City Royals",
-        "secondEnginePct": "56.6%",
-        "hybridLean": "Kansas City Royals",
-        "hybridPct": "56.6%",
+        "secondEnginePct": "51.4%",
+        "hybridLean": "San Diego Padres",
+        "hybridPct": "52.2%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Griffin Canning",
-        "homeStarter": "TBD",
+        "homeStarter": "Randy Dobnak",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
         "recommendation": "TRACK_ONLY",
@@ -500,9 +493,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5561149896451357,
         "secondEngineLean": "Boston Red Sox",
-        "secondEnginePct": "61.7%",
+        "secondEnginePct": "61.6%",
         "hybridLean": "Boston Red Sox",
-        "hybridPct": "55.9%",
+        "hybridPct": "55.8%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Ian Seymour",
         "homeStarter": "Patrick Sandoval",
@@ -529,7 +522,7 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5188995069146162,
         "secondEngineLean": "Houston Astros",
-        "secondEnginePct": "53.5%",
+        "secondEnginePct": "53.6%",
         "hybridLean": "Houston Astros",
         "hybridPct": "51.7%",
         "engineRead": "Second-engine display tier",
@@ -604,21 +597,21 @@
         "timeET": "8:08 PM",
         "game": "San Francisco Giants @ Seattle Mariners",
         "awayTeam": "San Francisco Giants",
-        "awayRecord": "41-55",
-        "awayRoad": "19-30",
-        "awayLast10": "5-5",
+        "awayRecord": "42-55",
+        "awayRoad": "20-30",
+        "awayLast10": "6-4",
         "homeTeam": "Seattle Mariners",
-        "homeRecord": "48-49",
-        "homeHome": "27-20",
-        "homeLast10": "4-6",
+        "homeRecord": "48-50",
+        "homeHome": "27-21",
+        "homeLast10": "3-7",
         "lean": "Seattle Mariners",
         "probability": "62.3%",
         "calibratedProbability": "67.9%",
         "rawProbability": 0.6225905516915505,
         "secondEngineLean": "San Francisco Giants",
-        "secondEnginePct": "55.2%",
+        "secondEnginePct": "54.8%",
         "hybridLean": "Seattle Mariners",
-        "hybridPct": "56.4%",
+        "hybridPct": "56.6%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Logan Webb",
         "homeStarter": "Bryan Woo",
@@ -645,9 +638,9 @@
         "calibratedProbability": "50.1%",
         "rawProbability": 0.5032435007946665,
         "secondEngineLean": "Los Angeles Dodgers",
-        "secondEnginePct": "56.5%",
+        "secondEnginePct": "56.7%",
         "hybridLean": "Los Angeles Dodgers",
-        "hybridPct": "53.3%",
+        "hybridPct": "53.4%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Emmet Sheehan",
         "homeStarter": "Ryan Weathers",
@@ -662,21 +655,21 @@
         "timeET": "10:05 PM",
         "game": "Washington Nationals @ Athletics",
         "awayTeam": "Washington Nationals",
-        "awayRecord": "48-49",
-        "awayRoad": "28-18",
+        "awayRecord": "49-49",
+        "awayRoad": "29-18",
         "awayLast10": "4-6",
         "homeTeam": "Athletics",
-        "homeRecord": "41-55",
-        "homeHome": "19-28",
-        "homeLast10": "1-9",
+        "homeRecord": "41-56",
+        "homeHome": "19-29",
+        "homeLast10": "0-10",
         "lean": "Track Only",
         "probability": "58.6%",
         "calibratedProbability": "57.1%",
         "rawProbability": 0.5860857919914307,
         "secondEngineLean": "Washington Nationals",
-        "secondEnginePct": "55.3%",
+        "secondEnginePct": "54.3%",
         "hybridLean": "Washington Nationals",
-        "hybridPct": "56.2%",
+        "hybridPct": "55.7%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Zack Littell",
         "homeStarter": "J.T. Ginn",
@@ -691,21 +684,21 @@
         "timeET": "10:07 PM",
         "game": "Detroit Tigers @ Los Angeles Angels",
         "awayTeam": "Detroit Tigers",
-        "awayRecord": "43-52",
-        "awayRoad": "17-29",
+        "awayRecord": "44-52",
+        "awayRoad": "18-29",
         "awayLast10": "7-3",
         "homeTeam": "Los Angeles Angels",
-        "homeRecord": "38-59",
-        "homeHome": "21-25",
+        "homeRecord": "38-60",
+        "homeHome": "21-26",
         "homeLast10": "2-8",
         "lean": "Detroit Tigers",
         "probability": "66.4%",
         "calibratedProbability": "67.9%",
         "rawProbability": 0.6635382188333574,
         "secondEngineLean": "Detroit Tigers",
-        "secondEnginePct": "59.2%",
+        "secondEnginePct": "58.3%",
         "hybridLean": "Detroit Tigers",
-        "hybridPct": "63.6%",
+        "hybridPct": "63.1%",
         "engineRead": "Second-engine display tier",
         "awayStarter": "Tarik Skubal",
         "homeStarter": "Grayson Rodriguez",
@@ -10866,10 +10859,10 @@
         "opponent": "Arizona Diamondbacks",
         "last5": "3-2",
         "last5RunsFor": "3.6",
-        "last5RunsAgainst": "3.0",
+        "last5RunsAgainst": "3.6",
         "last10": "4-6",
-        "last10RunsFor": "3.3",
-        "last10RunsAgainst": "3.9"
+        "last10RunsFor": "3.5",
+        "last10RunsAgainst": "4.3"
       },
       {
         "timeET": "4:10 PM",
@@ -10879,10 +10872,10 @@
         "opponent": "St. Louis Cardinals",
         "last5": "4-1",
         "last5RunsFor": "6.0",
-        "last5RunsAgainst": "3.8",
+        "last5RunsAgainst": "2.8",
         "last10": "6-4",
         "last10RunsFor": "4.9",
-        "last10RunsAgainst": "3.6"
+        "last10RunsAgainst": "3.4"
       },
       {
         "timeET": "4:10 PM",
@@ -11203,6 +11196,16 @@
       {
         "timeET": "4:10 PM",
         "matchup": "St. Louis Cardinals @ Arizona Diamondbacks",
+        "priorDate": "2026-07-17",
+        "priorMatchup": "St. Louis Cardinals @ Arizona Diamondbacks",
+        "score": "5-4",
+        "awaySP": "Michael McGreevy",
+        "homeSP": "Merrill Kelly",
+        "venue": "Chase Field"
+      },
+      {
+        "timeET": "4:10 PM",
+        "matchup": "St. Louis Cardinals @ Arizona Diamondbacks",
         "priorDate": "2026-06-24",
         "priorMatchup": "Arizona Diamondbacks @ St. Louis Cardinals",
         "score": "9-4",
@@ -11279,16 +11282,6 @@
         "awaySP": "Connelly Early",
         "homeSP": "Ian Seymour",
         "venue": "Tropicana Field"
-      },
-      {
-        "timeET": "4:10 PM",
-        "matchup": "Tampa Bay Rays @ Boston Red Sox",
-        "priorDate": "2026-05-10",
-        "priorMatchup": "Tampa Bay Rays @ Boston Red Sox",
-        "score": "4-1",
-        "awaySP": "Nick Martinez",
-        "homeSP": "Payton Tolle",
-        "venue": "Fenway Park"
       }
     ],
     "historyHitters": [
@@ -11431,8 +11424,8 @@
         "opposingSP": "Zack Littell",
         "pitchHand": "R",
         "hitProbability": "71.8%",
-        "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.5",
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.6",
         "last10HitGames": 9
       },
       {
@@ -11470,8 +11463,8 @@
         "opposingSP": "J.T. Ginn",
         "pitchHand": "R",
         "hitProbability": "66.3%",
-        "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.1",
+        "last5HitsPerGame": "1.2",
+        "last10HitsPerGame": "1.2",
         "last10HitGames": 9
       },
       {
@@ -11483,8 +11476,8 @@
         "opposingSP": "J.T. Ginn",
         "pitchHand": "R",
         "hitProbability": "71.8%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.7",
+        "last5HitsPerGame": "1.6",
+        "last10HitsPerGame": "1.8",
         "last10HitGames": 9
       },
       {
@@ -11496,8 +11489,8 @@
         "opposingSP": "J.T. Ginn",
         "pitchHand": "R",
         "hitProbability": "58.9%",
-        "last5HitsPerGame": "1.0",
-        "last10HitsPerGame": "1.0",
+        "last5HitsPerGame": "2.0",
+        "last10HitsPerGame": "2.0",
         "last10HitGames": 1
       },
       {
@@ -14279,9 +14272,57 @@
       },
       {
         "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-18T06:10:40Z",
+        "Headline": "Connecticut visits Phoenix after Lacan's 26-point showing",
+        "Description": "Connecticut Sun (7-18, 2-8 Eastern Conference) at Phoenix Mercury (8-18, 5-10 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857082"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-18T06:10:36Z",
+        "Headline": "Dallas takes on Los Angeles, aims for 6th straight win",
+        "Description": "Los Angeles Sparks (10-14, 5-7 Western Conference) at Dallas Wings (16-8, 6-6 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857080"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-18T06:10:33Z",
+        "Headline": "New York visits Indiana after Clark's 45-point game",
+        "Description": "New York Liberty (13-11, 8-2 Eastern Conference) at Indiana Fever (15-10, 5-4 Eastern Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857077"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-18T06:10:29Z",
+        "Headline": "Atlanta hosts Chicago after Hillmon's 24-point game",
+        "Description": "Chicago Sky (9-16, 1-7 Eastern Conference) at Atlanta Dream (15-10, 8-3 Eastern Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401857081"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Recap",
+        "Published": "2026-07-18T04:21:29Z",
+        "Headline": "Leila Lacan scores career-high 26 points, Sun beat Mercury 96-83",
+        "Description": "— Leila Lacan scored a career-high 26 points on 10-of-13 shooting from the field to lead the Connecticut Sun to a 96-83 victory over the Phoenix Mercury on Friday night in the first of back-to-back meetings between the teams.",
+        "Link": "http://www.espn.com/wnba/recap?gameId=401857076"
+      },
+      {
+        "type": "News",
+        "Article_Type": "Media",
+        "Published": "2026-07-18T04:12:23Z",
+        "Headline": "Phoenix Mercury vs. Connecticut Sun - Game Highlights",
+        "Description": "Watch the Game Highlights from Phoenix Mercury vs. Connecticut Sun, 07/17/2026",
+        "Link": "https://www.espn.com/video/clip/_/id/49388480/phoenix-mercury-vs-connecticut-sun-game-highlights"
+      },
+      {
+        "type": "News",
         "Article_Type": "HeadlineNews",
-        "Published": "2026-07-18T03:12:26Z",
-        "Headline": "Fever's Caitlin Clark records WNBA's 1st 40-point, 10-assist double-double",
+        "Published": "2026-07-18T06:57:10Z",
+        "Headline": "Fever's Caitlin Clark records WNBA's 1st 45-point, 10-assist double-double",
         "Description": "Caitlin Clark scored a career-high 45 points and had 10 assists for the first 40-10 game in WNBA history, and the Indiana Fever beat Seattle 110-107.",
         "Link": "https://www.espn.com/wnba/story/_/id/49387955/fever-caitlin-clark-records-wnba-1st-40-point-10-assist-double-double"
       },
@@ -14388,54 +14429,6 @@
         "Headline": "Igor Kokoskov joins Project B as head of player development",
         "Description": "Longtime NBA assistant Igor Kokoskov has joined the startup men's and women's basketball league Project B as its head of player development, the organization announced Thursday.",
         "Link": "https://www.espn.com/wnba/story/_/id/49376105/igor-kokoskov-joins-project-b-head-player-development"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Story",
-        "Published": "2026-07-16T11:58:41Z",
-        "Headline": "Ranking the WNBA's top 10 rim protectors of all time",
-        "Description": "A'ja Wilson, Brittney Griner and Breanna Stewart already rank among the best shot blockers, rebounders and post presences.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49372575/wnba-2026-shot-blockers-rebounders-rim-protectors-history-30th-season-aja-wilson-brittney-griner"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-16T06:10:44Z",
-        "Headline": "Seattle visits Indiana following Johnson's 25-point performance",
-        "Description": "Seattle Storm (6-20, 1-12 Western Conference) at Indiana Fever (14-10, 5-4 Eastern Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857073"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-16T06:10:40Z",
-        "Headline": "Connecticut visits Phoenix after Edwards' 21-point game",
-        "Description": "Connecticut Sun (6-18, 2-8 Eastern Conference) at Phoenix Mercury (8-17, 5-10 Western Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857076"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Preview",
-        "Published": "2026-07-16T06:10:37Z",
-        "Headline": "Chicago hosts Los Angeles after Burrell's 24-point outing",
-        "Description": "Los Angeles Sparks (10-13, 5-7 Western Conference) at Chicago Sky (8-16, 1-7 Eastern Conference)",
-        "Link": "http://www.espn.com/wnba/preview?gameId=401857075"
-      },
-      {
-        "type": "News",
-        "Article_Type": "HeadlineNews",
-        "Published": "2026-07-16T13:09:10Z",
-        "Headline": "Fever's Caitlin Clark sounds off on non-call in loss to Valkyries",
-        "Description": "Caitlin Clark was frustrated by a non-call midway through the second quarter Wednesday night and sounded off after the Fever's 88-75 loss to the Valkyries.",
-        "Link": "https://www.espn.com/wnba/story/_/id/49373763/fever-star-caitlin-clark-sounds-missed-call-loss-valkyries"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Recap",
-        "Published": "2026-07-16T02:36:41Z",
-        "Headline": "Valkyries beat the Fever 88-75 for 8th straight victory",
-        "Description": "— Gabby Williams scored 16 points, Kaitlyn Chen had 14 points, all in the second half, and the Golden State Valkyries beat the Indiana Fever 88-75 on Wednesday night for the second-year franchise's record eighth straight victory.",
-        "Link": "http://www.espn.com/wnba/recap?gameId=401857070"
       }
     ],
     "wnbaProps": [
@@ -16858,7 +16851,7 @@
         "Player": "",
         "Team": "LA Clippers",
         "Position": "",
-        "Status": "9-5; home 4-3; away 5-2; L10 5-5",
+        "Status": "10-5; home 5-3; away 5-2; L10 6-4",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -16928,7 +16921,7 @@
         "Player": "",
         "Team": "Minnesota Timberwolves",
         "Position": "",
-        "Status": "10-4; home 5-3; away 5-1; L10 7-3",
+        "Status": "10-5; home 5-3; away 5-2; L10 6-4",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -17026,7 +17019,7 @@
         "Player": "",
         "Team": "Portland Trail Blazers",
         "Position": "",
-        "Status": "8-6; home 4-3; away 4-3; L10 6-4",
+        "Status": "8-7; home 4-3; away 4-4; L10 5-5",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
@@ -17096,7 +17089,7 @@
         "Player": "",
         "Team": "Utah Jazz",
         "Position": "",
-        "Status": "13-10; home 12-4; away 1-6; L10 5-5",
+        "Status": "14-10; home 13-4; away 1-6; L10 6-4",
         "Evidence": "ESPN historical scoreboard profile"
       },
       {
