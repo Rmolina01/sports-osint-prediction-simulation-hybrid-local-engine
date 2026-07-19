@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-19T04:19:30.566Z",
+  "generatedAt": "2026-07-19T05:20:27.614Z",
   "date": "2026-07-19",
   "stamp": "Public preview built for 2026-07-19",
   "eventRouter": {
-    "generatedAt": "2026-07-19T04:18:07.898Z",
+    "generatedAt": "2026-07-19T05:19:00.429Z",
     "date": "2026-07-19",
     "schema": "site_event_router.v1",
     "sports": [
@@ -548,13 +548,13 @@
         "projectedWinner": "Washington Nationals",
         "pickMode": "Win Lean",
         "awayTeam": "Washington Nationals",
-        "awayRecord": "49-49",
-        "awayRoad": "29-18",
-        "awayLast10": "4-6",
+        "awayRecord": "49-50",
+        "awayRoad": "29-19",
+        "awayLast10": "3-7",
         "homeTeam": "Athletics",
-        "homeRecord": "41-56",
-        "homeHome": "19-29",
-        "homeLast10": "0-10",
+        "homeRecord": "42-56",
+        "homeHome": "20-29",
+        "homeLast10": "1-9",
         "lean": "Washington Nationals",
         "probability": "72.3%",
         "calibratedProbability": "67.9%",
@@ -575,12 +575,12 @@
         "projectedWinner": "Detroit Tigers",
         "pickMode": "Win Lean",
         "awayTeam": "Detroit Tigers",
-        "awayRecord": "44-52",
-        "awayRoad": "18-29",
-        "awayLast10": "7-3",
+        "awayRecord": "45-52",
+        "awayRoad": "19-29",
+        "awayLast10": "8-2",
         "homeTeam": "Los Angeles Angels",
-        "homeRecord": "38-60",
-        "homeHome": "21-26",
+        "homeRecord": "38-61",
+        "homeHome": "21-27",
         "homeLast10": "2-8",
         "lean": "Detroit Tigers",
         "probability": "65.9%",
@@ -10929,12 +10929,12 @@
         "side": "Away",
         "team": "Washington Nationals",
         "opponent": "Athletics",
-        "last5": "2-3",
-        "last5RunsFor": "7.8",
-        "last5RunsAgainst": "4.0",
-        "last10": "4-6",
-        "last10RunsFor": "6.9",
-        "last10RunsAgainst": "6.0"
+        "last5": "1-4",
+        "last5RunsFor": "6.4",
+        "last5RunsAgainst": "6.6",
+        "last10": "3-7",
+        "last10RunsFor": "6.1",
+        "last10RunsAgainst": "7.0"
       },
       {
         "timeET": "4:05 PM",
@@ -10942,12 +10942,12 @@
         "side": "Home",
         "team": "Athletics",
         "opponent": "Washington Nationals",
-        "last5": "0-5",
-        "last5RunsFor": "1.4",
-        "last5RunsAgainst": "10.2",
-        "last10": "0-10",
-        "last10RunsFor": "2.5",
-        "last10RunsAgainst": "9.1"
+        "last5": "1-4",
+        "last5RunsFor": "4.2",
+        "last5RunsAgainst": "9.6",
+        "last10": "1-9",
+        "last10RunsFor": "3.5",
+        "last10RunsAgainst": "8.0"
       }
     ],
     "historyHeadToHead": [
@@ -68484,6 +68484,14 @@
       },
       {
         "type": "News",
+        "Article_Type": "HeadlineNews",
+        "Published": "2026-07-19T04:52:07Z",
+        "Headline": "Mitchell posts 10th consecutive 20-point game in Fever's win",
+        "Description": "Kelsey Mitchell, a four-time WNBA All-Star guard, authored a four-point play en route to a season-high 33-point effort on Saturday night, and the Indiana Fever rallied to record a 108-88 victory over the New York Liberty at Gainbridge Fieldhouse.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49396905/mitchell-posts-10th-consecutive-20-point-game-fever-win"
+      },
+      {
+        "type": "News",
         "Article_Type": "Recap",
         "Published": "2026-07-19T02:44:29Z",
         "Headline": "Kelsey Mitchell, Caitlin Clark help Fever rally from 13-point deficit, beat Liberty 108-88",
@@ -68633,14 +68641,6 @@
         "Headline": "Naz Hillmon has perfect shooting night in the Dream's victory over the Tempo",
         "Description": "— Naz Hillmon scored 24 points on a perfect shooting night to help the Atlanta Dream, beat the Toronto Tempo 111-92 on Friday.",
         "Link": "http://www.espn.com/wnba/recap?gameId=401857074"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Media",
-        "Published": "2026-07-18T01:52:24Z",
-        "Headline": "Toronto Tempo vs. Atlanta Dream - Game Highlights",
-        "Description": "Watch the Game Highlights from Toronto Tempo vs. Atlanta Dream, 07/17/2026",
-        "Link": "https://www.espn.com/video/clip/_/id/49387727/toronto-tempo-vs-atlanta-dream-game-highlights"
       }
     ],
     "wnbaProps": [
