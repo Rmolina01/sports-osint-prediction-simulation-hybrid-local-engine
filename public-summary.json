@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-20T04:10:51.253Z",
+  "generatedAt": "2026-07-20T10:26:08.863Z",
   "date": "2026-07-20",
   "stamp": "Public preview built for 2026-07-20",
   "eventRouter": {
-    "generatedAt": "2026-07-20T04:09:21.566Z",
+    "generatedAt": "2026-07-20T10:24:49.731Z",
     "date": "2026-07-20",
     "schema": "site_event_router.v1",
     "sports": [
@@ -35035,6 +35035,14 @@
       },
       {
         "type": "News",
+        "Article_Type": "Preview",
+        "Published": "2026-07-20T06:10:29Z",
+        "Headline": "Dallas faces New York, seeks 7th straight victory",
+        "Description": "New York Liberty (13-12, 8-3 Eastern Conference) at Dallas Wings (17-8, 7-6 Western Conference)",
+        "Link": "http://www.espn.com/wnba/preview?gameId=401892393"
+      },
+      {
+        "type": "News",
         "Article_Type": "Recap",
         "Published": "2026-07-20T01:26:29Z",
         "Headline": "DeWanna Bonner scores season-high 21, Mercury beat Sun 72-63 to snap 5-game skid",
@@ -35084,7 +35092,7 @@
       {
         "type": "News",
         "Article_Type": "HeadlineNews",
-        "Published": "2026-07-19T22:50:23Z",
+        "Published": "2026-07-20T05:00:36Z",
         "Headline": "Reese appreciates Brondello's apology; 'grateful' for WNBA's ban",
         "Description": "Angel Reese said she appreciated Sandy Brondello's apology for referring to her as a \"protected species\" but also was grateful to the WNBA for suspending Brondello for one game.",
         "Link": "https://www.espn.com/wnba/story/_/id/49403126/reese-appreciates-brondello-apology-grateful-ban"
@@ -35184,14 +35192,6 @@
         "Headline": "WNBA-leading Lynx beat the Fire 101-93 for 5th straight win",
         "Description": "— Kayla McBride scored 24 points to move into the top 20 on the WNBA career scoring list and the Minnesota Lynx beat the Portland Fire 101-93 on Saturday night for their fifth straight victory.",
         "Link": "http://www.espn.com/wnba/recap?gameId=401857078"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Media",
-        "Published": "2026-07-19T01:59:54Z",
-        "Headline": "Lynx vs. Fire - Game Highlights",
-        "Description": "Watch the Game Highlights from Lynx vs. Fire, 07/18/2026",
-        "Link": "https://www.espn.com/video/clip/_/id/49395881/lynx-vs-fire-game-highlights"
       }
     ],
     "wnbaProps": [
