@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T14:06:32.081Z",
+  "generatedAt": "2026-07-21T14:11:18.187Z",
   "date": "2026-07-22",
   "stamp": "Public preview built for 2026-07-22",
   "eventRouter": {
@@ -235,7 +235,7 @@
     "nbaGames": 2833,
     "nbaPlayers": 544,
     "nbaSummerGames": 276,
-    "nbaSummerRows": 151,
+    "nbaSummerRows": 152,
     "allStarRows": 0,
     "nflGames": 700,
     "nflPlayers": 192,
@@ -142201,7 +142201,25 @@
         "Evidence": "ESPN roster; college Colorado"
       }
     ],
-    "nbaSummerWinLean": [],
+    "nbaSummerWinLean": [
+      {
+        "type": "No Slate",
+        "Date": "2026-07-22",
+        "Time_ET": "",
+        "League": "NBA Summer",
+        "Game": "No NBA Summer League games verified for this date",
+        "Projected_Winner": "No Slate",
+        "Model_Probability": "",
+        "Away_Record": "",
+        "Away_Away_Record": "",
+        "Away_L10": "",
+        "Home_Record": "",
+        "Home_Home_Record": "",
+        "Home_L10": "",
+        "Status": "node_active",
+        "Evidence": "ESPN Summer League scoreboard checked; 276 historical games retained for profile training"
+      }
+    ],
     "boardMeta": {
       "games": {
         "shown": 15,
@@ -142379,9 +142397,9 @@
         "total": 151
       },
       "nbaSummerWinLean": {
-        "shown": 0,
+        "shown": 1,
         "hidden": 0,
-        "total": 0
+        "total": 1
       }
     },
     "secureChannel": [
