@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-22T04:25:24.138Z",
+  "generatedAt": "2026-07-22T05:10:07.296Z",
   "date": "2026-07-22",
   "stamp": "Public preview built for 2026-07-22",
   "eventRouter": {
-    "generatedAt": "2026-07-22T04:21:58.654Z",
+    "generatedAt": "2026-07-22T05:09:02.405Z",
     "date": "2026-07-22",
     "schema": "site_event_router.v1",
     "sports": [
@@ -379,6 +379,33 @@
         "history": "View H2H"
       },
       {
+        "gamePk": "823110",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "game": "Cincinnati Reds @ Seattle Mariners",
+        "projectedWinner": "Seattle Mariners",
+        "pickMode": "Win Lean",
+        "awayTeam": "Cincinnati Reds",
+        "awayRecord": "46-54",
+        "awayRoad": "24-26",
+        "awayLast10": "5-5",
+        "homeTeam": "Seattle Mariners",
+        "homeRecord": "51-51",
+        "homeHome": "30-22",
+        "homeLast10": "4-6",
+        "lean": "Seattle Mariners",
+        "probability": "64.2%",
+        "calibratedProbability": "67.9%",
+        "rawProbability": 0.6420153424212197,
+        "engineRead": "Unified venue/record/pitcher core",
+        "awayStarter": "Brady Singer",
+        "homeStarter": "Emerson Hancock",
+        "status": "Scheduled",
+        "evidence": "partial_dual_source",
+        "recommendation": "WIN_LEAN",
+        "history": "View H2H"
+      },
+      {
         "gamePk": "825055",
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
@@ -394,39 +421,12 @@
         "homeHome": "29-22",
         "homeLast10": "6-4",
         "lean": "Arizona Diamondbacks",
-        "probability": "63.6%",
+        "probability": "62.6%",
         "calibratedProbability": "67.9%",
-        "rawProbability": 0.6360166231690277,
+        "rawProbability": 0.6257113446570365,
         "engineRead": "Unified venue/record/pitcher core",
         "awayStarter": "Gage Jump",
         "homeStarter": "Merrill Kelly",
-        "status": "Scheduled",
-        "evidence": "partial_dual_source",
-        "recommendation": "WIN_LEAN",
-        "history": "View H2H"
-      },
-      {
-        "gamePk": "823110",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "game": "Cincinnati Reds @ Seattle Mariners",
-        "projectedWinner": "Seattle Mariners",
-        "pickMode": "Win Lean",
-        "awayTeam": "Cincinnati Reds",
-        "awayRecord": "45-54",
-        "awayRoad": "23-26",
-        "awayLast10": "4-6",
-        "homeTeam": "Seattle Mariners",
-        "homeRecord": "51-50",
-        "homeHome": "30-21",
-        "homeLast10": "4-6",
-        "lean": "Seattle Mariners",
-        "probability": "63%",
-        "calibratedProbability": "67.9%",
-        "rawProbability": 0.6299434844771673,
-        "engineRead": "Unified venue/record/pitcher core",
-        "awayStarter": "Brady Singer",
-        "homeStarter": "Emerson Hancock",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
         "recommendation": "WIN_LEAN",
@@ -440,22 +440,22 @@
         "projectedWinner": "St. Louis Cardinals",
         "pickMode": "No Edge",
         "awayTeam": "St. Louis Cardinals",
-        "awayRecord": "51-47",
-        "awayRoad": "25-21",
+        "awayRecord": "51-48",
+        "awayRoad": "25-22",
         "awayLast10": "4-6",
         "homeTeam": "Los Angeles Angels",
-        "homeRecord": "40-61",
-        "homeHome": "23-27",
-        "homeLast10": "4-6",
+        "homeRecord": "41-61",
+        "homeHome": "24-27",
+        "homeLast10": "5-5",
         "lean": "St. Louis Cardinals",
-        "probability": "52%",
+        "probability": "51.6%",
         "calibratedProbability": "50.1%",
-        "rawProbability": 0.52,
+        "rawProbability": 0.5155206476530005,
         "engineRead": "Unified venue/record/pitcher core",
         "awayStarter": "Hunter Dobbins",
         "homeStarter": "Reid Detmers",
         "status": "Scheduled",
-        "evidence": "conflict",
+        "evidence": "partial_dual_source",
         "recommendation": "NO_EDGE",
         "history": "View H2H"
       },
@@ -644,7 +644,7 @@
         "awayStarter": "Anthony Kay",
         "homeStarter": "Tyler Alexander",
         "status": "Scheduled",
-        "evidence": "conflict",
+        "evidence": "partial_dual_source",
         "recommendation": "NO_EDGE",
         "history": "View H2H"
       },
@@ -2029,6 +2029,28 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
+        "player": "Jacob Wilson",
+        "team": "Athletics",
+        "opponent": "Arizona Diamondbacks",
+        "probability": "81.1%",
+        "calibratedProbability": "76.5%",
+        "expectedHits": "1.4",
+        "avgRead": "1.4 hits/G",
+        "seasonAvg": ".293",
+        "l15Avg": ".310",
+        "careerAvg": "-",
+        "xba": ".000",
+        "hand": "R vs R",
+        "recent15": "11",
+        "hitStreak": "9",
+        "hr": "15.7%",
+        "risk": "IL|Activated"
+      },
+      {
+        "gamePk": "825055",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "matchup": "Athletics @ Arizona Diamondbacks",
         "player": "Joshua Kuroda-Grauer",
         "team": "Athletics",
         "opponent": "Arizona Diamondbacks",
@@ -2102,8 +2124,8 @@
         "calibratedProbability": "66.3%",
         "expectedHits": "0.9",
         "avgRead": "0.9 hits/G",
-        "seasonAvg": ".246",
-        "l15Avg": ".277",
+        "seasonAvg": ".245",
+        "l15Avg": ".271",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "L vs R",
@@ -2124,8 +2146,8 @@
         "calibratedProbability": "66.3%",
         "expectedHits": "0.9",
         "avgRead": "0.9 hits/G",
-        "seasonAvg": ".262",
-        "l15Avg": ".222",
+        "seasonAvg": ".261",
+        "l15Avg": ".218",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "R vs R",
@@ -2133,28 +2155,6 @@
         "hitStreak": "6",
         "hr": "16.2%",
         "risk": "Activated"
-      },
-      {
-        "gamePk": "825055",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "matchup": "Athletics @ Arizona Diamondbacks",
-        "player": "Jacob Wilson",
-        "team": "Athletics",
-        "opponent": "Arizona Diamondbacks",
-        "probability": "61.6%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "0.9",
-        "avgRead": "0.9 hits/G",
-        "seasonAvg": ".290",
-        "l15Avg": ".298",
-        "careerAvg": "-",
-        "xba": ".000",
-        "hand": "R vs R",
-        "recent15": "10",
-        "hitStreak": "-",
-        "hr": "11.1%",
-        "risk": "IL|Activated"
       },
       {
         "gamePk": "823110",
@@ -2271,6 +2271,28 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
+        "player": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Athletics",
+        "probability": "56%",
+        "calibratedProbability": "58.9%",
+        "expectedHits": "0.7",
+        "avgRead": "0.7 hits/G",
+        "seasonAvg": ".245",
+        "l15Avg": ".246",
+        "careerAvg": "-",
+        "xba": ".000",
+        "hand": "R vs L",
+        "recent15": "11",
+        "hitStreak": "4",
+        "hr": "16.1%",
+        "risk": "pending_confirmed_lineup"
+      },
+      {
+        "gamePk": "825055",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "matchup": "Athletics @ Arizona Diamondbacks",
         "player": "Jordan Lawlar",
         "team": "Arizona Diamondbacks",
         "opponent": "Athletics",
@@ -2322,8 +2344,8 @@
         "calibratedProbability": "58.9%",
         "expectedHits": "0.7",
         "avgRead": "0.7 hits/G",
-        "seasonAvg": ".260",
-        "l15Avg": ".314",
+        "seasonAvg": ".257",
+        "l15Avg": ".308",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "R vs R",
@@ -2366,8 +2388,8 @@
         "calibratedProbability": "58.9%",
         "expectedHits": "0.7",
         "avgRead": "0.7 hits/G",
-        "seasonAvg": ".242",
-        "l15Avg": ".228",
+        "seasonAvg": ".241",
+        "l15Avg": ".224",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "R vs L",
@@ -2476,8 +2498,8 @@
         "calibratedProbability": "46.4%",
         "expectedHits": "0.6",
         "avgRead": "0.6 hits/G",
-        "seasonAvg": ".285",
-        "l15Avg": ".280",
+        "seasonAvg": ".284",
+        "l15Avg": ".275",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "R vs R",
@@ -2491,22 +2513,22 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Cincinnati Reds @ Seattle Mariners",
-        "player": "Eugenio Suárez",
+        "player": "Nathaniel Lowe",
         "team": "Cincinnati Reds",
         "opponent": "Seattle Mariners",
         "probability": "48.5%",
         "calibratedProbability": "46.4%",
         "expectedHits": "0.6",
         "avgRead": "0.6 hits/G",
-        "seasonAvg": ".205",
-        "l15Avg": ".218",
+        "seasonAvg": ".249",
+        "l15Avg": ".229",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs R",
+        "hand": "L vs R",
         "recent15": "9",
-        "hitStreak": "1",
-        "hr": "17.7%",
-        "risk": "IL|Activated"
+        "hitStreak": "4",
+        "hr": "13%",
+        "risk": "Activated|Recalled"
       },
       {
         "gamePk": "823110",
@@ -2520,8 +2542,8 @@
         "calibratedProbability": "46.4%",
         "expectedHits": "0.6",
         "avgRead": "0.6 hits/G",
-        "seasonAvg": ".263",
-        "l15Avg": ".214",
+        "seasonAvg": ".262",
+        "l15Avg": ".211",
         "careerAvg": "-",
         "xba": ".000",
         "hand": "L vs R",
@@ -2529,28 +2551,6 @@
         "hitStreak": "-",
         "hr": "12.5%",
         "risk": "Activated"
-      },
-      {
-        "gamePk": "825055",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "matchup": "Athletics @ Arizona Diamondbacks",
-        "player": "Nolan Arenado",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Athletics",
-        "probability": "45.7%",
-        "calibratedProbability": "46.4%",
-        "expectedHits": "0.6",
-        "avgRead": "0.6 hits/G",
-        "seasonAvg": ".242",
-        "l15Avg": ".232",
-        "careerAvg": "-",
-        "xba": ".000",
-        "hand": "R vs L",
-        "recent15": "10",
-        "hitStreak": "-",
-        "hr": "15%",
-        "risk": "pending_confirmed_lineup"
       },
       {
         "gamePk": "824004",
@@ -5555,30 +5555,6 @@
         "read": "Strong hit favorite"
       },
       {
-        "gamePk": "825055",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "matchup": "Athletics @ Arizona Diamondbacks",
-        "rank": "1",
-        "player": "Joshua Kuroda-Grauer",
-        "team": "Athletics",
-        "opponent": "Arizona Diamondbacks",
-        "probability": "71.9%",
-        "calibratedProbability": "71.8%",
-        "hr": "10.9%",
-        "expectedHits": "1.1",
-        "avgRead": "1.1 hits/G",
-        "seasonAvg": ".417",
-        "l15Avg": ".393",
-        "careerAvg": "-",
-        "xba": ".000",
-        "hand": "R vs R",
-        "recent15": "13",
-        "hitStreak": "7",
-        "risk": "IL|Recalled",
-        "read": "Elite hit favorite"
-      },
-      {
         "gamePk": "823110",
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
@@ -5607,24 +5583,24 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
-        "rank": "2",
-        "player": "Gabriel Moreno",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Athletics",
-        "probability": "68.3%",
-        "calibratedProbability": "66.3%",
-        "hr": "7.4%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
-        "seasonAvg": ".303",
-        "l15Avg": ".375",
+        "rank": "1",
+        "player": "Jacob Wilson",
+        "team": "Athletics",
+        "opponent": "Arizona Diamondbacks",
+        "probability": "81.1%",
+        "calibratedProbability": "76.5%",
+        "hr": "15.7%",
+        "expectedHits": "1.4",
+        "avgRead": "1.4 hits/G",
+        "seasonAvg": ".293",
+        "l15Avg": ".310",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs L",
-        "recent15": "13",
-        "hitStreak": "2",
+        "hand": "R vs R",
+        "recent15": "11",
+        "hitStreak": "9",
         "risk": "IL|Activated",
-        "read": "Strong hit favorite"
+        "read": "Elite hit favorite"
       },
       {
         "gamePk": "823110",
@@ -5655,24 +5631,24 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
-        "rank": "3",
-        "player": "Jonah Heim",
+        "rank": "2",
+        "player": "Joshua Kuroda-Grauer",
         "team": "Athletics",
         "opponent": "Arizona Diamondbacks",
-        "probability": "63.1%",
-        "calibratedProbability": "66.3%",
-        "hr": "11.3%",
-        "expectedHits": "0.9",
-        "avgRead": "0.9 hits/G",
-        "seasonAvg": ".232",
-        "l15Avg": ".217",
+        "probability": "71.9%",
+        "calibratedProbability": "71.8%",
+        "hr": "10.9%",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
+        "seasonAvg": ".417",
+        "l15Avg": ".393",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "L vs R",
-        "recent15": "11",
-        "hitStreak": "5",
-        "risk": "Trade",
-        "read": "Strong hit favorite"
+        "hand": "R vs R",
+        "recent15": "13",
+        "hitStreak": "7",
+        "risk": "IL|Recalled",
+        "read": "Elite hit favorite"
       },
       {
         "gamePk": "823110",
@@ -5697,6 +5673,30 @@
         "hitStreak": "1",
         "risk": "IL|Activated",
         "read": "Solid hit lean"
+      },
+      {
+        "gamePk": "825055",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "matchup": "Athletics @ Arizona Diamondbacks",
+        "rank": "3",
+        "player": "Gabriel Moreno",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Athletics",
+        "probability": "68.3%",
+        "calibratedProbability": "66.3%",
+        "hr": "7.4%",
+        "expectedHits": "1",
+        "avgRead": "1 hits/G",
+        "seasonAvg": ".303",
+        "l15Avg": ".375",
+        "careerAvg": "-",
+        "xba": ".000",
+        "hand": "R vs L",
+        "recent15": "13",
+        "hitStreak": "2",
+        "risk": "IL|Activated",
+        "read": "Strong hit favorite"
       },
       {
         "gamePk": "824004",
@@ -6515,14 +6515,14 @@
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
         "onePlusRunCall": "YES 1+ RUN",
-        "onePlusRunProbability": "57.1%",
-        "expectedFirstInningRuns": 0.85,
+        "onePlusRunProbability": "59.3%",
+        "expectedFirstInningRuns": 0.9,
         "awayTeam": "Athletics",
-        "awayFirstInningRuns": 0.472,
-        "awayNoRunShare": "62.4%",
+        "awayFirstInningRuns": 0.509,
+        "awayNoRunShare": "60.1%",
         "homeTeam": "Arizona Diamondbacks",
-        "homeFirstInningRuns": 0.374,
-        "homeNoRunShare": "68.8%",
+        "homeFirstInningRuns": 0.39,
+        "homeNoRunShare": "67.7%",
         "awayStarter": "Gage Jump",
         "homeStarter": "Merrill Kelly",
         "lineupRead": "top-order projection / top-order projection",
@@ -8014,6 +8014,27 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
+        "player": "Jacob Wilson",
+        "team": "Athletics",
+        "opponent": "Arizona Diamondbacks",
+        "hitProbability": "81.1%",
+        "calibratedProbability": "76.5%",
+        "expectedHits": "1.4",
+        "avgRead": "1.4 hits/G",
+        "seasonAvg": ".293",
+        "l15Avg": ".310",
+        "careerAvg": "-",
+        "xba": ".000",
+        "consistency": "83.8",
+        "recent15": "11",
+        "streak": "9",
+        "hand": "R vs R"
+      },
+      {
+        "gamePk": "825055",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "matchup": "Athletics @ Arizona Diamondbacks",
         "player": "Gabriel Moreno",
         "team": "Arizona Diamondbacks",
         "opponent": "Athletics",
@@ -8147,8 +8168,8 @@
         "calibratedProbability": "66.3%",
         "expectedHits": "0.9",
         "avgRead": "0.9 hits/G",
-        "seasonAvg": ".246",
-        "l15Avg": ".277",
+        "seasonAvg": ".245",
+        "l15Avg": ".271",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "59.7",
@@ -8168,8 +8189,8 @@
         "calibratedProbability": "66.3%",
         "expectedHits": "0.9",
         "avgRead": "0.9 hits/G",
-        "seasonAvg": ".262",
-        "l15Avg": ".222",
+        "seasonAvg": ".261",
+        "l15Avg": ".218",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "58.7",
@@ -8224,21 +8245,21 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Athletics @ Arizona Diamondbacks",
-        "player": "Jacob Wilson",
-        "team": "Athletics",
-        "opponent": "Arizona Diamondbacks",
-        "hitProbability": "61.6%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "0.9",
-        "avgRead": "0.9 hits/G",
-        "seasonAvg": ".290",
-        "l15Avg": ".298",
+        "player": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Athletics",
+        "hitProbability": "56%",
+        "calibratedProbability": "58.9%",
+        "expectedHits": "0.7",
+        "avgRead": "0.7 hits/G",
+        "seasonAvg": ".245",
+        "l15Avg": ".246",
         "careerAvg": "-",
         "xba": ".000",
-        "consistency": "57.7",
-        "recent15": "10",
-        "streak": "-",
-        "hand": "R vs R"
+        "consistency": "57.3",
+        "recent15": "11",
+        "streak": "4",
+        "hand": "R vs L"
       },
       {
         "gamePk": "825055",
@@ -8315,8 +8336,8 @@
         "calibratedProbability": "58.9%",
         "expectedHits": "0.7",
         "avgRead": "0.7 hits/G",
-        "seasonAvg": ".260",
-        "l15Avg": ".314",
+        "seasonAvg": ".257",
+        "l15Avg": ".308",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "52",
@@ -8336,8 +8357,8 @@
         "calibratedProbability": "58.9%",
         "expectedHits": "0.7",
         "avgRead": "0.7 hits/G",
-        "seasonAvg": ".242",
-        "l15Avg": ".228",
+        "seasonAvg": ".241",
+        "l15Avg": ".224",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "50.8",
@@ -8364,6 +8385,27 @@
         "consistency": "50.8",
         "recent15": "8",
         "streak": "3",
+        "hand": "L vs R"
+      },
+      {
+        "gamePk": "823110",
+        "gameDate": "2026-07-22",
+        "timeET": "3:40 PM",
+        "matchup": "Cincinnati Reds @ Seattle Mariners",
+        "player": "Nathaniel Lowe",
+        "team": "Cincinnati Reds",
+        "opponent": "Seattle Mariners",
+        "hitProbability": "48.5%",
+        "calibratedProbability": "46.4%",
+        "expectedHits": "0.6",
+        "avgRead": "0.6 hits/G",
+        "seasonAvg": ".249",
+        "l15Avg": ".229",
+        "careerAvg": "-",
+        "xba": ".000",
+        "consistency": "50",
+        "recent15": "9",
+        "streak": "4",
         "hand": "L vs R"
       },
       {
@@ -8399,8 +8441,8 @@
         "calibratedProbability": "46.4%",
         "expectedHits": "0.6",
         "avgRead": "0.6 hits/G",
-        "seasonAvg": ".285",
-        "l15Avg": ".280",
+        "seasonAvg": ".284",
+        "l15Avg": ".275",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "47.2",
@@ -8434,48 +8476,6 @@
         "gameDate": "2026-07-22",
         "timeET": "3:40 PM",
         "matchup": "Cincinnati Reds @ Seattle Mariners",
-        "player": "Eugenio Suárez",
-        "team": "Cincinnati Reds",
-        "opponent": "Seattle Mariners",
-        "hitProbability": "48.5%",
-        "calibratedProbability": "46.4%",
-        "expectedHits": "0.6",
-        "avgRead": "0.6 hits/G",
-        "seasonAvg": ".205",
-        "l15Avg": ".218",
-        "careerAvg": "-",
-        "xba": ".000",
-        "consistency": "46",
-        "recent15": "9",
-        "streak": "1",
-        "hand": "R vs R"
-      },
-      {
-        "gamePk": "825055",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "matchup": "Athletics @ Arizona Diamondbacks",
-        "player": "Nolan Arenado",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Athletics",
-        "hitProbability": "45.7%",
-        "calibratedProbability": "46.4%",
-        "expectedHits": "0.6",
-        "avgRead": "0.6 hits/G",
-        "seasonAvg": ".242",
-        "l15Avg": ".232",
-        "careerAvg": "-",
-        "xba": ".000",
-        "consistency": "43.7",
-        "recent15": "10",
-        "streak": "-",
-        "hand": "R vs L"
-      },
-      {
-        "gamePk": "823110",
-        "gameDate": "2026-07-22",
-        "timeET": "3:40 PM",
-        "matchup": "Cincinnati Reds @ Seattle Mariners",
         "player": "Dominic Canzone",
         "team": "Seattle Mariners",
         "opponent": "Cincinnati Reds",
@@ -8483,8 +8483,8 @@
         "calibratedProbability": "46.4%",
         "expectedHits": "0.6",
         "avgRead": "0.6 hits/G",
-        "seasonAvg": ".263",
-        "l15Avg": ".214",
+        "seasonAvg": ".262",
+        "l15Avg": ".211",
         "careerAvg": "-",
         "xba": ".000",
         "consistency": "43.5",
@@ -11756,12 +11756,12 @@
         "side": "Away",
         "team": "Cincinnati Reds",
         "opponent": "Seattle Mariners",
-        "last5": "2-3",
+        "last5": "3-2",
         "last5RunsFor": "4.6",
-        "last5RunsAgainst": "6.8",
-        "last10": "4-6",
-        "last10RunsFor": "4.2",
-        "last10RunsAgainst": "4.9"
+        "last5RunsAgainst": "5.6",
+        "last10": "5-5",
+        "last10RunsFor": "4.5",
+        "last10RunsAgainst": "4.7"
       },
       {
         "timeET": "3:40 PM",
@@ -11769,12 +11769,12 @@
         "side": "Home",
         "team": "Seattle Mariners",
         "opponent": "Cincinnati Reds",
-        "last5": "4-1",
-        "last5RunsFor": "5.2",
-        "last5RunsAgainst": "3.0",
+        "last5": "3-2",
+        "last5RunsFor": "4.0",
+        "last5RunsAgainst": "3.4",
         "last10": "4-6",
-        "last10RunsFor": "3.8",
-        "last10RunsAgainst": "4.4"
+        "last10RunsFor": "3.5",
+        "last10RunsAgainst": "4.2"
       },
       {
         "timeET": "4:07 PM",
@@ -11783,11 +11783,11 @@
         "team": "St. Louis Cardinals",
         "opponent": "Los Angeles Angels",
         "last5": "1-4",
-        "last5RunsFor": "4.0",
-        "last5RunsAgainst": "4.8",
+        "last5RunsFor": "3.6",
+        "last5RunsAgainst": "5.0",
         "last10": "4-6",
-        "last10RunsFor": "3.7",
-        "last10RunsAgainst": "4.5"
+        "last10RunsFor": "3.6",
+        "last10RunsAgainst": "4.0"
       },
       {
         "timeET": "4:07 PM",
@@ -11795,12 +11795,12 @@
         "side": "Home",
         "team": "Los Angeles Angels",
         "opponent": "St. Louis Cardinals",
-        "last5": "2-3",
-        "last5RunsFor": "1.8",
-        "last5RunsAgainst": "3.4",
-        "last10": "4-6",
-        "last10RunsFor": "3.8",
-        "last10RunsAgainst": "4.1"
+        "last5": "3-2",
+        "last5RunsFor": "2.4",
+        "last5RunsAgainst": "2.8",
+        "last10": "5-5",
+        "last10RunsFor": "4.0",
+        "last10RunsAgainst": "3.4"
       },
       {
         "timeET": "6:40 PM",
@@ -12061,12 +12061,32 @@
       {
         "timeET": "3:40 PM",
         "matchup": "Cincinnati Reds @ Seattle Mariners",
+        "priorDate": "2026-07-21",
+        "priorMatchup": "Cincinnati Reds @ Seattle Mariners",
+        "score": "4-2",
+        "awaySP": "Chase Burns",
+        "homeSP": "Luis Castillo",
+        "venue": "T-Mobile Park"
+      },
+      {
+        "timeET": "3:40 PM",
+        "matchup": "Cincinnati Reds @ Seattle Mariners",
         "priorDate": "2026-07-20",
         "priorMatchup": "Cincinnati Reds @ Seattle Mariners",
         "score": "0-8",
         "awaySP": "Andrew Abbott",
         "homeSP": "George Kirby",
         "venue": "T-Mobile Park"
+      },
+      {
+        "timeET": "4:07 PM",
+        "matchup": "St. Louis Cardinals @ Los Angeles Angels",
+        "priorDate": "2026-07-21",
+        "priorMatchup": "St. Louis Cardinals @ Los Angeles Angels",
+        "score": "1-5",
+        "awaySP": "Matthew Liberatore",
+        "homeSP": "Walbert Ureña",
+        "venue": "Angel Stadium"
       },
       {
         "timeET": "4:07 PM",
@@ -12186,26 +12206,6 @@
         "score": "1-9",
         "awaySP": "Andrew Painter",
         "homeSP": "Yoshinobu Yamamoto",
-        "venue": "UNIQLO Field at Dodger Stadium"
-      },
-      {
-        "timeET": "6:40 PM",
-        "matchup": "Los Angeles Dodgers @ Philadelphia Phillies",
-        "priorDate": "2026-05-30",
-        "priorMatchup": "Philadelphia Phillies @ Los Angeles Dodgers",
-        "score": "4-3",
-        "awaySP": "Jesús Luzardo",
-        "homeSP": "Roki Sasaki",
-        "venue": "UNIQLO Field at Dodger Stadium"
-      },
-      {
-        "timeET": "6:40 PM",
-        "matchup": "Los Angeles Dodgers @ Philadelphia Phillies",
-        "priorDate": "2026-05-29",
-        "priorMatchup": "Philadelphia Phillies @ Los Angeles Dodgers",
-        "score": "2-4",
-        "awaySP": "Zack Wheeler",
-        "homeSP": "Justin Wrobleski",
         "venue": "UNIQLO Field at Dodger Stadium"
       }
     ],
@@ -131914,9 +131914,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -131952,9 +131949,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -131990,9 +131984,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132028,9 +132019,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132066,9 +132054,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132104,9 +132089,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132142,9 +132124,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132180,9 +132159,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132218,9 +132194,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132256,9 +132229,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132294,9 +132264,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132332,9 +132299,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132370,9 +132334,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132408,9 +132369,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132446,9 +132404,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132484,9 +132439,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132522,9 +132474,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132560,9 +132509,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132598,9 +132544,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "99.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132636,9 +132579,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.9%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132674,9 +132614,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132712,9 +132649,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132750,9 +132684,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132788,9 +132719,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132826,9 +132754,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "98.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -132864,9 +132789,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.9%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132902,9 +132824,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132940,9 +132859,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.7%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -132978,9 +132894,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133016,9 +132929,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133054,9 +132964,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.4%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133092,9 +132999,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "97.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133130,9 +133034,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "96.9%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133168,9 +133069,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "96.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133206,9 +133104,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "96.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133244,9 +133139,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "96.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133282,9 +133174,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "95.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133320,9 +133209,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "95.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133358,9 +133244,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "95.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133396,9 +133279,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "94.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133434,9 +133314,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "94.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133472,9 +133349,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "93.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133510,9 +133384,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "93.2%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133548,9 +133419,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "93.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133586,9 +133454,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "92.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133624,9 +133489,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "92.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133662,9 +133524,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133700,9 +133559,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133738,9 +133594,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133776,9 +133629,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.4%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -133814,9 +133664,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133852,9 +133699,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "91.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133890,9 +133734,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.9%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133928,9 +133769,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -133966,9 +133804,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.7%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134004,9 +133839,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134042,9 +133874,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134080,9 +133909,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "90.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134118,9 +133944,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134156,9 +133979,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134194,9 +134014,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.4%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -134232,9 +134049,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "calibrated"
       },
       {
@@ -134270,9 +134084,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134308,9 +134119,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "89.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134346,9 +134154,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.9%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134384,9 +134189,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.8%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134422,9 +134224,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134460,9 +134259,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.5%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134498,9 +134294,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.4%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134536,9 +134329,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134574,9 +134364,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134612,9 +134399,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134650,9 +134434,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.2%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134688,9 +134469,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "88.1%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134726,9 +134504,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.7%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134764,9 +134539,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134802,9 +134574,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.6%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134840,9 +134609,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.3%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134878,9 +134644,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.2%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
@@ -134916,9 +134679,6 @@
         "Simulations": 35000,
         "Evidence": "ESPN boxscore history + three-season/current-season trend recalibration + simulation + roster status + team context",
         "Model_Probability": "87.0%",
-        "Projection_Side": "Over",
-        "Actionability": "Actionable Over",
-        "Actionability_Rule": "copy-node extreme-confidence",
         "Calibration_Read": "recalibrated"
       },
       {
