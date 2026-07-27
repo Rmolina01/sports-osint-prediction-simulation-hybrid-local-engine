@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-27T14:08:33.856Z",
+  "generatedAt": "2026-07-27T16:44:00.748Z",
   "date": "2026-07-27",
   "stamp": "Public preview built for 2026-07-27",
   "eventRouter": {
-    "generatedAt": "2026-07-27T14:07:04.551Z",
+    "generatedAt": "2026-07-27T16:43:06.321Z",
     "date": "2026-07-27",
     "schema": "site_event_router.v1",
     "sports": [
@@ -236,7 +236,7 @@
     "nhlPlayers": 160,
     "historicalRows": 108,
     "simulationsPerGame": 388000,
-    "shadowAgreement": "83.3%",
+    "shadowAgreement": "91.7%",
     "secondEngineTier": 100,
     "secondEngineDecision": "eligible_to_prepare_component_weight_update",
     "soccerBacktest": "-"
@@ -265,7 +265,7 @@
         "engineRead": "Unified venue/record/pitcher core",
         "awayStarter": "George Kirby",
         "homeStarter": "Kumar Rocker",
-        "status": "Scheduled",
+        "status": "Pre-Game",
         "evidence": "partial_dual_source",
         "recommendation": "NO_EDGE",
         "history": "View H2H"
@@ -367,12 +367,12 @@
         "homeHome": "22-32",
         "homeLast10": "6-4",
         "lean": "Washington Nationals",
-        "probability": "57.3%",
+        "probability": "58.1%",
         "calibratedProbability": "50.1%",
-        "rawProbability": 0.5728531816405509,
+        "rawProbability": 0.5814329342113822,
         "engineRead": "Unified venue/record/pitcher core",
         "awayStarter": "Max Scherzer",
-        "homeStarter": "Andrew Alvarez",
+        "homeStarter": "Eddy Yean",
         "status": "Scheduled",
         "evidence": "partial_dual_source",
         "recommendation": "TRACK_ONLY",
@@ -699,7 +699,7 @@
         "recent15": "12",
         "hitStreak": "1",
         "hr": "6.3%",
-        "risk": "pending_confirmed_lineup"
+        "risk": "confirmed_lineup"
       },
       {
         "gamePk": "822868",
@@ -721,7 +721,7 @@
         "recent15": "9",
         "hitStreak": "1",
         "hr": "11%",
-        "risk": "pending_confirmed_lineup"
+        "risk": "confirmed_lineup"
       },
       {
         "gamePk": "822868",
@@ -1677,15 +1677,15 @@
         "player": "Ernie Clement",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "69.7%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
+        "probability": "73.2%",
+        "calibratedProbability": "71.8%",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
         "seasonAvg": ".297",
         "l15Avg": ".323",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs L",
+        "hand": "R vs R",
         "recent15": "12",
         "hitStreak": "2",
         "hr": "9.6%",
@@ -1699,18 +1699,40 @@
         "player": "George Springer",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "69.7%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
+        "probability": "73.2%",
+        "calibratedProbability": "71.8%",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
         "seasonAvg": ".233",
         "l15Avg": ".300",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs L",
+        "hand": "R vs R",
         "recent15": "12",
         "hitStreak": "2",
         "hr": "14.6%",
+        "risk": "IL|Activated"
+      },
+      {
+        "gamePk": "822705",
+        "gameDate": "2026-07-27",
+        "timeET": "6:45 PM",
+        "matchup": "Toronto Blue Jays @ Washington Nationals",
+        "player": "Alejandro Kirk",
+        "team": "Toronto Blue Jays",
+        "opponent": "Washington Nationals",
+        "probability": "68%",
+        "calibratedProbability": "66.3%",
+        "expectedHits": "1",
+        "avgRead": "1 hits/G",
+        "seasonAvg": ".230",
+        "l15Avg": ".286",
+        "careerAvg": "-",
+        "xba": ".000",
+        "hand": "R vs R",
+        "recent15": "10",
+        "hitStreak": "5",
+        "hr": "9.1%",
         "risk": "IL|Activated"
       },
       {
@@ -1784,28 +1806,6 @@
         "gameDate": "2026-07-27",
         "timeET": "6:45 PM",
         "matchup": "Toronto Blue Jays @ Washington Nationals",
-        "player": "Alejandro Kirk",
-        "team": "Toronto Blue Jays",
-        "opponent": "Washington Nationals",
-        "probability": "64.6%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "0.9",
-        "avgRead": "0.9 hits/G",
-        "seasonAvg": ".230",
-        "l15Avg": ".286",
-        "careerAvg": "-",
-        "xba": ".000",
-        "hand": "R vs L",
-        "recent15": "10",
-        "hitStreak": "5",
-        "hr": "9.1%",
-        "risk": "IL|Activated"
-      },
-      {
-        "gamePk": "822705",
-        "gameDate": "2026-07-27",
-        "timeET": "6:45 PM",
-        "matchup": "Toronto Blue Jays @ Washington Nationals",
         "player": "Luis García Jr.",
         "team": "Washington Nationals",
         "opponent": "Toronto Blue Jays",
@@ -1831,15 +1831,15 @@
         "player": "Nathan Lukes",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "57.9%",
-        "calibratedProbability": "58.9%",
+        "probability": "61.4%",
+        "calibratedProbability": "66.3%",
         "expectedHits": "0.8",
         "avgRead": "0.8 hits/G",
         "seasonAvg": ".288",
         "l15Avg": ".283",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "L vs L",
+        "hand": "L vs R",
         "recent15": "11",
         "hitStreak": "-",
         "hr": "8.3%",
@@ -1853,15 +1853,15 @@
         "player": "Vladimir Guerrero Jr.",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "57.8%",
-        "calibratedProbability": "58.9%",
+        "probability": "61.3%",
+        "calibratedProbability": "66.3%",
         "expectedHits": "0.8",
         "avgRead": "0.8 hits/G",
         "seasonAvg": ".265",
         "l15Avg": ".267",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs L",
+        "hand": "R vs R",
         "recent15": "10",
         "hitStreak": "-",
         "hr": "10.8%",
@@ -1875,15 +1875,15 @@
         "player": "Daulton Varsho",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "55.4%",
+        "probability": "58.9%",
         "calibratedProbability": "58.9%",
-        "expectedHits": "0.7",
-        "avgRead": "0.7 hits/G",
+        "expectedHits": "0.8",
+        "avgRead": "0.8 hits/G",
         "seasonAvg": ".243",
         "l15Avg": ".241",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "L vs L",
+        "hand": "L vs R",
         "recent15": "9",
         "hitStreak": "3",
         "hr": "5.6%",
@@ -4084,20 +4084,20 @@
         "player": "Ernie Clement",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "probability": "69.7%",
-        "calibratedProbability": "66.3%",
+        "probability": "73.2%",
+        "calibratedProbability": "71.8%",
         "hr": "9.6%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
         "seasonAvg": ".297",
         "l15Avg": ".323",
         "careerAvg": "-",
         "xba": ".000",
-        "hand": "R vs L",
+        "hand": "R vs R",
         "recent15": "12",
         "hitStreak": "2",
         "risk": "pending_confirmed_lineup",
-        "read": "Strong hit favorite"
+        "read": "Elite hit favorite"
       },
       {
         "gamePk": "824490",
@@ -4609,7 +4609,7 @@
         "gameDate": "2026-07-27",
         "timeET": "2:35 PM",
         "matchup": "Seattle Mariners @ Texas Rangers",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "59.4%",
         "expectedFirstInningRuns": 0.9,
         "awayTeam": "Seattle Mariners",
@@ -4621,13 +4621,13 @@
         "awayStarter": "George Kirby",
         "homeStarter": "Kumar Rocker",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "6:40 PM",
         "matchup": "Arizona Diamondbacks @ Pittsburgh Pirates",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "60.1%",
         "expectedFirstInningRuns": 0.92,
         "awayTeam": "Arizona Diamondbacks",
@@ -4639,13 +4639,13 @@
         "awayStarter": "Merrill Kelly",
         "homeStarter": "Mitch Keller",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "6:40 PM",
         "matchup": "Baltimore Orioles @ Detroit Tigers",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "THIN 1+ RUN",
         "onePlusRunProbability": "55%",
         "expectedFirstInningRuns": 0.8,
         "awayTeam": "Baltimore Orioles",
@@ -4657,13 +4657,13 @@
         "awayStarter": "Kyle Bradish",
         "homeStarter": "Keider Montero",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "6:40 PM",
         "matchup": "Philadelphia Phillies @ Miami Marlins",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "THIN 1+ RUN",
         "onePlusRunProbability": "53.5%",
         "expectedFirstInningRuns": 0.77,
         "awayTeam": "Philadelphia Phillies",
@@ -4675,31 +4675,31 @@
         "awayStarter": "Zack Wheeler",
         "homeStarter": "Tyler Phillips",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "6:45 PM",
         "matchup": "Toronto Blue Jays @ Washington Nationals",
         "onePlusRunCall": "YES 1+ RUN",
-        "onePlusRunProbability": "64.7%",
-        "expectedFirstInningRuns": 1.04,
+        "onePlusRunProbability": "66.1%",
+        "expectedFirstInningRuns": 1.08,
         "awayTeam": "Toronto Blue Jays",
-        "awayFirstInningRuns": 0.43,
-        "awayNoRunShare": "65%",
+        "awayFirstInningRuns": 0.472,
+        "awayNoRunShare": "62.4%",
         "homeTeam": "Washington Nationals",
         "homeFirstInningRuns": 0.61,
         "homeNoRunShare": "54.3%",
         "awayStarter": "Max Scherzer",
-        "homeStarter": "Andrew Alvarez",
+        "homeStarter": "Eddy Yean",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "7:10 PM",
         "matchup": "Atlanta Braves @ New York Mets",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "59%",
         "expectedFirstInningRuns": 0.89,
         "awayTeam": "Atlanta Braves",
@@ -4711,13 +4711,13 @@
         "awayStarter": "Martín Pérez",
         "homeStarter": "Zac Thornton",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "7:10 PM",
         "matchup": "Cleveland Guardians @ Cincinnati Reds",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "57.5%",
         "expectedFirstInningRuns": 0.86,
         "awayTeam": "Cleveland Guardians",
@@ -4729,13 +4729,13 @@
         "awayStarter": "Slade Cecconi",
         "homeStarter": "Chase Burns",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "7:40 PM",
         "matchup": "New York Yankees @ Chicago White Sox",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "56.7%",
         "expectedFirstInningRuns": 0.84,
         "awayTeam": "New York Yankees",
@@ -4747,13 +4747,13 @@
         "awayStarter": "Max Fried",
         "homeStarter": "Noah Schultz",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "7:45 PM",
         "matchup": "Chicago Cubs @ St. Louis Cardinals",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "THIN 1+ RUN",
         "onePlusRunProbability": "55%",
         "expectedFirstInningRuns": 0.8,
         "awayTeam": "Chicago Cubs",
@@ -4765,13 +4765,13 @@
         "awayStarter": "David Peterson",
         "homeStarter": "TBD",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "9:38 PM",
         "matchup": "Houston Astros @ Los Angeles Angels",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "59.8%",
         "expectedFirstInningRuns": 0.91,
         "awayTeam": "Houston Astros",
@@ -4783,13 +4783,13 @@
         "awayStarter": "Tatsuya Imai",
         "homeStarter": "Walbert Ureña",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "9:40 PM",
         "matchup": "Boston Red Sox @ Athletics",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "59.6%",
         "expectedFirstInningRuns": 0.91,
         "awayTeam": "Boston Red Sox",
@@ -4801,13 +4801,13 @@
         "awayStarter": "Payton Tolle",
         "homeStarter": "Jack Perkins",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       },
       {
         "gameDate": "2026-07-27",
         "timeET": "9:45 PM",
         "matchup": "Milwaukee Brewers @ San Francisco Giants",
-        "onePlusRunCall": "YES 1+ RUN",
+        "onePlusRunCall": "LEAN 1+ RUN",
         "onePlusRunProbability": "58%",
         "expectedFirstInningRuns": 0.87,
         "awayTeam": "Milwaukee Brewers",
@@ -4819,7 +4819,7 @@
         "awayStarter": "Brandon Sproat",
         "homeStarter": "Tyler Mahle",
         "lineupRead": "top-order projection / top-order projection",
-        "evidence": "top-order hit/power pressure + first-inning run conversion"
+        "evidence": "top-order hit/power pressure + first-inning run conversion + tiered confidence threshold"
       }
     ],
     "multiHitBoard": [
@@ -5860,10 +5860,10 @@
         "player": "Ernie Clement",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "69.7%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
+        "hitProbability": "73.2%",
+        "calibratedProbability": "71.8%",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
         "seasonAvg": ".297",
         "l15Avg": ".323",
         "careerAvg": "-",
@@ -5871,7 +5871,7 @@
         "consistency": "70",
         "recent15": "12",
         "streak": "2",
-        "hand": "R vs L"
+        "hand": "R vs R"
       },
       {
         "gamePk": "822705",
@@ -5881,10 +5881,10 @@
         "player": "George Springer",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "69.7%",
-        "calibratedProbability": "66.3%",
-        "expectedHits": "1",
-        "avgRead": "1 hits/G",
+        "hitProbability": "73.2%",
+        "calibratedProbability": "71.8%",
+        "expectedHits": "1.1",
+        "avgRead": "1.1 hits/G",
         "seasonAvg": ".233",
         "l15Avg": ".300",
         "careerAvg": "-",
@@ -5892,7 +5892,7 @@
         "consistency": "70",
         "recent15": "12",
         "streak": "2",
-        "hand": "R vs L"
+        "hand": "R vs R"
       },
       {
         "gamePk": "822705",
@@ -5923,10 +5923,10 @@
         "player": "Alejandro Kirk",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "64.6%",
+        "hitProbability": "68%",
         "calibratedProbability": "66.3%",
-        "expectedHits": "0.9",
-        "avgRead": "0.9 hits/G",
+        "expectedHits": "1",
+        "avgRead": "1 hits/G",
         "seasonAvg": ".230",
         "l15Avg": ".286",
         "careerAvg": "-",
@@ -5934,7 +5934,7 @@
         "consistency": "63.2",
         "recent15": "10",
         "streak": "5",
-        "hand": "R vs L"
+        "hand": "R vs R"
       },
       {
         "gamePk": "822705",
@@ -6007,8 +6007,8 @@
         "player": "Nathan Lukes",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "57.9%",
-        "calibratedProbability": "58.9%",
+        "hitProbability": "61.4%",
+        "calibratedProbability": "66.3%",
         "expectedHits": "0.8",
         "avgRead": "0.8 hits/G",
         "seasonAvg": ".288",
@@ -6018,7 +6018,7 @@
         "consistency": "54.3",
         "recent15": "11",
         "streak": "-",
-        "hand": "L vs L"
+        "hand": "L vs R"
       },
       {
         "gamePk": "822705",
@@ -6028,8 +6028,8 @@
         "player": "Vladimir Guerrero Jr.",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "57.8%",
-        "calibratedProbability": "58.9%",
+        "hitProbability": "61.3%",
+        "calibratedProbability": "66.3%",
         "expectedHits": "0.8",
         "avgRead": "0.8 hits/G",
         "seasonAvg": ".265",
@@ -6039,7 +6039,7 @@
         "consistency": "54.2",
         "recent15": "10",
         "streak": "-",
-        "hand": "R vs L"
+        "hand": "R vs R"
       },
       {
         "gamePk": "822705",
@@ -6070,10 +6070,10 @@
         "player": "Daulton Varsho",
         "team": "Toronto Blue Jays",
         "opponent": "Washington Nationals",
-        "hitProbability": "55.4%",
+        "hitProbability": "58.9%",
         "calibratedProbability": "58.9%",
-        "expectedHits": "0.7",
-        "avgRead": "0.7 hits/G",
+        "expectedHits": "0.8",
+        "avgRead": "0.8 hits/G",
         "seasonAvg": ".243",
         "l15Avg": ".241",
         "careerAvg": "-",
@@ -6081,7 +6081,7 @@
         "consistency": "51",
         "recent15": "9",
         "streak": "3",
-        "hand": "L vs L"
+        "hand": "L vs R"
       },
       {
         "gamePk": "824490",
@@ -8006,18 +8006,18 @@
         "gamePk": "822705",
         "gameDate": "2026-07-27",
         "timeET": "6:45 PM",
-        "pitcher": "Andrew Alvarez",
+        "pitcher": "Eddy Yean",
         "team": "Washington Nationals",
         "opponent": "Toronto Blue Jays",
         "side": "Home",
-        "k4": "50.6%",
-        "k5": "35.9%",
-        "projectedK": "4.1",
-        "projectedOuts": "13.4",
-        "averageOuts": "13.5",
-        "projectedInnings": "4.5",
-        "averageInnings": "4.5",
-        "workload": "STABLE"
+        "k4": "17.2%",
+        "k5": "7.3%",
+        "projectedK": "1.3",
+        "projectedOuts": "6.8",
+        "averageOuts": "5.3",
+        "projectedInnings": "2.3",
+        "averageInnings": "1.8",
+        "workload": "LOW_SAMPLE"
       },
       {
         "gamePk": "824490",
@@ -9405,17 +9405,17 @@
       {
         "timeET": "6:45 PM",
         "matchup": "Toronto Blue Jays @ Washington Nationals",
-        "pitcher": "Andrew Alvarez",
+        "pitcher": "Eddy Yean",
         "team": "Washington Nationals",
         "opponent": "Toronto Blue Jays",
         "side": "Home",
-        "k4": "50.6%",
-        "projectedK": "4.1",
-        "projectedOuts": "13.4",
-        "projectedIP": "4.1",
-        "last5K": "4.0",
-        "last5Outs": "14.0",
-        "last5IP": "4.2"
+        "k4": "17.2%",
+        "projectedK": "1.3",
+        "projectedOuts": "6.8",
+        "projectedIP": "2.1",
+        "last5K": "0.0",
+        "last5Outs": "0.0",
+        "last5IP": "0.0"
       },
       {
         "timeET": "7:10 PM",
@@ -38787,7 +38787,7 @@
         "Samples": 14523,
         "Accuracy": "77.5%",
         "ActualHitRate": "34.0%",
-        "AvgProbability": "29.5%",
+        "AvgProbability": "29.3%",
         "Brier": 0.155
       },
       {
@@ -38797,7 +38797,7 @@
         "Samples": 14523,
         "Accuracy": "74.7%",
         "ActualHitRate": "28.7%",
-        "AvgProbability": "27.5%",
+        "AvgProbability": "26.7%",
         "Brier": 0.178
       },
       {
@@ -38807,8 +38807,8 @@
         "Samples": 14523,
         "Accuracy": "77.8%",
         "ActualHitRate": "39.9%",
-        "AvgProbability": "35.1%",
-        "Brier": 0.159
+        "AvgProbability": "34.9%",
+        "Brier": 0.16
       },
       {
         "type": "Backtest",
@@ -38817,7 +38817,7 @@
         "Samples": 14523,
         "Accuracy": "74.9%",
         "ActualHitRate": "41.3%",
-        "AvgProbability": "36.5%",
+        "AvgProbability": "36.3%",
         "Brier": 0.17
       },
       {
@@ -38827,8 +38827,8 @@
         "Samples": 14523,
         "Accuracy": "62.8%",
         "ActualHitRate": "48.9%",
-        "AvgProbability": "46.7%",
-        "Brier": 0.231
+        "AvgProbability": "44.7%",
+        "Brier": 0.23
       },
       {
         "type": "Backtest",
@@ -38837,7 +38837,7 @@
         "Samples": 14523,
         "Accuracy": "71.3%",
         "ActualHitRate": "45.4%",
-        "AvgProbability": "41.0%",
+        "AvgProbability": "40.2%",
         "Brier": 0.189
       }
     ],
