@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-27T06:47:23.007Z",
+  "generatedAt": "2026-07-27T14:08:33.856Z",
   "date": "2026-07-27",
   "stamp": "Public preview built for 2026-07-27",
   "eventRouter": {
-    "generatedAt": "2026-07-27T06:46:18.815Z",
+    "generatedAt": "2026-07-27T14:07:04.551Z",
     "date": "2026-07-27",
     "schema": "site_event_router.v1",
     "sports": [
@@ -73,7 +73,7 @@
         "status": "Active",
         "primaryBoard": "sports",
         "publishBoard": true,
-        "rowCount": 2971,
+        "rowCount": 2974,
         "tab": "NHL",
         "reason": "Manifest public-safe rows detected"
       }
@@ -135,7 +135,7 @@
         "board": "sports",
         "action": "publish_board",
         "status": "Active",
-        "rowCount": 2971
+        "rowCount": 2974
       }
     ]
   },
@@ -193,7 +193,7 @@
       "sport": "Hockey",
       "status": "Active",
       "boards": 1,
-      "rows": 2971
+      "rows": 2974
     },
     {
       "sport": "Tennis",
@@ -232,7 +232,7 @@
     "allStarRows": 0,
     "nflGames": 700,
     "nflPlayers": 192,
-    "nhlGames": 2761,
+    "nhlGames": 2764,
     "nhlPlayers": 160,
     "historicalRows": 108,
     "simulationsPerGame": 388000,
