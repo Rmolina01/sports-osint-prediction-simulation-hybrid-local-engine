@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-30T11:53:03.047Z",
+  "generatedAt": "2026-07-30T14:07:41.903Z",
   "date": "2026-07-30",
   "stamp": "Public preview built for 2026-07-30",
   "eventRouter": {
-    "generatedAt": "2026-07-30T11:51:16.349Z",
+    "generatedAt": "2026-07-30T14:06:44.298Z",
     "date": "2026-07-30",
     "schema": "site_event_router.v1",
     "sports": [
@@ -265,7 +265,7 @@
         "engineRead": "Unified venue/record/pitcher core",
         "awayStarter": "Cole Winn",
         "homeStarter": "Shane McClanahan",
-        "status": "Scheduled",
+        "status": "Pre-Game",
         "evidence": "partial_dual_source",
         "recommendation": "TRACK_ONLY",
         "history": "View H2H"
@@ -535,7 +535,7 @@
         "recent15": "10",
         "hitStreak": "4",
         "hr": "8.9%",
-        "risk": "pending_confirmed_lineup"
+        "risk": "confirmed_lineup"
       },
       {
         "gamePk": "822946",
@@ -645,7 +645,7 @@
         "recent15": "10",
         "hitStreak": "1",
         "hr": "8.8%",
-        "risk": "pending_confirmed_lineup"
+        "risk": "confirmed_lineup"
       },
       {
         "gamePk": "822946",
@@ -755,7 +755,7 @@
         "recent15": "10",
         "hitStreak": "3",
         "hr": "15.6%",
-        "risk": "pending_confirmed_lineup"
+        "risk": "confirmed_lineup"
       },
       {
         "gamePk": "822946",
@@ -3178,7 +3178,7 @@
         "hand": "L vs R",
         "recent15": "10",
         "hitStreak": "4",
-        "risk": "pending_confirmed_lineup",
+        "risk": "confirmed_lineup",
         "read": "Elite hit favorite"
       },
       {
@@ -10360,6 +10360,14 @@
       },
       {
         "type": "News",
+        "Article_Type": "Story",
+        "Published": "2026-07-30T13:04:07Z",
+        "Headline": "Five players to watch ahead of Aug. 2 WNBA trade deadline",
+        "Description": "Kelsey Plum, Aneesah Morrow and Betnijah Laney-Hamilton could be on the move before the WNBA trade deadline.",
+        "Link": "https://www.espn.com/wnba/story/_/id/49482922/wnba-2026-trade-deadline-august-2-move-kelsey-plum-skylar-diggins"
+      },
+      {
+        "type": "News",
         "Article_Type": "Preview",
         "Published": "2026-07-30T06:10:36Z",
         "Headline": "Portland hosts Indiana after Clark's 32-point outing",
@@ -10509,14 +10517,6 @@
         "Headline": "Seattle Storm vs. Indiana Fever - Game Highlights",
         "Description": "Watch the Game Highlights from Seattle Storm vs. Indiana Fever, 07/28/2026",
         "Link": "https://www.espn.com/video/clip/_/id/49476690/seattle-storm-vs-indiana-fever-game-highlights"
-      },
-      {
-        "type": "News",
-        "Article_Type": "Recap",
-        "Published": "2026-07-29T02:23:49Z",
-        "Headline": "Olivia Miles scores 24 points as Lynx extend win streak to 8 with 100-93 victory over Tempo",
-        "Description": "— Rookie Olivia Miles scored 24 points and the Minnesota Lynx extended their winning streak to eight games with a 100-93 victory over the Toronto Tempo on Tuesday night.",
-        "Link": "http://www.espn.com/wnba/recap?gameId=401857093"
       }
     ],
     "wnbaProps": [
