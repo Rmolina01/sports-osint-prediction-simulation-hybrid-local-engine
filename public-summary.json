@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-10T19:25:32.713Z",
+  "generatedAt": "2026-08-10T19:30:36.429Z",
   "date": "2026-08-10",
   "stamp": "Public preview built for 2026-08-10",
   "eventRouter": {
-    "generatedAt": "2026-08-10T06:29:30.426Z",
+    "generatedAt": "2026-08-10T19:28:34.383Z",
     "date": "2026-08-10",
     "schema": "site_event_router.v1",
     "sports": [
@@ -23,7 +23,7 @@
         "status": "Active",
         "primaryBoard": "soccer",
         "publishBoard": true,
-        "rowCount": 376,
+        "rowCount": 377,
         "tab": "Soccer",
         "reason": "Soccer match/player rows detected",
         "children": [
@@ -56,7 +56,7 @@
             "label": "Allsvenskan",
             "board": "soccerAllsvenskan",
             "status": "Active",
-            "rowCount": 118,
+            "rowCount": 120,
             "temporary": false
           },
           {
@@ -64,7 +64,7 @@
             "label": "Liga Pro Ecuador",
             "board": "soccerLigaPro",
             "status": "Active",
-            "rowCount": 191,
+            "rowCount": 190,
             "temporary": false
           },
           {
@@ -110,10 +110,10 @@
       {
         "key": "nfl",
         "sport": "NFL",
-        "status": "Source Gap",
+        "status": "Active",
         "primaryBoard": "sports",
         "publishBoard": true,
-        "rowCount": 937,
+        "rowCount": 943,
         "tab": "NFL",
         "reason": "Manifest public-safe rows detected"
       },
@@ -123,7 +123,7 @@
         "status": "Active",
         "primaryBoard": "sports",
         "publishBoard": true,
-        "rowCount": 2974,
+        "rowCount": 2968,
         "tab": "NHL",
         "reason": "Manifest public-safe rows detected"
       }
@@ -137,14 +137,7 @@
         "expiresAfter": "2026-09-06"
       }
     ],
-    "sourceGaps": [
-      {
-        "sport": "NFL",
-        "board": "sports",
-        "reason": "NFL source did not produce trustworthy public rows",
-        "action": "show source-gap state; do not invent rows"
-      }
-    ],
+    "sourceGaps": [],
     "siteActions": [
       {
         "sport": "Baseball",
@@ -160,7 +153,7 @@
         "board": "soccer",
         "action": "publish_board",
         "status": "Active",
-        "rowCount": 376
+        "rowCount": 377
       },
       {
         "sport": "WNBA",
@@ -191,8 +184,8 @@
         "tab": "NFL",
         "board": "sports",
         "action": "publish_board",
-        "status": "Source Gap",
-        "rowCount": 937
+        "status": "Active",
+        "rowCount": 943
       },
       {
         "sport": "NHL",
@@ -200,7 +193,7 @@
         "board": "sports",
         "action": "publish_board",
         "status": "Active",
-        "rowCount": 2974
+        "rowCount": 2968
       }
     ]
   },
@@ -222,15 +215,15 @@
       "sport": "Soccer",
       "status": "Active",
       "boards": 19,
-      "rows": 376,
+      "rows": 377,
       "route": "soccer",
       "publicState": "Soccer match/player rows detected"
     },
     {
       "sport": "Football",
-      "status": "Watch",
+      "status": "Active",
       "boards": 1,
-      "rows": 937
+      "rows": 943
     },
     {
       "sport": "Basketball",
@@ -258,7 +251,7 @@
       "sport": "Hockey",
       "status": "Active",
       "boards": 1,
-      "rows": 2974
+      "rows": 2968
     },
     {
       "sport": "Tennis",
@@ -282,7 +275,7 @@
   "metrics": {
     "mlbGames": 10,
     "baseballEvents": 10,
-    "activeSportCount": 6,
+    "activeSportCount": 7,
     "mlbHitters": 120,
     "mlbPitchers": 20,
     "soccerMatches": 6,
@@ -297,8 +290,8 @@
     "nbaSummerRows": 54,
     "allStarRows": 0,
     "nflGames": 701,
-    "nflPlayers": 186,
-    "nhlGames": 2764,
+    "nflPlayers": 192,
+    "nhlGames": 2758,
     "nhlPlayers": 160,
     "historicalRows": 220,
     "simulationsPerGame": 388000,
@@ -3950,8 +3943,8 @@
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
         "onePlusRunCall": "NO RUN LEAN",
-        "onePlusRunProbability": "51.7%",
-        "expectedFirstInningRuns": 0.73,
+        "onePlusRunProbability": "51.3%",
+        "expectedFirstInningRuns": 0.72,
         "awayTeam": "Boston Red Sox",
         "awayFirstInningRuns": 0.362,
         "awayNoRunShare": "69.7%",
@@ -3959,24 +3952,24 @@
         "awayLowRunInning": 2,
         "awayInningRead": "1st vuln 89% / vuln 1 / safe 2 / 13 PA; BvP sample gap",
         "homeTeam": "Toronto Blue Jays",
-        "homeFirstInningRuns": 0.366,
-        "homeNoRunShare": "69.4%",
+        "homeFirstInningRuns": 0.357,
+        "homeNoRunShare": "70%",
         "homeLikelyRunInning": 2,
         "homeLowRunInning": 5,
-        "homeInningRead": "1st vuln 10% / vuln 2 / safe 5 / 31 PA; BvP 3 bats/9 PA: Ernie Clement 0-3 vs Sonny Gray, George Springer 1-3 vs Sonny Gray, Vladimir Guerrero Jr. 1-3 vs Sonny Gray",
-        "secondInningRunProbability": "34.1%",
-        "secondInningExpectedRuns": 0.42,
+        "homeInningRead": "1st vuln 10% / vuln 2 / safe 5 / 31 PA; BvP 4 bats/13 PA: George Springer 1-3 vs Sonny Gray, Vladimir Guerrero Jr. 1-3 vs Sonny Gray, Kazuma Okamoto 1-3 vs Sonny Gray",
+        "secondInningRunProbability": "33.7%",
+        "secondInningExpectedRuns": 0.41,
         "secondInningRead": "Away LOW RUN vs Jameson Taillon (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Sonny Gray (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms)",
-        "thirdInningRunProbability": "12.6%",
-        "thirdInningExpectedRuns": 0.13,
+        "thirdInningRunProbability": "13.2%",
+        "thirdInningExpectedRuns": 0.14,
         "thirdInningRead": "Away LOW RUN vs Jameson Taillon (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Sonny Gray (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms)",
         "bestEarlyRunInning": 1,
         "lowestEarlyRunInning": 3,
-        "earlyInningRunMap": "1: 51.7% (LEAN RUN/LEAN RUN); 2: 34.1% (LOW RUN/LOW RUN); 3: 12.6% (LOW RUN/LOW RUN)",
+        "earlyInningRunMap": "1: 51.3% (LEAN RUN/LEAN RUN); 2: 33.7% (LOW RUN/LOW RUN); 3: 13.2% (LOW RUN/LOW RUN)",
         "awayStarter": "Sonny Gray",
         "homeStarter": "Jameson Taillon",
         "lineupRead": "unconfirmed lineup pocket; team-pressure projection / unconfirmed lineup pocket; team-pressure projection",
-        "inningVulnerabilityRead": "Away bats vs home SP: 1st vuln 89% / vuln 1 / safe 2 / 13 PA; BvP sample gap; Home bats vs away SP: 1st vuln 10% / vuln 2 / safe 5 / 31 PA; BvP 3 bats/9 PA: Ernie Clement 0-3 vs Sonny Gray, George Springer 1-3 vs Sonny Gray, Vladimir Guerrero Jr. 1-3 vs Sonny Gray",
+        "inningVulnerabilityRead": "Away bats vs home SP: 1st vuln 89% / vuln 1 / safe 2 / 13 PA; BvP sample gap; Home bats vs away SP: 1st vuln 10% / vuln 2 / safe 5 / 31 PA; BvP 4 bats/13 PA: George Springer 1-3 vs Sonny Gray, Vladimir Guerrero Jr. 1-3 vs Sonny Gray, Kazuma Okamoto 1-3 vs Sonny Gray",
         "evidence": "1st/2nd/3rd batting-order pocket pressure + pitcher inning vulnerability + batter-vs-pitcher pocket history when present + first-inning run conversion + tiered confidence threshold"
       },
       {
@@ -4018,7 +4011,7 @@
         "timeET": "7:40 PM",
         "matchup": "Baltimore Orioles @ Minnesota Twins",
         "onePlusRunCall": "NO RUN LEAN",
-        "onePlusRunProbability": "49.8%",
+        "onePlusRunProbability": "49.9%",
         "expectedFirstInningRuns": 0.69,
         "awayTeam": "Baltimore Orioles",
         "awayFirstInningRuns": 0.333,
@@ -4027,20 +4020,20 @@
         "awayLowRunInning": 6,
         "awayInningRead": "1st vuln 39% / vuln 5 / safe 6 / 22 PA; BvP sample gap",
         "homeTeam": "Minnesota Twins",
-        "homeFirstInningRuns": 0.356,
-        "homeNoRunShare": "70.1%",
+        "homeFirstInningRuns": 0.358,
+        "homeNoRunShare": "69.9%",
         "homeLikelyRunInning": 6,
         "homeLowRunInning": 2,
         "homeInningRead": "1st vuln 7% / vuln 6 / safe 2 / 27 PA; BvP sample gap",
-        "secondInningRunProbability": "35.2%",
-        "secondInningExpectedRuns": 0.43,
+        "secondInningRunProbability": "33.6%",
+        "secondInningExpectedRuns": 0.41,
         "secondInningRead": "Away LOW RUN vs Dean Kremer (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Trevor Rogers (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms)",
-        "thirdInningRunProbability": "11.7%",
+        "thirdInningRunProbability": "12.3%",
         "thirdInningExpectedRuns": 0.13,
         "thirdInningRead": "Away LOW RUN vs Dean Kremer (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Trevor Rogers (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms)",
         "bestEarlyRunInning": 1,
         "lowestEarlyRunInning": 3,
-        "earlyInningRunMap": "1: 49.8% (THIN RUN/THIN RUN); 2: 35.2% (LOW RUN/LOW RUN); 3: 11.7% (LOW RUN/LOW RUN)",
+        "earlyInningRunMap": "1: 49.9% (THIN RUN/LEAN RUN); 2: 33.6% (LOW RUN/LOW RUN); 3: 12.3% (LOW RUN/LOW RUN)",
         "awayStarter": "Trevor Rogers",
         "homeStarter": "Dean Kremer",
         "lineupRead": "unconfirmed lineup pocket; team-pressure projection / unconfirmed lineup pocket; team-pressure projection",
@@ -4154,8 +4147,8 @@
         "timeET": "9:40 PM",
         "matchup": "Milwaukee Brewers @ San Diego Padres",
         "onePlusRunCall": "THIN 1+ RUN",
-        "onePlusRunProbability": "52.9%",
-        "expectedFirstInningRuns": 0.75,
+        "onePlusRunProbability": "52.1%",
+        "expectedFirstInningRuns": 0.74,
         "awayTeam": "Milwaukee Brewers",
         "awayFirstInningRuns": 0.366,
         "awayNoRunShare": "69.4%",
@@ -4163,20 +4156,20 @@
         "awayLowRunInning": 7,
         "awayInningRead": "1st vuln 8% / vuln 4 / safe 7 / 26 PA; BvP sample gap",
         "homeTeam": "San Diego Padres",
-        "homeFirstInningRuns": 0.387,
-        "homeNoRunShare": "67.9%",
+        "homeFirstInningRuns": 0.37,
+        "homeNoRunShare": "69.1%",
         "homeLikelyRunInning": 5,
         "homeLowRunInning": 2,
         "homeInningRead": "1st vuln 8% / vuln 5 / safe 2 / 16 PA; BvP sample gap",
-        "secondInningRunProbability": "33.9%",
+        "secondInningRunProbability": "33.6%",
         "secondInningExpectedRuns": 0.41,
         "secondInningRead": "Away LOW RUN vs Casey Mize (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Logan Henderson (middle pocket 4-7 unconfirmed; names hidden until lineup order confirms)",
-        "thirdInningRunProbability": "10.7%",
-        "thirdInningExpectedRuns": 0.11,
+        "thirdInningRunProbability": "11.2%",
+        "thirdInningExpectedRuns": 0.12,
         "thirdInningRead": "Away LOW RUN vs Casey Mize (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms); Home LOW RUN vs Logan Henderson (bottom-to-top turn 7-1 unconfirmed; names hidden until lineup order confirms)",
         "bestEarlyRunInning": 1,
         "lowestEarlyRunInning": 3,
-        "earlyInningRunMap": "1: 52.9% (LEAN RUN/LEAN RUN); 2: 33.9% (LOW RUN/LOW RUN); 3: 10.7% (LOW RUN/LOW RUN)",
+        "earlyInningRunMap": "1: 52.1% (LEAN RUN/LEAN RUN); 2: 33.6% (LOW RUN/LOW RUN); 3: 11.2% (LOW RUN/LOW RUN)",
         "awayStarter": "Logan Henderson",
         "homeStarter": "Casey Mize",
         "lineupRead": "unconfirmed lineup pocket; team-pressure projection / unconfirmed lineup pocket; team-pressure projection",
@@ -7749,7 +7742,7 @@
         "opponent": "Toronto Blue Jays",
         "opposingSP": "Jameson Taillon",
         "pitchHand": "R",
-        "hitProbability": "46.1%",
+        "hitProbability": "46.2%",
         "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "1.0",
         "last10HitGames": 6
@@ -7775,7 +7768,7 @@
         "opponent": "Toronto Blue Jays",
         "opposingSP": "Jameson Taillon",
         "pitchHand": "R",
-        "hitProbability": "49.4%",
+        "hitProbability": "49.3%",
         "last5HitsPerGame": "0.8",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 5
@@ -7796,41 +7789,15 @@
       {
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
-        "player": "Alejandro Kirk",
-        "team": "Toronto Blue Jays",
-        "opponent": "Boston Red Sox",
-        "opposingSP": "Sonny Gray",
-        "pitchHand": "R",
-        "hitProbability": "60.4%",
-        "last5HitsPerGame": "1.4",
-        "last10HitsPerGame": "1.2",
-        "last10HitGames": 7
-      },
-      {
-        "timeET": "7:07 PM",
-        "matchup": "Boston Red Sox @ Toronto Blue Jays",
         "player": "Brett Bateman",
         "team": "Toronto Blue Jays",
         "opponent": "Boston Red Sox",
         "opposingSP": "Sonny Gray",
         "pitchHand": "R",
-        "hitProbability": "43.2%",
+        "hitProbability": "42.6%",
         "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "1.0",
         "last10HitGames": 2
-      },
-      {
-        "timeET": "7:07 PM",
-        "matchup": "Boston Red Sox @ Toronto Blue Jays",
-        "player": "Ernie Clement",
-        "team": "Toronto Blue Jays",
-        "opponent": "Boston Red Sox",
-        "opposingSP": "Sonny Gray",
-        "pitchHand": "R",
-        "hitProbability": "50.8%",
-        "last5HitsPerGame": "1.2",
-        "last10HitsPerGame": "0.7",
-        "last10HitGames": 5
       },
       {
         "timeET": "7:07 PM",
@@ -7848,15 +7815,41 @@
       {
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
+        "player": "Jesús Sánchez",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "opposingSP": "Sonny Gray",
+        "pitchHand": "R",
+        "hitProbability": "37.5%",
+        "last5HitsPerGame": "0.6",
+        "last10HitsPerGame": "0.4",
+        "last10HitGames": 4
+      },
+      {
+        "timeET": "7:07 PM",
+        "matchup": "Boston Red Sox @ Toronto Blue Jays",
         "player": "Kazuma Okamoto",
         "team": "Toronto Blue Jays",
         "opponent": "Boston Red Sox",
         "opposingSP": "Sonny Gray",
         "pitchHand": "R",
-        "hitProbability": "49.9%",
+        "hitProbability": "50.1%",
         "last5HitsPerGame": "0.6",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 6
+      },
+      {
+        "timeET": "7:07 PM",
+        "matchup": "Boston Red Sox @ Toronto Blue Jays",
+        "player": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "opposingSP": "Sonny Gray",
+        "pitchHand": "R",
+        "hitProbability": "51.7%",
+        "last5HitsPerGame": "1.4",
+        "last10HitsPerGame": "0.7",
+        "last10HitGames": 4
       },
       {
         "timeET": "7:07 PM",
@@ -7879,7 +7872,7 @@
         "opponent": "New York Mets",
         "opposingSP": "Christian Scott",
         "pitchHand": "R",
-        "hitProbability": "58.4%",
+        "hitProbability": "58.3%",
         "last5HitsPerGame": "1.2",
         "last10HitsPerGame": "0.7",
         "last10HitGames": 5
@@ -7892,7 +7885,7 @@
         "opponent": "New York Mets",
         "opposingSP": "Christian Scott",
         "pitchHand": "R",
-        "hitProbability": "60.9%",
+        "hitProbability": "61.0%",
         "last5HitsPerGame": "0.8",
         "last10HitsPerGame": "1.1",
         "last10HitGames": 7
@@ -7918,7 +7911,7 @@
         "opponent": "Atlanta Braves",
         "opposingSP": "Bryce Elder",
         "pitchHand": "R",
-        "hitProbability": "65.4%",
+        "hitProbability": "65.2%",
         "last5HitsPerGame": "1.8",
         "last10HitsPerGame": "1.4",
         "last10HitGames": 7
@@ -7957,7 +7950,7 @@
         "opponent": "Los Angeles Dodgers",
         "opposingSP": "Tarik Skubal",
         "pitchHand": "L",
-        "hitProbability": "43.1%",
+        "hitProbability": "43.0%",
         "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "1.0",
         "last10HitGames": 5
@@ -7970,7 +7963,7 @@
         "opponent": "Los Angeles Dodgers",
         "opposingSP": "Tarik Skubal",
         "pitchHand": "L",
-        "hitProbability": "63.9%",
+        "hitProbability": "63.6%",
         "last5HitsPerGame": "1.8",
         "last10HitsPerGame": "1.5",
         "last10HitGames": 9
@@ -8009,7 +8002,7 @@
         "opponent": "Los Angeles Dodgers",
         "opposingSP": "Tarik Skubal",
         "pitchHand": "L",
-        "hitProbability": "55.8%",
+        "hitProbability": "55.9%",
         "last5HitsPerGame": "0.8",
         "last10HitsPerGame": "1.0",
         "last10HitGames": 8
@@ -8061,7 +8054,7 @@
         "opponent": "Kansas City Royals",
         "opposingSP": "Noah Cameron",
         "pitchHand": "L",
-        "hitProbability": "65.3%",
+        "hitProbability": "65.5%",
         "last5HitsPerGame": "1.2",
         "last10HitsPerGame": "1.0",
         "last10HitGames": 8
@@ -8074,7 +8067,7 @@
         "opponent": "Kansas City Royals",
         "opposingSP": "Noah Cameron",
         "pitchHand": "L",
-        "hitProbability": "60.2%",
+        "hitProbability": "60.0%",
         "last5HitsPerGame": "1.0",
         "last10HitsPerGame": "1.3",
         "last10HitGames": 8
@@ -8087,7 +8080,7 @@
         "opponent": "Kansas City Royals",
         "opposingSP": "Noah Cameron",
         "pitchHand": "L",
-        "hitProbability": "54.7%",
+        "hitProbability": "54.5%",
         "last5HitsPerGame": "0.2",
         "last10HitsPerGame": "0.9",
         "last10HitGames": 5
@@ -8473,7 +8466,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "46.1% hit model; handedness/profile fallback only"
+        "modelRead": "46.2% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:07 PM",
@@ -8517,7 +8510,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "49.4% hit model; handedness/profile fallback only"
+        "modelRead": "49.3% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:07 PM",
@@ -8544,24 +8537,24 @@
       {
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
-        "batter": "Ernie Clement",
+        "batter": "Nathan Lukes",
         "team": "Toronto Blue Jays",
         "opponent": "Boston Red Sox",
         "opposingPitcher": "Sonny Gray",
-        "batterSide": "R",
+        "batterSide": "L",
         "pitchHand": "R",
-        "bvpPa": 3,
-        "bvpAb": 3,
-        "bvpHits": 0,
-        "bvpAvg": ".000",
-        "bvpTb": 0,
-        "bvpSlug": ".000",
-        "bvpHr": 0,
+        "bvpPa": 4,
+        "bvpAb": 4,
+        "bvpHits": 1,
+        "bvpAvg": ".250",
+        "bvpTb": 4,
+        "bvpSlug": "1.000",
+        "bvpHr": 1,
         "bvpK": 0,
         "bvpBb": 0,
-        "bvpEv": "95.6",
+        "bvpEv": "91.7",
         "evidenceTier": "limited direct history",
-        "modelRead": "50.8% hit model; direct BvP receipt"
+        "modelRead": "51.7% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:07 PM",
@@ -8588,6 +8581,28 @@
       {
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
+        "batter": "Jesús Sánchez",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "opposingPitcher": "Sonny Gray",
+        "batterSide": "L",
+        "pitchHand": "R",
+        "bvpPa": 3,
+        "bvpAb": 3,
+        "bvpHits": 1,
+        "bvpAvg": ".333",
+        "bvpTb": 1,
+        "bvpSlug": ".333",
+        "bvpHr": 0,
+        "bvpK": 0,
+        "bvpBb": 0,
+        "bvpEv": "102.3",
+        "evidenceTier": "limited direct history",
+        "modelRead": "37.5% hit model; direct BvP receipt"
+      },
+      {
+        "timeET": "7:07 PM",
+        "matchup": "Boston Red Sox @ Toronto Blue Jays",
         "batter": "Kazuma Okamoto",
         "team": "Toronto Blue Jays",
         "opponent": "Boston Red Sox",
@@ -8605,7 +8620,7 @@
         "bvpBb": 0,
         "bvpEv": "94.7",
         "evidenceTier": "limited direct history",
-        "modelRead": "49.9% hit model; direct BvP receipt"
+        "modelRead": "50.1% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:07 PM",
@@ -8632,28 +8647,6 @@
       {
         "timeET": "7:07 PM",
         "matchup": "Boston Red Sox @ Toronto Blue Jays",
-        "batter": "Alejandro Kirk",
-        "team": "Toronto Blue Jays",
-        "opponent": "Boston Red Sox",
-        "opposingPitcher": "Sonny Gray",
-        "batterSide": "R",
-        "pitchHand": "R",
-        "bvpPa": 0,
-        "bvpAb": 0,
-        "bvpHits": 0,
-        "bvpAvg": "-",
-        "bvpTb": 0,
-        "bvpSlug": "-",
-        "bvpHr": 0,
-        "bvpK": 0,
-        "bvpBb": 0,
-        "bvpEv": "-",
-        "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "60.4% hit model; handedness/profile fallback only"
-      },
-      {
-        "timeET": "7:07 PM",
-        "matchup": "Boston Red Sox @ Toronto Blue Jays",
         "batter": "Brett Bateman",
         "team": "Toronto Blue Jays",
         "opponent": "Boston Red Sox",
@@ -8671,7 +8664,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "43.2% hit model; handedness/profile fallback only"
+        "modelRead": "42.6% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:15 PM",
@@ -8693,7 +8686,7 @@
         "bvpBb": 0,
         "bvpEv": "84.2",
         "evidenceTier": "limited direct history",
-        "modelRead": "58.4% hit model; direct BvP receipt"
+        "modelRead": "58.3% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:15 PM",
@@ -8715,7 +8708,7 @@
         "bvpBb": 1,
         "bvpEv": "95.2",
         "evidenceTier": "limited direct history",
-        "modelRead": "60.9% hit model; direct BvP receipt"
+        "modelRead": "61.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:15 PM",
@@ -8847,7 +8840,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "65.4% hit model; direct BvP receipt"
+        "modelRead": "65.2% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:15 PM",
@@ -9001,7 +8994,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "60.0% hit model; handedness/profile fallback only"
+        "modelRead": "59.9% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:40 PM",
@@ -9045,7 +9038,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "44.1% hit model; handedness/profile fallback only"
+        "modelRead": "44.0% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:40 PM",
@@ -9067,12 +9060,12 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "49.1% hit model; handedness/profile fallback only"
+        "modelRead": "48.7% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:40 PM",
         "matchup": "Baltimore Orioles @ Minnesota Twins",
-        "batter": "Byron Buxton",
+        "batter": "Brooks Lee",
         "team": "Minnesota Twins",
         "opponent": "Baltimore Orioles",
         "opposingPitcher": "Trevor Rogers",
@@ -9083,13 +9076,13 @@
         "bvpHits": 0,
         "bvpAvg": ".000",
         "bvpTb": 0,
-        "bvpSlug": ".686",
+        "bvpSlug": ".607",
         "bvpHr": 0,
         "bvpK": 0,
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "44.2% hit model; direct BvP receipt"
+        "modelRead": "35.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:40 PM",
@@ -9111,7 +9104,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "46.8% hit model; direct BvP receipt"
+        "modelRead": "46.9% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:40 PM",
@@ -9155,7 +9148,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "59.8% hit model; direct BvP receipt"
+        "modelRead": "59.9% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:40 PM",
@@ -9182,24 +9175,24 @@
       {
         "timeET": "7:40 PM",
         "matchup": "Baltimore Orioles @ Minnesota Twins",
-        "batter": "Gabriel Gonzalez",
+        "batter": "Victor Caratini",
         "team": "Minnesota Twins",
         "opponent": "Baltimore Orioles",
         "opposingPitcher": "Trevor Rogers",
         "batterSide": "R",
         "pitchHand": "L",
-        "bvpPa": 0,
+        "bvpPa": 3,
         "bvpAb": 0,
         "bvpHits": 0,
-        "bvpAvg": "-",
+        "bvpAvg": ".000",
         "bvpTb": 0,
-        "bvpSlug": "-",
+        "bvpSlug": ".658",
         "bvpHr": 0,
         "bvpK": 0,
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "53.6% hit model; handedness/profile fallback only"
+        "modelRead": "34.6% hit model; direct BvP receipt"
       },
       {
         "timeET": "7:45 PM",
@@ -9309,7 +9302,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "60.1% hit model; handedness/profile fallback only"
+        "modelRead": "60.2% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:45 PM",
@@ -9331,7 +9324,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "61.5% hit model; handedness/profile fallback only"
+        "modelRead": "61.4% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:45 PM",
@@ -9353,7 +9346,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "60.0% hit model; handedness/profile fallback only"
+        "modelRead": "60.1% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:45 PM",
@@ -9419,7 +9412,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "44.2% hit model; handedness/profile fallback only"
+        "modelRead": "44.1% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "7:45 PM",
@@ -9485,7 +9478,7 @@
         "bvpBb": 0,
         "bvpEv": "89.6",
         "evidenceTier": "limited direct history",
-        "modelRead": "34.9% hit model; direct BvP receipt"
+        "modelRead": "35.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:38 PM",
@@ -9617,7 +9610,7 @@
         "bvpBb": 0,
         "bvpEv": "92.0",
         "evidenceTier": "limited direct history",
-        "modelRead": "36.8% hit model; direct BvP receipt"
+        "modelRead": "37.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:38 PM",
@@ -9639,7 +9632,7 @@
         "bvpBb": 0,
         "bvpEv": "104.3",
         "evidenceTier": "thin direct history",
-        "modelRead": "64.7% hit model; direct BvP receipt"
+        "modelRead": "64.9% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:38 PM",
@@ -9683,7 +9676,7 @@
         "bvpBb": 0,
         "bvpEv": "106.9",
         "evidenceTier": "thin direct history",
-        "modelRead": "50.3% hit model; direct BvP receipt"
+        "modelRead": "50.5% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:38 PM",
@@ -9749,7 +9742,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "62.8% hit model; handedness/profile fallback only"
+        "modelRead": "62.6% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -9771,7 +9764,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "47.3% hit model; handedness/profile fallback only"
+        "modelRead": "47.2% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -9837,7 +9830,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "45.8% hit model; handedness/profile fallback only"
+        "modelRead": "45.6% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -9859,7 +9852,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "57.6% hit model; handedness/profile fallback only"
+        "modelRead": "57.8% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -9881,7 +9874,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.9% hit model; direct BvP receipt"
+        "modelRead": "52.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -9903,7 +9896,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "70.6% hit model; direct BvP receipt"
+        "modelRead": "70.7% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -9925,7 +9918,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.1% hit model; direct BvP receipt"
+        "modelRead": "51.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -9991,7 +9984,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "53.2% hit model; handedness/profile fallback only"
+        "modelRead": "53.3% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10013,7 +10006,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "68.5% hit model; direct BvP receipt"
+        "modelRead": "68.6% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10035,7 +10028,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "64.2% hit model; direct BvP receipt"
+        "modelRead": "64.0% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10057,7 +10050,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "48.0% hit model; direct BvP receipt"
+        "modelRead": "48.1% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10079,7 +10072,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.8% hit model; direct BvP receipt"
+        "modelRead": "51.6% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10101,7 +10094,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "58.3% hit model; handedness/profile fallback only"
+        "modelRead": "58.2% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10123,7 +10116,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.9% hit model; handedness/profile fallback only"
+        "modelRead": "51.1% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10145,7 +10138,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "50.7% hit model; handedness/profile fallback only"
+        "modelRead": "46.8% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10167,7 +10160,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "58.3% hit model; handedness/profile fallback only"
+        "modelRead": "58.4% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10189,7 +10182,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "71.0% hit model; handedness/profile fallback only"
+        "modelRead": "71.1% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10277,7 +10270,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "67.0% hit model; direct BvP receipt"
+        "modelRead": "66.9% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10299,7 +10292,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "68.2% hit model; direct BvP receipt"
+        "modelRead": "68.3% hit model; direct BvP receipt"
       },
       {
         "timeET": "9:40 PM",
@@ -10343,7 +10336,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "49.6% hit model; handedness/profile fallback only"
+        "modelRead": "49.4% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10409,7 +10402,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "63.2% hit model; handedness/profile fallback only"
+        "modelRead": "62.8% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10431,7 +10424,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "66.4% hit model; handedness/profile fallback only"
+        "modelRead": "66.3% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10453,7 +10446,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.8% hit model; handedness/profile fallback only"
+        "modelRead": "51.9% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10497,7 +10490,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "51.7% hit model; handedness/profile fallback only"
+        "modelRead": "51.9% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:40 PM",
@@ -10585,7 +10578,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "65.9% hit model; handedness/profile fallback only"
+        "modelRead": "66.0% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:45 PM",
@@ -10761,7 +10754,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "62.9% hit model; handedness/profile fallback only"
+        "modelRead": "63.0% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "9:45 PM",
@@ -10805,7 +10798,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "55.8% hit model; direct BvP receipt"
+        "modelRead": "55.9% hit model; direct BvP receipt"
       },
       {
         "timeET": "10:10 PM",
@@ -10849,7 +10842,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "43.1% hit model; handedness/profile fallback only"
+        "modelRead": "43.0% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "10:10 PM",
@@ -10871,7 +10864,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "63.9% hit model; handedness/profile fallback only"
+        "modelRead": "63.6% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "10:10 PM",
@@ -10981,7 +10974,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "65.3% hit model; handedness/profile fallback only"
+        "modelRead": "65.5% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "10:10 PM",
@@ -11003,7 +10996,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "60.2% hit model; handedness/profile fallback only"
+        "modelRead": "60.0% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "10:10 PM",
@@ -11025,7 +11018,7 @@
         "bvpBb": 0,
         "bvpEv": "-",
         "evidenceTier": "no direct matchup in local PBP cache",
-        "modelRead": "54.7% hit model; handedness/profile fallback only"
+        "modelRead": "54.5% hit model; handedness/profile fallback only"
       },
       {
         "timeET": "10:10 PM",
