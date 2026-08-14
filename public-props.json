@@ -1,6 +1,6 @@
 {
   "schema": "sports-osint-props-v1",
-  "generatedAt": "2026-08-14T21:58:23.217Z",
+  "generatedAt": "2026-08-14T22:01:45.584Z",
   "date": "2026-08-14",
   "state": "model_projections_loaded_no_verified_lines",
   "rows": [
@@ -10342,6 +10342,48 @@
     }
   ],
   "rowCount": 646,
+  "sportAvailability": [
+    {
+      "sport": "MLB",
+      "rowCount": 210,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "WNBA",
+      "rowCount": 228,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "NBA",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Soccer",
+      "rowCount": 208,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Tennis",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    }
+  ],
   "inputFile": null,
   "validationErrors": [],
   "controls": {
