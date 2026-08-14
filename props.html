@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports OSINT | Props Compare</title>
+  <style>
+    :root{color-scheme:dark;--bg:#020910;--panel:#071925;--line:#1a4256;--text:#e5f3f5;--muted:#9eb6c2;--teal:#72e8ce}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 75% 0,#123b4a 0,transparent 34%),var(--bg);color:var(--text);font:15px/1.5 Inter,Segoe UI,Arial,sans-serif}
+    header{position:sticky;top:0;z-index:2;border-bottom:1px solid var(--line);background:rgba(2,9,16,.94);backdrop-filter:blur(14px)}
+    .bar{width:min(1240px,calc(100% - 32px));margin:auto;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:900}.mark{display:grid;place-items:center;width:42px;height:42px;border:1px solid #55d8c2;border-radius:11px;background:linear-gradient(145deg,#087d74,#003e47);font-size:16px}.nav{display:flex;gap:8px;overflow-x:auto}.nav a,.tab{border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:var(--text);background:#0a2433;text-decoration:none;font-weight:800;white-space:nowrap;cursor:pointer}.nav a:hover,.tab.active{border-color:var(--teal);color:#07151c;background:var(--teal)}
+    main{width:min(1240px,calc(100% - 32px));margin:0 auto;padding:42px 0 70px}.kicker{color:var(--teal);font-weight:900;letter-spacing:.1em;text-transform:uppercase;font-size:12px}h1{font-size:clamp(34px,6vw,70px);line-height:1;margin:10px 0}p{color:var(--muted);max-width:760px}.panel{margin-top:26px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,rgba(8,31,46,.92),rgba(5,18,28,.9));box-shadow:0 25px 70px rgba(0,0,0,.3);overflow:hidden}.head{padding:20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.tabs{display:flex;gap:8px;overflow-x:auto;padding:14px 20px;border-bottom:1px solid var(--line);scrollbar-width:thin}.tabs.sub{padding-top:10px;padding-bottom:10px;background:rgba(2,9,16,.32)}.tabs::-webkit-scrollbar{height:6px}.tabs::-webkit-scrollbar-thumb{background:#397887;border-radius:999px}.status{color:var(--teal);font-weight:850}.empty{padding:28px 20px;color:var(--muted)}.game-label{padding:16px 20px 4px;color:var(--muted);font-weight:800}.game-tabs{border-bottom:1px solid var(--line)}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;padding:20px}.card{border:1px solid var(--line);border-radius:14px;padding:16px;background:rgba(7,27,40,.75)}.card h3{margin:0 0 3px}.card p{margin:0 0 10px;font-size:13px}.prob{font-size:24px;color:var(--teal);font-weight:900}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 8px;color:var(--teal);font-size:12px;font-weight:850}.security{margin-top:18px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <header><div class="bar"><div class="brand"><span class="mark">SO</span><span>Sports OSINT Command - Props Compare</span></div><nav class="nav"><a href="index.html">Command Center</a><a href="props.html">Props</a></nav></div></header>
+  <main><span class="kicker">Separate evidence node</span><h1>Daily Props Compare</h1><p>Choose Over or Under first. Then choose sport, game, and prop category. This board stays separate from win leans and never invents missing public lines.</p>
+    <section class="panel"><div class="head"><div><strong id="date">Loading date...</strong><div id="state">Loading verified props...</div></div><div class="status" id="count"></div></div>
+      <div class="tabs" id="directionTabs" aria-label="Over or under"></div>
+      <div class="tabs" id="sportTabs" aria-label="Sport"></div>
+      <div class="tabs sub" id="modeTabs" aria-label="View mode"></div>
+      <div class="game-label" id="gameLabel"></div>
+      <div class="tabs sub game-tabs" id="gameTabs" aria-label="Game"></div>
+      <div class="tabs sub" id="marketTabs" aria-label="Prop category"></div>
+      <div id="content"></div>
+    </section>
+    <div class="security">Security: public-safe summary only. No keys, cookies, private paths, raw receipts, or model internals are loaded here.</div>
+  </main>
+  <script>
+    let board={rows:[],date:'',state:'loading'};
+    let directionFilter='Over',sportFilter='WNBA',modeFilter='by-game',gameFilter='all',marketFilter='all';
+    const markets={MLB:['Hits','Home Runs','Total Bases','RBIs','Runs','Strikeouts','Pitching Outs','First Inning Runs'],WNBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NFL:['Passing Yards','Rushing Yards','Receiving Yards','Receptions','Touchdowns'],NHL:['Goals','Assists','Shots on Goal','Points','Blocked Shots','Saves'],Soccer:['Goals','Assists','Shots','Shots on Target','Tackles','Saves','Corners','Total Goals'],Tennis:['Match Winner','Games Won','Aces','Double Faults','Total Games'],Golf:['Winner','Top 5','Top 10','Birdies','Round Score']};
+    const sports=['MLB','WNBA','NBA','NFL','NHL','Soccer','Tennis','Golf'];
+    const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    const norm=v=>String(v??'').trim().toLowerCase();
+    function button(label,group,value,active){return '<button class="tab'+(active?' active':'')+'" data-group="'+esc(group)+'" data-value="'+esc(value)+'">'+esc(label)+'</button>'}
+    function sportRows(){return board.rows.filter(r=>!sportFilter||sportFilter==='all'||String(r.sport||'').toUpperCase()===sportFilter)}
+    function gameKey(r){return [r.date,r.timeET,r.game].map(v=>String(v??'')).join('|')}
+    function games(){const m=new Map();sportRows().forEach(r=>{const k=gameKey(r);if(!m.has(k))m.set(k,{key:k,date:r.date,timeET:r.timeET,game:r.game})});return [...m.values()].sort((a,b)=>String(a.timeET).localeCompare(String(b.timeET)))}
+    function drawTabs(){
+      document.querySelector('#directionTabs').innerHTML=button('Over','direction','Over',directionFilter==='Over')+button('Under','direction','Under',directionFilter==='Under');
+      document.querySelector('#sportTabs').innerHTML=button('All Sports','sport','all',sportFilter==='all')+sports.map(s=>button(s,'sport',s,sportFilter===s)).join('');
+      document.querySelector('#modeTabs').innerHTML=button('By Game','mode','by-game',modeFilter==='by-game')+button('All '+(sportFilter==='all'?'Sports':sportFilter)+' Props','mode','all-props',modeFilter==='all-props');
+      const gs=games();document.querySelector('#gameLabel').textContent=gs.length?'Choose game':'No verified games for this sport';document.querySelector('#gameTabs').innerHTML=gs.map(g=>button((g.timeET?' '+g.timeET+' ':'')+g.game,'game',g.key,gameFilter===g.key)).join('');
+      const list=markets[sportFilter]||Object.values(markets).flat();document.querySelector('#marketTabs').innerHTML=button('All '+(sportFilter==='all'?'Props':sportFilter+' Props'),'market','all',marketFilter==='all')+list.filter((v,i,a)=>a.indexOf(v)===i).map(m=>button(m,'market',m,norm(marketFilter)===norm(m))).join('')+button('Profiles','market','Profiles',marketFilter==='Profiles');
+    }
+    function selectedRows(){let rows=sportRows().filter(r=>!directionFilter||norm(r.direction||r.internalDirection)===norm(directionFilter));if(modeFilter==='by-game'&&gameFilter!=='all')rows=rows.filter(r=>gameKey(r)===gameFilter);if(marketFilter!=='all'&&marketFilter!=='Profiles')rows=rows.filter(r=>norm(r.market)===norm(marketFilter));return rows}
+    function render(){
+      const gs=games();if(!gs.some(g=>g.key===gameFilter))gameFilter=gs[0]?.key||'all';
+      const rows=selectedRows();document.querySelector('#date').textContent=(board.date||'Current')+' verified props';document.querySelector('#state').textContent=board.state==='verified_lines_loaded'?'Verified source lines loaded':'No verified prop lines loaded';document.querySelector('#count').textContent=rows.length+' rows';drawTabs();const c=document.querySelector('#content');
+      if(!rows.length){c.innerHTML='<div class="empty">No verified '+esc(directionFilter)+' lines for this filter. Node will not invent players, lines, percentages, or games.</div>';return}
+      c.innerHTML='<div class="cards">'+rows.map(r=>'<article class="card"><h3>'+esc(r.player||'Unnamed player')+'</h3><p>'+esc(r.game)+' | '+esc(r.market)+' | line '+esc(r.line??'-')+'</p><div class="prob">'+esc(r.modelProbability??'-')+'</div><p>'+esc(r.modelProjection??'No verified projection')+' | '+esc(r.internalDirection||r.direction||'Compare')+'</p><span class="tag">'+esc(r.source||'Verified source')+'</span></article>').join('')+'</div>';
+    }
+    document.addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)return;const g=b.dataset.group,v=b.dataset.value;if(g==='direction')directionFilter=v;if(g==='sport'){sportFilter=v;gameFilter='all';marketFilter='all'}if(g==='mode')modeFilter=v;if(g==='game'){gameFilter=v;modeFilter='by-game'}if(g==='market')marketFilter=v;render()});
+    fetch('public-props.json?'+Date.now()).then(r=>r.json()).then(j=>{board=j;render()}).catch(()=>{board={rows:[],date:'unknown',state:'feed_unavailable'};render()});
+  </script>
+</body>
+</html>

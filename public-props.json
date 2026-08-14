@@ -1,0 +1,25 @@
+{
+  "schema": "sports-osint-props-v1",
+  "generatedAt": "2026-08-14T16:52:48.420Z",
+  "date": "2026-08-14",
+  "state": "awaiting_verified_lines",
+  "rows": [],
+  "rowCount": 0,
+  "inputFile": null,
+  "validationErrors": [],
+  "controls": {
+    "sourceAllowlist": "https-only-public-source",
+    "dateGate": true,
+    "freshnessGateHours": 36,
+    "duplicateGate": true,
+    "modelComparisonOnly": true,
+    "securityBoundary": "no-private-engine-or-credentials"
+  },
+  "security": {
+    "publicSafe": true,
+    "coreEngineTouched": false,
+    "sportsbookPricingUsedForPrediction": false,
+    "privatePathsPublished": false,
+    "rule": "Props are comparison evidence only. They do not change core predictions."
+  }
+}
