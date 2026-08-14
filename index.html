@@ -886,18 +886,34 @@
     function rowDirection(row) {
       return String(row.Direction || row.direction || row.Side || row.side || row.Market_Direction || "").trim().toLowerCase();
     }
+    const propSportBoardAliases = {
+      MLB: ["mlbProps", "mlbGameProps", "hitters", "favoriteHitters", "multiHit", "pitchers", "firstInningRunWatch"],
+      WNBA: ["wnbaProps", "wnbaGameProps"],
+      "NBA Summer": ["nbaSummerProps", "nbaSummerGameProps", "nbaSummerForecast", "nbaSummerPlayers"],
+      NBA: ["nbaProps", "nbaGameProps", "nbaPlayers"],
+      NFL: ["nflProps", "nflGameProps", "nflPlayers"],
+      NHL: ["nhlProps", "nhlGameProps", "nhlPlayers"],
+      Soccer: ["soccerPlayers", "soccerShots", "soccerSot", "soccerAssists", "soccerGoalsAssists", "soccerTackles", "soccerSaves", "soccerCorners", "soccerBtts", "soccerTotals", "soccerSpread", "soccerTeamShots"],
+      Tennis: ["tennisProps", "tennisGameProps", "tennisPlayers"],
+      Golf: ["golfProps", "golfPlayers"]
+    };
+    function propLikeRow(row) {
+      return row && (row.Player || row.player || row.pitcher || row.batter || row.Market || row.Market_Group || row.Expected !== undefined || row.projectedK !== undefined || row.prediction || row.shots !== undefined || row.points !== undefined);
+    }
     function sportPropRows(sport) {
-      if (sport === "WNBA") return (boards.wnbaProps?.rows || []).map(row => ({ ...row, Market_Group: row.Market_Group || row.Market || "" }));
-      const candidates = [sport.toLowerCase().replace(/\s+/g, "") + "Props", sport.toLowerCase().replace(/\s+/g, "") + "GameProps"];
-      for (const key of candidates) if (boards[key]?.rows?.length) return boards[key].rows;
+      const candidates = propSportBoardAliases[sport] || [];
+      for (const key of candidates) {
+        const rows = boards[key]?.rows || [];
+        if (rows.length && rows.some(propLikeRow)) return rows.map(row => ({ ...row, Market_Group: row.Market_Group || row.Market || row.market || "" }));
+      }
       return [];
     }
     function renderWnbaGameProps(board, shouldScroll = true) {
       setSportStage("wnbaGameProps");
       const wrap = document.getElementById("tableWrap");
-      document.getElementById("tableTitle").textContent = name === "wnbaGameProps" ? "Sports Over / Under Prop Finder" : board.title;
+      document.getElementById("tableTitle").textContent = "Sports Over / Under Prop Finder";
       const meta = PUBLIC_DATA.boards.boardMeta?.[board.metaKey];
-      document.getElementById("tableNote").textContent = name === "wnbaGameProps" ? "Choose Over or Under, sport, game and stat. Verified rows only; missing source lines stay clearly marked." : meta ? board.note + (meta.hidden > 0 ? " Showing " + meta.shown + " of " + meta.total + " public-safe rows; " + meta.hidden + " remain local." : " Full sanitized board: " + meta.total + " public-safe rows.") : board.note;
+      document.getElementById("tableNote").textContent = "Choose Over or Under, sport, game and stat. Verified rows only; missing source lines stay clearly marked.";
       renderBoardChips("wnbaGameProps");
       const sports = Object.keys(propSportConfig);
       const markets = propSportConfig[activePropSport] || propSportConfig.WNBA;
