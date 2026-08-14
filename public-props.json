@@ -1,6 +1,6 @@
 {
   "schema": "sports-osint-props-v1",
-  "generatedAt": "2026-08-14T22:01:45.584Z",
+  "generatedAt": "2026-08-14T22:20:26.482Z",
   "date": "2026-08-14",
   "state": "model_projections_loaded_no_verified_lines",
   "rows": [
@@ -10380,6 +10380,302 @@
     },
     {
       "sport": "Golf",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    }
+  ],
+  "categoryAvailability": [
+    {
+      "sport": "MLB",
+      "market": "Hits",
+      "rowCount": 168,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "MLB",
+      "market": "Home Runs",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "MLB",
+      "market": "Total Bases",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "MLB",
+      "market": "RBIs",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "MLB",
+      "market": "Runs",
+      "rowCount": 14,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "MLB",
+      "market": "Strikeouts",
+      "rowCount": 28,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "MLB",
+      "market": "Pitching Outs",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "MLB",
+      "market": "First Inning Runs",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Points",
+      "rowCount": 57,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Rebounds",
+      "rowCount": 57,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Assists",
+      "rowCount": 57,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Threes Made",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Steals",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "WNBA",
+      "market": "Blocks",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Points",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Rebounds",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Assists",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Threes Made",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Steals",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NBA",
+      "market": "Blocks",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "market": "Passing Yards",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "market": "Rushing Yards",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "market": "Receiving Yards",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "market": "Receptions",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NFL",
+      "market": "Touchdowns",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Goals",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Assists",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Shots on Goal",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Points",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Blocked Shots",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "NHL",
+      "market": "Saves",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Goals",
+      "rowCount": 208,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Assists",
+      "rowCount": 205,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Shots",
+      "rowCount": 205,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Shots on Target",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Tackles",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Saves",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Corners",
+      "rowCount": 3,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Soccer",
+      "market": "Total Goals",
+      "rowCount": 3,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "Tennis",
+      "market": "Match Winner",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Tennis",
+      "market": "Games Won",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Tennis",
+      "market": "Aces",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Tennis",
+      "market": "Double Faults",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Tennis",
+      "market": "Total Games",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "market": "Winner",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "market": "Top 5",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "market": "Top 10",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "market": "Birdies",
+      "rowCount": 0,
+      "status": "no_model_rows_available"
+    },
+    {
+      "sport": "Golf",
+      "market": "Round Score",
       "rowCount": 0,
       "status": "no_model_rows_available"
     }
