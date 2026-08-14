@@ -29,7 +29,7 @@
   <script>
     let board={rows:[],date:'',state:'loading'};
     let directionFilter='Over',sportFilter='WNBA',modeFilter='by-game',gameFilter='all',marketFilter='all';
-    const markets={MLB:['Hits','Home Runs','Total Bases','RBIs','Runs','Strikeouts','Pitching Outs','First Inning Runs'],WNBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NFL:['Passing Yards','Rushing Yards','Receiving Yards','Receptions','Touchdowns'],NHL:['Goals','Assists','Shots on Goal','Points','Blocked Shots','Saves'],Soccer:['Goals','Assists','Shots','Shots on Target','Tackles','Saves','Corners','Total Goals'],Tennis:['Match Winner','Games Won','Aces','Double Faults','Total Games'],Golf:['Winner','Top 5','Top 10','Birdies','Round Score']};
+    const markets={MLB:['Hits','Home Runs','2+ Hits','Total Bases','RBIs','Runs','Strikeouts','Pitching Outs','1st Inning Runs'],WNBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NBA:['Points','Rebounds','Assists','Threes Made','Steals','Blocks'],NFL:['Passing Yards','Rushing Yards','Receiving Yards','Receptions','Touchdowns'],NHL:['Goals','Assists','Shots on Goal','Points','Blocked Shots','Saves'],Soccer:['Goals','Assists','Shots','Shots on Target','Tackles','Saves','Corners','Total Goals'],Tennis:['Match Winner','Games Won','Aces','Double Faults','Total Games'],Golf:['Winner','Top 5','Top 10','Birdies','Round Score']};
     const sports=['MLB','WNBA','NBA','NFL','NHL','Soccer','Tennis','Golf'];
     const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
     const norm=v=>String(v??'').trim().toLowerCase();

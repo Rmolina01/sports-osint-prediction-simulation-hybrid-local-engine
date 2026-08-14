@@ -1,6 +1,6 @@
 {
   "schema": "sports-osint-props-v1",
-  "generatedAt": "2026-08-14T22:39:10.114Z",
+  "generatedAt": "2026-08-14T22:40:26.411Z",
   "date": "2026-08-14",
   "state": "model_projections_loaded_no_verified_lines",
   "rows": [
@@ -15775,6 +15775,12 @@
     },
     {
       "sport": "MLB",
+      "market": "2+ Hits",
+      "rowCount": 168,
+      "status": "model_rows_loaded"
+    },
+    {
+      "sport": "MLB",
       "market": "Total Bases",
       "rowCount": 0,
       "status": "no_model_rows_available"
@@ -15805,9 +15811,9 @@
     },
     {
       "sport": "MLB",
-      "market": "First Inning Runs",
-      "rowCount": 0,
-      "status": "no_model_rows_available"
+      "market": "1st Inning Runs",
+      "rowCount": 14,
+      "status": "model_rows_loaded"
     },
     {
       "sport": "WNBA",
